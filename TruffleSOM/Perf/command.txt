@@ -1,1 +1,6 @@
-perf record -g ./som -G -cp Smalltalk Examples/Hello.som
+# the following are some of the comands i used to capture the flamegraph
+
+sudo perf record -g ./som-native-interp-ast -cp Smalltalk *file*
+sudo perf script > out.perf 
+./stackcollapse-perf.pl out.perf > out.folded
+./flamegraph.pl out.folded > native-testSuite.svg
