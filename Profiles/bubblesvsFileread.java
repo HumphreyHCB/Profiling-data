@@ -46,7 +46,7 @@ public final class bubblesvsFileread  {
   static String readFile()
   {
     try {
-      return new String(Files.readAllBytes(Paths.get("/home/hburchell/Downloads/async-profiler-2.9-linux-x64/ODYSSEY.txt")), StandardCharsets.UTF_8);
+      return new String(Files.readAllBytes(Paths.get("ODYSSEY.txt")), StandardCharsets.UTF_8);
     } catch (Exception e) {
       e.printStackTrace();
       // TODO: handle exception
