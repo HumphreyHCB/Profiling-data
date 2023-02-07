@@ -24,8 +24,8 @@ public class CollectionsTest {
         HashMap<Integer,Integer> ArrayTestMap = arrayListTest(array);
         HashMap<Integer,Integer> LinkedListTestMap = LinkedListTest(array);
         HashMap<Integer,Integer> VectorTestMap =  VectorTest(array);
-        
-        // the hash map retruned should be size 1911, so the total should be  
+                        
+        // the hash map returned should be size 637, so the total should be 1911  
         total = ArrayTestMap.size() + LinkedListTestMap.size() + VectorTestMap.size();
         testfinal = total;
     }
