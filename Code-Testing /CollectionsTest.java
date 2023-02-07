@@ -28,6 +28,7 @@ public class CollectionsTest {
         testfinal = total;
     }
 
+    // map an array to an arrayList
     public ArrayList<Integer> arrayListTest(int[] arr) {
         ArrayList<Integer> arrlist = new ArrayList<Integer>();
         for (int i : arr) {
@@ -37,6 +38,7 @@ public class CollectionsTest {
         
     }
 
+    // map an array to an Linked List
     public LinkedList<Integer> LinkedListTest(int[] arr) {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         for (int i : arr) {
@@ -45,6 +47,7 @@ public class CollectionsTest {
         return linkedList;
     }
 
+    // map an array to an Hash map
     public HashMap<Integer,Integer> HashSetTest(int[] arr) {
         HashMap<Integer,Integer> hMap = new HashMap<>();
         for (int i : arr) {
