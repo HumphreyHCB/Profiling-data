@@ -21,7 +21,7 @@ public class CollectionsTest {
 
         total+= arrayListTest(array).get(999);
         total+= LinkedListTest(array).get(999);
-        total+= HashSetTest(array).get(1); // the key for the value 1 is 1
+        total+= HashMapTest(array).get(1); // the key for the value 1 is 1
         
         // as the last index is 1
         // total should == 3
@@ -48,7 +48,7 @@ public class CollectionsTest {
     }
 
     // map an array to an Hash map
-    public HashMap<Integer,Integer> HashSetTest(int[] arr) {
+    public HashMap<Integer,Integer> HashMapTest(int[] arr) {
         HashMap<Integer,Integer> hMap = new HashMap<>();
         for (int i : arr) {
             hMap.put(i, i);
