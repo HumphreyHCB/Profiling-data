@@ -1,13 +1,21 @@
+package code;
 /**
  * CollectionsTest
  */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.Stack;
 import java.util.Vector;
 import java.util.HashMap;
+import org.apache.commons.collections4.list.NodeCachingLinkedList;
+
+import com.gs.collections.api.list.primitive.MutableIntList;
+import com.gs.collections.impl.factory.primitive.IntLists;
+
+import gnu.trove.list.linked.TIntLinkedList;
+import it.unimi.dsi.fastutil.ints.IntArrayList;
 
 public class CollectionsTest {
 
@@ -22,13 +30,24 @@ public class CollectionsTest {
         int[] arr10x = x10array(array);
         int total = 0;
 
-
+        
         HashMap<Integer,Integer> ArrayTestMap = arrayListTest(arr10x);
         HashMap<Integer,Integer> LinkedListTestMap = LinkedListTest(arr10x);
         HashMap<Integer,Integer> VectorTestMap =  VectorTest(arr10x);
-                        
-        // the hash map returned should be size 637, so the total should be 1911  
-        total = ArrayTestMap.size() + LinkedListTestMap.size() + VectorTestMap.size();
+        HashMap<Integer,Integer> StackTestMap = StackTest(arr10x);
+        HashMap<Integer,Integer> nodeCachingLinkedListMap = NodeCachingLinkedListTest(arr10x);
+        HashMap<Integer,Integer> IntArrayListMap = IntArrayListTest(arr10x);
+        HashMap<Integer,Integer> TIntLinkedListMap = TIntLinkedListTest(arr10x);
+        HashMap<Integer,Integer> GoldmanSachsIntListMap = GoldmanSachsIntListTest(arr10x);
+        // the hash map returned should be size 637, so the total should be 5,096  
+        total = ArrayTestMap.size() + 
+                LinkedListTestMap.size() + 
+                VectorTestMap.size() + 
+                StackTestMap.size() + 
+                nodeCachingLinkedListMap.size() + 
+                IntArrayListMap.size() +
+                TIntLinkedListMap.size() +
+                GoldmanSachsIntListMap.size();
         testfinal = total;
     }
 
@@ -66,6 +85,60 @@ public class CollectionsTest {
         return occurrences(vector);
     }
 
+    // map an array to an Stack
+    // and return the occurrence of each number
+    public HashMap<Integer,Integer> StackTest(int[] arr) {
+        Stack<Integer> stack = new Stack<Integer>();
+        for (int i : arr) {
+            stack.add(i);
+        }
+
+        return occurrences(stack);
+    }
+
+    // map an array to an NodeCachingLinkedListTest
+    // and return the occurrence of each number
+    public HashMap<Integer,Integer> NodeCachingLinkedListTest(int[] arr) {
+        NodeCachingLinkedList<Integer> nodeCachingLinkedListTest = new NodeCachingLinkedList<Integer>();
+        for (int i : arr) {
+            nodeCachingLinkedListTest.add(i);
+        }
+
+        return occurrences(nodeCachingLinkedListTest);
+    }
+
+    // map an array to an IntArrayList
+    // and return the occurrence of each number
+    public HashMap<Integer,Integer> IntArrayListTest(int[] arr) {
+        IntArrayList IntArrayList = new IntArrayList();
+        for (int i : arr) {
+            IntArrayList.add(i);
+        }
+
+        return occurrences(IntArrayList);
+    } 
+
+    // map an array to an TIntLinkedList
+    // and return the occurrence of each number
+    public HashMap<Integer,Integer> TIntLinkedListTest(int[] arr) {
+        TIntLinkedList tIntLinkedList = new TIntLinkedList();
+        for (int i : arr) {
+            tIntLinkedList.add(i);
+        }
+        
+        return occurrences(tIntLinkedList);
+    } 
+
+    // map an array to an GoldmanSachs Int List
+    // and return the occurrence of each number
+    public HashMap<Integer,Integer> GoldmanSachsIntListTest(int[] arr) {
+        MutableIntList GSIntList = IntLists.mutable.of();
+        for (int i : arr) {
+            GSIntList.add(i);
+        }
+        
+        return occurrences(GSIntList);
+    } 
 
     // takes an gerneric collection of type interger and hash maps every occurrency
     public HashMap<Integer,Integer> occurrences(Collection<Integer> collection) {
@@ -78,8 +151,45 @@ public class CollectionsTest {
                 heatMap.put(i, 1);
             }
         }
+        collection.clear(); // test of the collecetions speed of clearing
         return heatMap;
     }
+
+    private HashMap<Integer, Integer> occurrences(TIntLinkedList collection) {
+        HashMap<Integer,Integer> heatMap = new HashMap<>();
+        int x = 0;
+        for (int i = 0; i < collection.size(); i++) {
+            x = collection.get(i);
+            if (heatMap.containsKey(x)) {
+                heatMap.put(x, heatMap.get(x) + 1);
+            }
+            else{
+                heatMap.put(x, 1);
+            }
+        }
+    
+        collection.clear(); // test of the collecetions speed of clearing
+        return heatMap;
+    }
+
+    // overloead for MutableIntList
+    public HashMap<Integer,Integer> occurrences(MutableIntList collection) {
+        HashMap<Integer,Integer> heatMap = new HashMap<>();
+        int x = 0;
+        for (int i = 0; i < collection.size(); i++) {
+            x = collection.get(i);
+            if (heatMap.containsKey(x)) {
+                heatMap.put(x, heatMap.get(x) + 1);
+            }
+            else{
+                heatMap.put(x, 1);
+            }
+        }
+    
+        collection.clear(); // test of the collecetions speed of clearing
+        return heatMap;
+    }
+    
 
     // repeat an array 10 times
     public int[] x10array(int[] arr) {
