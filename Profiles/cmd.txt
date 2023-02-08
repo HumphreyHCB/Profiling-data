@@ -1,0 +1,1 @@
+java --class-path "app/target/classes":"app/target/dependency/*":. -agentpath:build/libasyncProfiler.so=start,event=cpu,interval=10,file=profile.html code.CollectionsTest
