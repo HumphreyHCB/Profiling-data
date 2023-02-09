@@ -36,113 +36,98 @@ public class CollectionsTest {
         int total = 0;
 
         
-        HashMap<Integer,Integer> ArrayTestMap = arrayListTest(arr10x);
-        HashMap<Integer,Integer> LinkedListTestMap = LinkedListTest(arr10x);
-        HashMap<Integer,Integer> VectorTestMap =  VectorTest(arr10x);
-        HashMap<Integer,Integer> StackTestMap = StackTest(arr10x);
-        HashMap<Integer,Integer> nodeCachingLinkedListMap = NodeCachingLinkedListTest(arr10x);
-        HashMap<Integer,Integer> IntArrayListMap = IntArrayListTest(arr10x);
-        HashMap<Integer,Integer> TIntLinkedListMap = TIntLinkedListTest(arr10x);
-        HashMap<Integer,Integer> GoldmanSachsIntListMap = GoldmanSachsIntListTest(arr10x);
+        total += arrayListTest(arr10x).size();
+        total += LinkedListTest(arr10x).size();
+        total += VectorTest(arr10x).size();
+        total += StackTest(arr10x).size();
+        total += NodeCachingLinkedListTest(arr10x).size();
+        total += IntArrayListTest(arr10x).size();
+        total += TIntLinkedListTest(arr10x).size();
+        total += GoldmanSachsIntListTest(arr10x).size();
         // the hash map returned should be size 637, so the total should be 5,096  
-        total = ArrayTestMap.size() + 
-                LinkedListTestMap.size() + 
-                VectorTestMap.size() + 
-                StackTestMap.size() + 
-                nodeCachingLinkedListMap.size() + 
-                IntArrayListMap.size() +
-                TIntLinkedListMap.size() +
-                GoldmanSachsIntListMap.size();
+
         testfinal = total;
     }
 
     // map an array to an arrayList
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> arrayListTest(int[] arr) {
+    public ArrayList<Integer> arrayListTest(int[] arr) {
         ArrayList<Integer> arrlist = new ArrayList<Integer>();
         for (int i : arr) {
             arrlist.add(i);
         }
 
-        return occurrences(arrlist);
+        return arrlist;
         
     }
 
     // map an array to an Linked List
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> LinkedListTest(int[] arr) {
+    public LinkedList<Integer> LinkedListTest(int[] arr) {
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         for (int i : arr) {
             linkedList.add(i);
         }
 
-        return occurrences(linkedList);
+        return linkedList;
     }
 
     // map an array to an Vector
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> VectorTest(int[] arr) {
+    public Vector<Integer> VectorTest(int[] arr) {
         Vector<Integer> vector = new Vector<Integer>();
         for (int i : arr) {
             vector.add(i);
         }
 
-        return occurrences(vector);
+        return vector;
     }
 
     // map an array to an Stack
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> StackTest(int[] arr) {
+    public Stack<Integer> StackTest(int[] arr) {
         Stack<Integer> stack = new Stack<Integer>();
         for (int i : arr) {
             stack.add(i);
         }
 
-        return occurrences(stack);
+        return stack;
     }
 
     // map an array to an NodeCachingLinkedListTest
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> NodeCachingLinkedListTest(int[] arr) {
+    public NodeCachingLinkedList<Integer> NodeCachingLinkedListTest(int[] arr) {
         NodeCachingLinkedList<Integer> nodeCachingLinkedListTest = new NodeCachingLinkedList<Integer>();
         for (int i : arr) {
             nodeCachingLinkedListTest.add(i);
         }
 
-        return occurrences(nodeCachingLinkedListTest);
+        return nodeCachingLinkedListTest;
     }
 
     // map an array to an IntArrayList
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> IntArrayListTest(int[] arr) {
+    public IntArrayList IntArrayListTest(int[] arr) {
         IntArrayList IntArrayList = new IntArrayList();
         for (int i : arr) {
             IntArrayList.add(i);
         }
 
-        return occurrences(IntArrayList);
+        return IntArrayList;
     } 
 
     // map an array to an TIntLinkedList
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> TIntLinkedListTest(int[] arr) {
+    public TIntLinkedList TIntLinkedListTest(int[] arr) {
         TIntLinkedList tIntLinkedList = new TIntLinkedList();
         for (int i : arr) {
             tIntLinkedList.add(i);
         }
         
-        return occurrences(tIntLinkedList);
+        return tIntLinkedList;
     } 
 
     // map an array to an GoldmanSachs Int List
-    // and return the occurrence of each number
-    public HashMap<Integer,Integer> GoldmanSachsIntListTest(int[] arr) {
+    public MutableIntList GoldmanSachsIntListTest(int[] arr) {
         MutableIntList GSIntList = IntLists.mutable.of();
         for (int i : arr) {
             GSIntList.add(i);
         }
         
-        return occurrences(GSIntList);
+        return GSIntList;
     } 
 
     // takes an gerneric collection of type interger and hash maps every occurrency
