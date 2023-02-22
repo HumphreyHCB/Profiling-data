@@ -1,0 +1,202 @@
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+    58205990    4.99%     5702  IndexSetIterator::advance_and_next()
+    29085700    2.49%     2855  .annobin__ZN12PhaseChaitin19interfere_with_liveEjP8IndexSet.start
+    27329817    2.34%     2683  PhaseChaitin::Split(unsigned int, ResourceArea*)
+    22327127    1.91%     2185  PhaseChaitin::elide_copy(Node*, int, Block*, Node_List&, Node_List&, bool)
+    22086794    1.89%     2177  RegMask::Size() const
+    21695725    1.86%     2090  PhaseChaitin::post_allocate_copy_removal()
+    19900177    1.70%     1927  PhaseChaitin::gather_lrg_masks(bool)
+    16433432    1.41%     1611  PhaseChaitin::build_ifg_physical(ResourceArea*)
+    13563097    1.16%     1332  PhaseLive::compute(unsigned int)
+    11922874    1.02%      945  OtherRegionsTable::occupied() const
+     9900211    0.85%      978  PhaseIdealLoop::build_loop_late(VectorSet&, Node_List&, Node_Stack&)
+     9879195    0.85%      588  java.util.concurrent.ThreadPoolExecutor.runWorker
+     8387710    0.72%      814  PhaseIdealLoop::build_and_optimize()
+     7969892    0.68%      754  PhaseIdealLoop::Dominators()
+     7658801    0.66%      632  __tls_get_addr
+     7645250    0.66%      744  IndexSet::alloc_block_containing(unsigned int)
+     7418825    0.64%      694  _dl_update_slotinfo
+     7389524    0.63%      730  PhaseAggressiveCoalesce::insert_copies(Matcher&)
+     7214423    0.62%      708  PhaseLive::add_liveout(Block*, IndexSet*, VectorSet&)
+     7159131    0.61%      702  RegMask::smear_to_sets(int)
+     6979712    0.60%      695  PhaseChaitin::Select()
+     6831961    0.59%      671  PhaseIFG::Compute_Effective_Degree()
+     6672044    0.57%      618  __memset_avx2_unaligned_erms
+     6378063    0.55%      625  PhaseIdealLoop::build_loop_late_post(Node*)
+     6325393    0.54%      621  PhaseChaitin::add_input_to_liveout(Block*, Node*, IndexSet*, double, PhaseChaitin::Pressure&, PhaseChaitin::Pressure&)
+     6206151    0.53%      604  PhaseChaitin::merge_multidefs()
+     5946173    0.51%      543  IndexSet::initialize(unsigned int)
+     5847861    0.50%      566  Matcher::xform(Node*, int)
+     5668571    0.49%      520  Dict::Insert(void*, void*, bool)
+     5338130    0.46%      523  PhaseIFG::remove_node(unsigned int)
+     5301240    0.45%      368  itable stub
+     4988081    0.43%      495  Compile::BuildOopMaps()
+     4754231    0.41%      454  NodeHash::hash_find_insert(Node*)
+     4702412    0.40%      466  PhaseIFG::SquareUp()
+     4628441    0.40%      459  Arena::contains(void const*) const
+     4463490    0.38%      429  PhaseIdealLoop::build_loop_tree()
+     4407160    0.38%      305  I2C/C2I adapters
+     4207261    0.36%      416  PhaseIFG::re_insert(unsigned int)
+     4205832    0.36%      407  .annobin__ZN7Matcher11find_sharedEP4Node.start
+     4204220    0.36%      214  [vdso]
+     4195010    0.36%      405  Compile::identify_useful_nodes(Unique_Node_List&)
+     4153180    0.36%      409  .annobin__Z15find_lowest_bitj.start
+     4105612    0.35%      406  PhaseChaitin::remove_bound_register_from_interfering_live_ranges(LRG&, IndexSet*, unsigned int&)
+     4101271    0.35%      398  PhaseCCP::analyze()
+     4093621    0.35%      401  PhaseChaitin::Simplify()
+     3987651    0.34%      379  Matcher::match_tree(Node const*)
+     3985681    0.34%      385  RegMask::is_UP() const
+     3961911    0.34%      389  PhaseCFG::global_code_motion()
+     3891040    0.33%      221  JNU_GetStringPlatformChars
+     3705182    0.32%      284  Interpreter
+     3677724    0.32%      274  Monitor::ILock(Thread*)
+     3652801    0.31%      308  SymbolTable::lookup_dynamic(int, char const*, int, unsigned int)
+     3559611    0.30%      351  PhaseIdealLoop::split_if_with_blocks(VectorSet&, Node_Stack&, bool)
+     3442010    0.29%      327  Node::clone() const
+     3380110    0.29%      333  RegMask::clear_to_sets(int)
+     3365731    0.29%      261  Monitor::unlock()
+     3167720    0.27%      312  IndexSet::IndexSet(IndexSet*)
+     3131210    0.27%      296  Type::cmp(Type const*, Type const*)
+     3093830    0.27%      275  InstanceKlass::find_method_index(Array<Method*> const*, Symbol const*, Symbol const*, Klass::OverpassLookupMode, Klass::StaticLookupMode, Klass::PrivateLookupMode) [clone .constprop.0]
+     3086120    0.26%      296  PhaseIdealLoop::dom_lca_for_get_late_ctrl_internal(Node*, Node*, Node*)
+     2983211    0.26%      293  Node::is_CFG() const
+     2942210    0.25%      287  PhaseIterGVN::transform_old(Node*)
+     2937351    0.25%      284  Node_Backward_Iterator::next()
+     2876102    0.25%      278  DebugInformationRecorder::find_sharable_decode_offset(int)
+     2861810    0.25%      256  ciObjectFactory::get_metadata(Metadata*)
+     2806810    0.24%      274  PhaseCFG::schedule_local(Block*, GrowableArray<int>&, VectorSet&, long*)
+     2692410    0.23%      202  org.eclipse.persistence.queries.ReadAllQuery.registerResultInUnitOfWork
+     2666940    0.23%      261  PhaseIdealLoop::get_ctrl(Node*)
+     2662880    0.23%      255  update_get_addr
+     2613421    0.22%       90  ___pthread_mutex_unlock
+     2608220    0.22%      252  Compile::remove_useless_nodes(Unique_Node_List&)
+     2603240    0.22%      170  AccessInternal::PostRuntimeDispatch<G1BarrierSet::AccessBarrier<1097844ul, G1BarrierSet>, (AccessInternal::BarrierType)2, 1097844ul>::oop_access_barrier(void*)
+     2590740    0.22%      248  Unique_Node_List::remove(Node*)
+     2439621    0.21%       84  __futex_abstimed_wait_common
+     2419541    0.21%      231  Node::add_req(Node*)
+     2354660    0.20%      222  __memmove_avx_unaligned_erms
+     2342181    0.20%      223  org.eclipse.persistence.internal.sessions.AbstractSession.executeDeferredEvents
+     2340591    0.20%      147  com.ibm.ws.kernel.filemonitor.internal.MonitorHolder.scheduledScan
+     2288851    0.20%      224  IndexSetIterator::IndexSetIterator(IndexSet*)
+     2271341    0.19%      169  __tls_get_addr_slow
+     2234500    0.19%      180  G1YoungRemSetSamplingClosure::do_heap_region(HeapRegion*)
+     2229780    0.19%      165  __GI___libc_malloc
+     2223630    0.19%      211  Type::hashcons()
+     2172832    0.19%      123  _int_malloc
+     2160281    0.19%      191  org.eclipse.persistence.internal.sessions.ArrayRecord.get
+     2152420    0.18%      210  .annobin__ZNK8MachNode9ideal_regEv.start
+     2136961    0.18%      204  .annobin__ZN7Matcher10Label_RootEPK4NodeP5StatePS0_RS5_.start
+     2135061    0.18%      211  MachNode::rematerialize() const
+     2130570    0.18%      202  resource_allocate_bytes(unsigned long, AllocFailStrategy::AllocFailEnum)
+     2107432    0.18%      207  CProjNode::is_block_proj() const
+     2089640    0.18%      117  ObjectMonitor::INotify(Thread*)
+     2088631    0.18%      207  Compile::fill_buffer(CodeBuffer*, unsigned int*)
+     2083220    0.18%      205  .annobin__ZN12PhaseChaitin16gather_lrg_masksEb.constprop.0.start
+     2069250    0.18%      193  PhaseIdealLoop::get_early_ctrl(Node*)
+     2052000    0.18%      199  PhaseChaitin::build_ifg_virtual()
+     2051801    0.18%      196  Compile::remove_speculative_types(PhaseIterGVN&) [clone .part.0]
+     2030762    0.17%      156  org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.processResultSet
+     2013000    0.17%      189  Node::out_grow(unsigned int)
+     1974810    0.17%      183  Node::Node(unsigned int)
+     1968350    0.17%      193  Node::pinned() const
+     1965950    0.17%      114  g1_post_barrier_slow
+     1946950    0.17%      182  ciInstanceKlass::get_field_by_offset(int, bool)
+     1900340    0.16%      157  Dictionary::find(unsigned int, Symbol*, Handle)
+     1870900    0.16%       76  os::PlatformEvent::park(long) [clone .part.0]
+     1867201    0.16%      131  java.lang.ThreadLocal$ThreadLocalMap.getEntryAfterMiss
+     1865130    0.16%      180  PhaseIterGVN::add_users_to_worklist(Node*)
+     1850292    0.16%      180  PhaseConservativeCoalesce::update_ifg(unsigned int, unsigned int, IndexSet*, IndexSet*)
+     1835391    0.16%       82  com.ibm.ws.threading.internal.ScheduledExecutorImpl.decorateTask
+     1799632    0.15%      181  org.apache.derby.impl.store.access.sort.SortBuffer.insert
+     1786682    0.15%      171  RegMask::is_aligned_pairs() const
+     1784761    0.15%      178  IndexSet::lrg_union(unsigned int, unsigned int, unsigned int, PhaseIFG const*, RegMask const&)
+     1782790    0.15%       78  java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.siftUp
+     1775740    0.15%      169  TypeOopPtr::TypeOopPtr(Type::TYPES, TypePtr::PTR, ciKlass*, bool, ciObject*, int, int, TypePtr const*, int)
+     1751190    0.15%      171  Node::jvms() const
+     1737412    0.15%      100  ThreadStateTransition::transition_from_native(JavaThread*, JavaThreadState) [clone .constprop.0]
+     1729700    0.15%      169  PhaseIdealLoop::build_loop_tree_impl(Node*, int)
+     1729421    0.15%      164  .annobin__ZNK9MultiNode6is_CFGEv.start
+     1728972    0.15%      170  RegMask::is_bound1() const
+     1716970    0.15%       80  clock_gettime@GLIBC_2.2.5
+     1711550    0.15%      164  Compile::final_graph_reshaping_walk(Node_Stack&, Node*, Final_Reshape_Counts&)
+     1704000    0.15%      166  PhaseCFG::sched_call(Block*, unsigned int, Node_List&, GrowableArray<int>&, MachCallNode*, VectorSet&)
+     1667961    0.14%      162  Node::unique_ctrl_out() const
+     1665470    0.14%      157  PhaseGVN::transform_no_reclaim(Node*)
+     1664680    0.14%      166  PhaseChaitin::bias_color(LRG&, int)
+     1639510    0.14%      148  RegMask::is_bound_pair() const
+     1629330    0.14%       71  com.ibm.ws.threading.internal.SchedulingHelper.<init>
+     1615841    0.14%      144  Symbol::increment_refcount()
+     1609351    0.14%      156  PhaseChaitin::stretch_base_pointer_live_ranges(ResourceArea*)
+     1574870    0.13%       83  Monitor::lock_without_safepoint_check()
+     1561390    0.13%      154  PhaseIdealLoop::get_late_ctrl(Node*, Node*)
+     1558020    0.13%      109  G1Policy::predict_yg_surv_rate(int, SurvRateGroup*) const
+     1547691    0.13%       87  ObjectMonitor::wait(long, bool, Thread*)
+     1547230    0.13%      152  PhaseIterGVN::remove_globally_dead_node(Node*)
+     1547110    0.13%      126  G1Policy::predict_bytes_to_copy(HeapRegion*) const
+     1538350    0.13%      152  PhaseCFG::schedule_late(VectorSet&, Node_Stack&)
+     1538200    0.13%       91  com.ibm.ws.kernel.filemonitor.internal.MonitorHolder.scanForUpdates
+     1515580    0.13%      144  MergeMemNode::MergeMemNode(Node*)
+     1500811    0.13%       70  java.lang.Thread.interrupted
+     1480091    0.13%      138  TypeInstPtr::make(TypePtr::PTR, ciKlass*, bool, ciObject*, int, int, TypePtr const*, int)
+     1448130    0.12%       95  org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getProperty
+     1445310    0.12%      100  CodeHeap::find_blob_unsafe(void*) const
+     1441382    0.12%      143  Compile::shorten_branches(unsigned int*, int&, int&, int&)
+     1438910    0.12%       66  com.ibm.ws.kernel.filemonitor.internal.DirectoryUpdateMonitor.performScan
+     1438821    0.12%      113  AbsSeq::davg() const
+     1435051    0.12%       87  slow_subtype_check Runtime1 stub
+     1421200    0.12%      141  .annobin__ZN8PhaseCFG11is_uncommonEPK5Block.start
+     1420622    0.12%      132  PhiNode::Ideal(PhaseGVN*, bool)
+     1419680    0.12%      136  Compile::find_alias_type(TypePtr const*, bool, ciField*) [clone .part.0]
+     1419220    0.12%      103  org.eclipse.persistence.internal.descriptors.ObjectBuilder.extractPrimaryKeyFromRow
+     1416000    0.12%       57  .annobin__ZN15StatSamplerTask4taskEv.start
+     1351961    0.12%      124  TypeNode::bottom_type() const
+     1333180    0.11%      124  RegionNode::Ideal(PhaseGVN*, bool)
+     1326802    0.11%       94  vtable stub
+     1317561    0.11%       71  _int_free
+     1292680    0.11%       93  java_lang_Throwable::fill_in_stack_trace(Handle, methodHandle const&, Thread*)
+     1292291    0.11%      124  PhaseCCP::transform(Node*)
+     1288251    0.11%      117  AddPNode::bottom_type() const
+     1271221    0.11%      121  PhaseIdealLoop::is_dominator(Node*, Node*)
+     1250800    0.11%      120  PhiNode::Value(PhaseGVN*) const
+     1244560    0.11%      122  org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.calculateChanges
+     1244091    0.11%      118  org.apache.derby.impl.store.access.sort.SortBuffer.deleteLeftmost
+     1221922    0.10%      120  PhaseIdealLoop::split_if_with_blocks_pre(Node*)
+     1215001    0.10%      120  RegionNode::is_unreachable_region(PhaseGVN*) const
+     1214610    0.10%      120  OopFlow::build_oop_map(Node*, int, PhaseRegAlloc*, int*)
+     1203201    0.10%      120  DebugInformationRecorder::describe_scope(int, methodHandle const&, ciMethod*, int, bool, bool, bool, bool, DebugToken*, DebugToken*, DebugToken*)
+     1203101    0.10%       85  org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildWorkingCopyCloneFromRow
+     1178850    0.10%      117  org.apache.derby.impl.sql.execute.ValueRow.getColumn
+     1176250    0.10%      106  ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum)
+     1175811    0.10%      114  ProjNode::pinned() const
+     1166410    0.10%      111  Node::disconnect_inputs(Node*, Compile*)
+     1164650    0.10%      112  PhaseCFG::insert_anti_dependences(Block*, Node*, bool)
+     1163870    0.10%      115  Node::rematerialize() const
+     1163110    0.10%       93  __vfprintf_internal
+     1154720    0.10%       78  com.ibm.ws.threading.internal.BoundedBuffer.offer
+     1152760    0.10%       78  java.util.concurrent.TimeUnit.convert
+     1144180    0.10%       69  jni_GetObjectField
+     1136360    0.10%       83  SymbolTable::lookup_shared(char const*, int, unsigned int)
+     1121940    0.10%      102  PhiNode::Opcode() const
+     1116820    0.10%       50  java_lang_Thread::set_thread_status(oopDesc*, java_lang_Thread::ThreadStatus)
+     1116300    0.10%      109  PhaseCFG::hoist_to_cheaper_block(Block*, Block*, Node*)
+     1115090    0.10%      108  .annobin__ZNK10jmpDirNode13is_block_projEv.start
+     1111442    0.10%       40  Monitor::IWait(Thread*, long)
+     1111270    0.10%       77  com.ibm.ws.threading.internal.SchedulingHelper.run
+     1100900    0.09%       41  __fstatat
+     1098080    0.09%       53  java.lang.Object.wait
+     1097280    0.09%       47  __strchr_avx2
+     1096090    0.09%      102  TypeInstPtr::hash() const
+     1087620    0.09%       50  java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute
+     1082990    0.09%       63  com.ibm.ws.threading.internal.SchedulingRunnableFixedHelper.run
+     1072851    0.09%      106  Node::replace_by(Node*)
+     1069640    0.09%      106  PhaseIdealLoop::split_if_with_blocks_post(Node*, bool)
+     1067330    0.09%       31  __condvar_dec_grefs
+     1058050    0.09%       83  AbsSeq::dsd() const
+     1047520    0.09%      102  MachNode::in_RegMask(unsigned int) const
+     1043000    0.09%       79  org.apache.derby.impl.sql.execute.SortResultSet.loadSorter
+     1039580    0.09%      101  PhaseIterGVN::subsume_node(Node*, Node*)
+     1039170    0.09%       99  Node::dominates(Node*, Node_List&)
+     1034112    0.09%       42  __GI___pthread_cond_timedwait
+     1031490    0.09%      100  .annobin__ZN5State17MachOperGeneratorEi.start
+     1027021    0.09%      103  org.apache.derby.impl.sql.execute.BasicSortObserver.getClone
