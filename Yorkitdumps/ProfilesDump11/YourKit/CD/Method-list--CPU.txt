@@ -1,0 +1,196 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  12,967   99%  |              0  |    1,277  |
+|  Run.runBenchmark()                                                                                                                                 |  12,946   99%  |          < 0.1  |    1,276  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  12,938   99%  |              0  |    1,275  |
+|  Run.measure(Benchmark)                                                                                                                             |  12,938   99%  |              0  |    1,275  |
+|  CD.benchmark(int)                                                                                                                                  |  12,908   99%  |              9  |    1,272  |
+|  CD.innerBenchmarkLoop(int)                                                                                                                         |  12,908   99%  |              0  |    1,272  |
+|  cd.CollisionDetector.handleNewFrame(Vector)                                                                                                        |  12,713   98%  |          < 0.1  |    1,253  |
+|  som.Vector.forEach(ForEachInterface)                                                                                                               |  11,257   87%  |             16  |    1,121  |
+|  cd.CollisionDetector.reduceCollisionSet(Vector)                                                                                                    |  10,430   80%  |          < 0.1  |    1,026  |
+|  cd.CollisionDetector$$Lambda$15.0x00000008000cc000.apply(Object)                                                                                   |   9,287   72%  |             29  |      925  |
+|  cd.CollisionDetector.drawMotionOnVoxelMap(RedBlackTree, Motion)                                                                                    |   9,257   71%  |             19  |      922  |
+|  cd.CollisionDetector.lambda$reduceCollisionSet$4(RedBlackTree, Motion)                                                                             |   9,257   71%  |              0  |      922  |
+|  cd.CollisionDetector.recurse(RedBlackTree, RedBlackTree, Vector2D, Motion)                                                                         |   9,227   71%  |          1,046  |      919  |
+|  cd.RedBlackTree.put(Comparable, Object)                                                                                                            |   4,683   36%  |            974  |      477  |
+|  cd.CollisionDetector.putIntoMap(RedBlackTree, Vector2D, Motion)                                                                                    |   4,031   31%  |             51  |      412  |
+|  cd.RedBlackTree.treeInsert(Comparable, Object)                                                                                                     |   3,044   23%  |          2,211  |      309  |
+|  cd.CollisionDetector.isInVoxel(Vector2D, Motion)                                                                                                   |   2,714   21%  |          2,714  |      268  |
+|  cd.RedBlackTree.get(Comparable)                                                                                                                    |   1,732   13%  |              9  |      174  |
+|  cd.RedBlackTree.findNode(Comparable)                                                                                                               |   1,722   13%  |            953  |      173  |
+|  cd.CollisionDetector.lambda$handleNewFrame$0(RedBlackTree, Vector, Aircraft)                                                                       |   1,685   13%  |            216  |      167  |
+|  cd.CollisionDetector$$Lambda$8.0x00000008000c6e88.apply(Object)                                                                                    |   1,685   13%  |              0  |      167  |
+|  cd.Vector2D.compareTo(Object)                                                                                                                      |   1,522   12%  |            168  |      154  |
+|  cd.RedBlackTree.forEach(ForEachInterface)                                                                                                          |   1,367   11%  |            367  |      123  |
+|  cd.Vector2D.compareTo(Vector2D)                                                                                                                    |   1,353   10%  |             96  |      137  |
+|  cd.Vector2D.compareNumbers(double, double)                                                                                                         |   1,257   10%  |          1,257  |      127  |
+|  cd.RedBlackTree$Node.successor()                                                                                                                   |     601    5%  |            306  |       45  |
+|  cd.RedBlackTree.leftRotate(RedBlackTree$Node)                                                                                                      |     475    4%  |            475  |       48  |
+|  cd.RedBlackTree.treeMinimum(RedBlackTree$Node)                                                                                                     |     324    2%  |            324  |       33  |
+|  cd.Vector2D.plus(Vector2D)                                                                                                                         |     305    2%  |            210  |       22  |
+|  cd.CollisionDetector.lambda$handleNewFrame$3(Vector, Vector)                                                                                       |     268    2%  |             19  |       27  |
+|  cd.CollisionDetector$$Lambda$17.0x00000008000cc450.apply(Object)                                                                                   |     268    2%  |              0  |       27  |
+|  cd.Motion.findIntersection(Motion)                                                                                                                 |     209    2%  |             58  |       21  |
+|  cd.CollisionDetector.lambda$handleNewFrame$1(RedBlackTree, Vector, RedBlackTree$Entry)                                                             |     200    2%  |              0  |       20  |
+|  cd.CollisionDetector$$Lambda$13.0x00000008000c7d38.apply(Object)                                                                                   |     200    2%  |              0  |       20  |
+|  cd.RedBlackTree.rightRotate(RedBlackTree$Node)                                                                                                     |     198    2%  |            198  |       20  |
+|  som.Vector.append(Object)                                                                                                                          |     193    1%  |            193  |       20  |
+|  cd.Simulator.simulate(double)                                                                                                                      |     170    1%  |            120  |       17  |
+|  cd.CollisionDetector.lambda$reduceCollisionSet$5(Vector, RedBlackTree$Entry)                                                                       |     168    1%  |            158  |       17  |
+|  cd.CollisionDetector$$Lambda$16.0x00000008000cc228.apply(Object)                                                                                   |     168    1%  |              0  |       17  |
+|  som.Vector.<init>()                                                                                                                                |     145    1%  |              9  |       15  |
+|  cd.Vector3D.minus(Vector3D)                                                                                                                        |     140    1%  |             90  |       14  |
+|  som.Vector.<init>(int)                                                                                                                             |     135    1%  |            135  |       14  |
+|  cd.Vector2D.minus(Vector2D)                                                                                                                        |      95    1%  |             95  |        9  |
+|  cd.Vector2D.<init>(double, double)                                                                                                                 |      94    1%  |             74  |       10  |
+|  cd.Motion.delta()                                                                                                                                  |      70    1%  |              0  |        7  |
+|  cd.CallSign.compareTo(Object)                                                                                                                      |      69    1%  |              9  |        7  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object, Object) Invokers$Holder                                                |      67    1%  |             50  |        7  |
+|  cd.CallSign.compareTo(CallSign)                                                                                                                    |      59    0%  |             59  |        6  |
+|  cd.Vector3D.<init>(double, double, double)                                                                                                         |      49    0%  |             49  |        5  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                           |      34    0%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                  |      34    0%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                          |      34    0%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                    |      34    0%  |              0  |        4  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                       |      34    0%  |              0  |        4  |
+|  Run.printResult(long)                                                                                                                              |      29    0%  |              0  |        3  |
+|  java.lang.Object.<init>() Object.java                                                                                                              |      29    0%  |             29  |        3  |
+|  som.Vector.at(int)                                                                                                                                 |      28    0%  |             28  |        3  |
+|  Harness.processArguments(String[])                                                                                                                 |      21    0%  |             21  |        1  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                                   |      20    0%  |              0  |        3  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                                  |      20    0%  |              0  |        3  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                                 |      20    0%  |              0  |        3  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java                     |      20    0%  |              0  |        3  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                                     |      20    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                                               |      20    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                                      |      20    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                                          |      20    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                                             |      20    0%  |          < 0.1  |        2  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                                  |      20    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                                  |      20    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                                    |      20    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      20    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      20    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                          |      20    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                          |      20    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                                       |      20    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      20    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      20    0%  |              0  |        2  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                             |      20    0%  |              0  |        3  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                         |      20    0%  |              0  |        3  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |      19    0%  |          < 0.1  |        2  |
+|  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(Object, Object, Object, Object) DirectMethodHandle$Holder                              |      16    0%  |              0  |        2  |
+|  java.util.jar.Attributes.<init>(int) Attributes.java                                                                                               |      14    0%  |             14  |        1  |
+|  java.util.jar.Attributes.<init>() Attributes.java                                                                                                  |      14    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getManifest() JarFile.java                                                                                                   |      14    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getManifestFromReference() JarFile.java                                                                                      |      14    0%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(JarVerifier, InputStream, String) Manifest.java                                                                      |      14    0%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(InputStream, String) Manifest.java                                                                                   |      14    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                                       |      14    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getManifest() URLClassPath.java                                                                       |      14    0%  |              0  |        1  |
+|  java.lang.ThreadLocal.createMap(Thread, Object) ThreadLocal.java                                                                                   |      13    0%  |              0  |        1  |
+|  java.lang.ThreadLocal.get() ThreadLocal.java                                                                                                       |      13    0%  |              0  |        1  |
+|  java.lang.ThreadLocal.setInitialValue() ThreadLocal.java                                                                                           |      13    0%  |              0  |        1  |
+|  java.lang.ThreadLocal$ThreadLocalMap.<init>(ThreadLocal, Object) ThreadLocal.java                                                                  |      13    0%  |             13  |        1  |
+|  java.nio.file.Files.readAttributes(Path, Class, LinkOption[]) Files.java                                                                           |      13    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.readAttributes(Path, Class, LinkOption[]) LinuxFileSystemProvider.java                                          |      13    0%  |              0  |        1  |
+|  sun.nio.fs.NativeBuffers.getNativeBufferFromCache(int) NativeBuffers.java                                                                          |      13    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributes.get(UnixPath, boolean) UnixFileAttributes.java                                                                       |      13    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes() UnixFileAttributeViews.java                                                               |      13    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.readAttributes(Path, Class, LinkOption[]) UnixFileSystemProvider.java                                            |      13    0%  |              0  |        1  |
+|  sun.nio.fs.UnixNativeDispatcher.copyToNativeBuffer(UnixPath) UnixNativeDispatcher.java                                                             |      13    0%  |              0  |        1  |
+|  sun.nio.fs.UnixNativeDispatcher.stat(UnixPath, UnixFileAttributes) UnixNativeDispatcher.java                                                       |      13    0%  |              0  |        1  |
+|  cd.CollisionDetector$$Lambda$13.0x00000008000c7d38.<init>(RedBlackTree, Vector)                                                                    |      10    0%  |             10  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(Object, Object, Object) DirectMethodHandle$Holder                                      |      10    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object) Invokers$Holder                                                        |      10    0%  |              0  |        1  |
+|  cd.CollisionDetector.voxelHash(Vector3D)                                                                                                           |       9    0%  |              9  |        1  |
+|  cd.Vector3D.squaredMagnitude()                                                                                                                     |       9    0%  |              9  |        1  |
+|  cd.CollisionDetector$$Lambda$8.0x00000008000c6e88.<init>(CollisionDetector, RedBlackTree, Vector)                                                  |       9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                           |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                         |       9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.hasArray() CharBuffer.java                                                                                                     |       9    0%  |              9  |        1  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java                                                        |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                                                                                  |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                            |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                |       9    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                       |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                             |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                          |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                          |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                             |       9    0%  |              9  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |       9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800102800.invoke(Object, Object, long) LambdaForm$MH                                                       |       9    0%  |              9  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800102c00.linkToTargetMethod(Object, long, Object) LambdaForm$MH                                           |       9    0%  |              0  |        1  |
+|  cd.RedBlackTree$Node.<init>(Object, Object)                                                                                                        |       9    0%  |              9  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |       7    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(byte) BoundMethodHandle.java                                                             |       7    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |       7    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer.findSpecies(Object) ClassSpecializer.java                                                                        |       7    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactories(Class, List) ClassSpecializer.java                                                         |       7    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactory(Class, List) ClassSpecializer.java                                                           |       7    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer$SpeciesData, Class) ClassSpecializer.java                         |       7    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer$SpeciesData) ClassSpecializer.java                                          |       7    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |       7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |       7    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |       7    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.filterArgumentsForm(int, MethodType, int[]) LambdaFormEditor.java                                                |       7    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                      |       7    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaForm$BasicType) LambdaFormEditor.java                                                       |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolve(byte, MemberName, Class, int, boolean) MemberName.java                                                 |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolveOrFail(byte, MemberName, Class, int, Class) MemberName.java                                             |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, int, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                  |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.resolve(MemberName, Class, int, boolean) MethodHandleNatives.java (native)                                    |       7    0%  |              7  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                           |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                              |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType) MethodHandles.java                                                     |       7    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.resolveOrFail(byte, Class, String, MethodType) MethodHandles.java                                            |       7    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, List) StringConcatFactory.java                                               |       7    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |       7    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |       7    0%  |              0  |        1  |
+|  java.io.File.toPath() File.java                                                                                                                    |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems.getDefault() FileSystems.java                                                                                            |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.<clinit>() FileSystems.java                                                                      |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.defaultFileSystem() FileSystems.java                                                             |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.getDefaultProvider() FileSystems.java                                                            |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                         |       7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                         |       7    0%  |              0  |        1  |
+|  java.security.AccessController.doPrivileged(PrivilegedAction) AccessController.java                                                                |       7    0%  |              0  |        1  |
+|  java.security.AccessController.executePrivileged(PrivilegedAction, AccessControlContext, Class) AccessController.java                              |       7    0%  |              0  |        1  |
+|  sun.nio.fs.DefaultFileSystemProvider.<clinit>() DefaultFileSystemProvider.java                                                                     |       7    0%  |              7  |        1  |
+|  java.lang.invoke.DirectMethodHandle.allocateInstance(Object) DirectMethodHandle.java                                                               |       6    0%  |              6  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                  |       0    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                    |       0    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.<init>(CompositeData) GcInfo.java                                                                                        |       0    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.from(CompositeData) GcInfo.java                                                                                          |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getGcInfo(CompositeData) GarbageCollectionNotifInfoCompositeData.java          |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java        |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.getMemoryUsageAfterGc(CompositeData) GcInfoCompositeData.java                                      |       0    0%  |              0  |        1  |
+|  com.yourkit.an.ar.invoke(Object, Object[]) a                                                                                                       |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                     |       0    0%  |              0  |        1  |
+|  com.yourkit.runtime.GcPauseCounter$MyListener.handleNotification(Notification, Object) a                                                           |       0    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                  |       0    0%  |              0  |        1  |
+|  java.lang.management.MemoryUsage.from(CompositeData) MemoryUsage.java                                                                              |       0    0%  |              0  |        1  |
+|  java.lang.reflect.Method.invoke(Object, Object[]) Method.java                                                                                      |       0    0%  |              0  |        1  |
+|  jdk.internal.access.SharedSecrets.getJavaUtilZipFileAccess() SharedSecrets.java                                                                    |       0    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<clinit>() URLClassPath.java                                                                            |       0    0%  |              0  |        1  |
+|  jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Object, Object[]) DelegatingMethodAccessorImpl.java                                       |       0    0%  |              0  |        1  |
+|  jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Object, Object[])                                                                             |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$CompositeDataMXBeanType.toJavaTypeData(Object) MappedMXBeanType.java                                               |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.toJavaTypeData(Object) MappedMXBeanType.java                                                         |       0    0%  |              0  |        1  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                           |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:10:34

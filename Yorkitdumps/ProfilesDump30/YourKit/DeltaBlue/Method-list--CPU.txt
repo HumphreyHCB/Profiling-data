@@ -1,0 +1,223 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)   |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  4,040   99%  |          < 0.1  |      404  |
+|  Run.runBenchmark()                                                                                                                                 |  4,025   99%  |          < 0.1  |      402  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  4,007   99%  |              0  |      399  |
+|  Run.measure(Benchmark)                                                                                                                             |  4,007   99%  |          < 0.1  |      399  |
+|  DeltaBlue.innerBenchmarkLoop(int)                                                                                                                  |  3,959   98%  |              0  |      394  |
+|  deltablue.Planner.chainTest(int)                                                                                                                   |  2,108   52%  |          < 0.1  |      208  |
+|  deltablue.Planner.projectionTest(int)                                                                                                              |  1,851   46%  |              1  |      186  |
+|  deltablue.AbstractConstraint.satisfy(int, Planner)                                                                                                 |  1,802   45%  |            174  |      173  |
+|  deltablue.Planner.incrementalAdd(AbstractConstraint)                                                                                               |  1,802   45%  |              0  |      173  |
+|  som.Vector.forEach(ForEachInterface)                                                                                                               |  1,748   43%  |            862  |      172  |
+|  deltablue.AbstractConstraint.addConstraint(Planner)                                                                                                |  1,609   40%  |              1  |      158  |
+|  deltablue.Planner.change(Variable, int)                                                                                                            |  1,353   33%  |          < 0.1  |      135  |
+|  deltablue.EqualityConstraint.<init>(Variable, Variable, Strength$Sym, Planner)                                                                     |  1,140   28%  |              0  |      114  |
+|  deltablue.AbstractConstraint.destroyConstraint(Planner)                                                                                            |    859   21%  |          < 0.1  |       80  |
+|  deltablue.Planner.addPropagate(AbstractConstraint, int)                                                                                            |    788   19%  |            246  |       77  |
+|  deltablue.Planner.incrementalRemove(AbstractConstraint)                                                                                            |    762   19%  |          < 0.1  |       72  |
+|  deltablue.UnaryConstraint.<init>(Variable, Strength$Sym, Planner)                                                                                  |    761   19%  |              0  |       73  |
+|  deltablue.Plan.execute()                                                                                                                           |    724   18%  |              0  |       78  |
+|  deltablue.BinaryConstraint.chooseMethod(int)                                                                                                       |    665   16%  |            212  |       68  |
+|  deltablue.Planner.removePropagateFrom(Variable)                                                                                                    |    488   12%  |             14  |       48  |
+|  deltablue.Strength.weaker(Strength)                                                                                                                |    481   12%  |            472  |       49  |
+|  deltablue.AbstractConstraint.<init>(Strength$Sym)                                                                                                  |    452   11%  |             71  |       45  |
+|  deltablue.BinaryConstraint.<init>(Variable, Variable, Strength$Sym, Planner)                                                                       |    421   10%  |              8  |       42  |
+|  deltablue.EditConstraint.<init>(Variable, Strength$Sym, Planner)                                                                                   |    401   10%  |              0  |       37  |
+|  deltablue.Strength.of(Strength$Sym)                                                                                                                |    380    9%  |             29  |       38  |
+|  deltablue.StayConstraint.<init>(Variable, Strength$Sym, Planner)                                                                                   |    359    9%  |              0  |       36  |
+|  som.Dictionary.at(Dictionary$CustomHash)                                                                                                           |    350    9%  |            310  |       35  |
+|  deltablue.Planner.constraintsConsuming(Variable, ForEachInterface)                                                                                 |    318    8%  |              0  |       28  |
+|  deltablue.Planner.addConstraintsConsumingTo(Variable, Vector)                                                                                      |    294    7%  |          < 0.1  |       31  |
+|  deltablue.Plan$$Lambda$27.0x00000008000ccd88.apply(Object)                                                                                         |    284    7%  |             81  |       34  |
+|  deltablue.Planner.lambda$incrementalRemove$0(AbstractConstraint)                                                                                   |    225    6%  |              0  |       19  |
+|  deltablue.Planner$$Lambda$44.0x00000008000cdae0.apply(Object)                                                                                      |    225    6%  |              0  |       19  |
+|  deltablue.Plan.lambda$execute$0(AbstractConstraint)                                                                                                |    202    5%  |             51  |       24  |
+|  deltablue.ScaleConstraint.<init>(Variable, Variable, Variable, Variable, Strength$Sym, Planner)                                                    |    178    4%  |              9  |       18  |
+|  som.Vector.<init>(int)                                                                                                                             |    177    4%  |            177  |       18  |
+|  deltablue.Planner.extractPlanFromConstraints(Vector)                                                                                               |    173    4%  |              0  |       18  |
+|  deltablue.Planner.makePlan(Vector)                                                                                                                 |    173    4%  |              9  |       18  |
+|  deltablue.Planner$$Lambda$37.0x00000008000cd620.apply(Object)                                                                                      |    162    4%  |             35  |       16  |
+|  deltablue.ScaleConstraint.execute()                                                                                                                |    146    4%  |            138  |       17  |
+|  deltablue.UnaryConstraint.removeFromGraph()                                                                                                        |    145    4%  |              0  |       13  |
+|  deltablue.Variable.removeConstraint(AbstractConstraint)                                                                                            |    145    4%  |              0  |       13  |
+|  som.Vector.remove(Object)                                                                                                                          |    145    4%  |              9  |       13  |
+|  som.Vector.with(Object)                                                                                                                            |    126    3%  |             35  |       10  |
+|  deltablue.Planner.lambda$constraintsConsuming$3(AbstractConstraint, ForEachInterface, AbstractConstraint)                                          |    126    3%  |              9  |       13  |
+|  deltablue.ScaleConstraint.recalculate()                                                                                                            |    119    3%  |             59  |       12  |
+|  deltablue.Planner.lambda$removePropagateFrom$5(Vector, AbstractConstraint)                                                                         |    106    3%  |             19  |       11  |
+|  deltablue.Planner$$Lambda$35.0x00000008000cd3f8.apply(Object)                                                                                      |    106    3%  |              0  |       11  |
+|  som.Vector.append(Object)                                                                                                                          |    103    3%  |            103  |       11  |
+|  deltablue.Planner$$Lambda$19.0x00000008000cc000.apply(Object)                                                                                      |     88    2%  |              4  |        9  |
+|  som.Vector$$Lambda$33.0x00000008000ccfa8.apply(Object)                                                                                             |     85    2%  |             66  |        7  |
+|  deltablue.Planner.lambda$addConstraintsConsumingTo$2(AbstractConstraint, Vector, AbstractConstraint)                                               |     83    2%  |             27  |        8  |
+|  deltablue.BinaryConstraint.inputsDo(ForEachInterface)                                                                                              |     70    2%  |             70  |        3  |
+|  deltablue.Planner.lambda$removePropagateFrom$4(Vector, AbstractConstraint)                                                                         |     68    2%  |             58  |        7  |
+|  deltablue.Planner$$Lambda$34.0x00000008000cd1d0.apply(Object)                                                                                      |     68    2%  |              0  |        7  |
+|  som.Vector.<init>()                                                                                                                                |     66    2%  |              0  |        7  |
+|  deltablue.Variable.<init>()                                                                                                                        |     59    1%  |             29  |        6  |
+|  deltablue.BinaryConstraint.getOutput()                                                                                                             |     57    1%  |             57  |        6  |
+|  deltablue.AbstractConstraint.inputsKnown(int)                                                                                                      |     48    1%  |             18  |        5  |
+|  Run.printResult(long)                                                                                                                              |     47    1%  |          < 0.1  |        5  |
+|  deltablue.BinaryConstraint.isSatisfied()                                                                                                           |     47    1%  |             47  |        5  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |     42    1%  |              0  |        4  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |     42    1%  |          < 0.1  |        4  |
+|  deltablue.BinaryConstraint.markUnsatisfied()                                                                                                       |     40    1%  |             40  |        3  |
+|  deltablue.Variable.value(int)                                                                                                                      |     39    1%  |              9  |        4  |
+|  deltablue.UnaryConstraint.recalculate()                                                                                                            |     39    1%  |             39  |        3  |
+|  deltablue.Strength.weakest(Strength)                                                                                                               |     38    1%  |              0  |        4  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                           |     34    1%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                          |     34    1%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                    |     34    1%  |              0  |        6  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                       |     34    1%  |              0  |        6  |
+|  som.Dictionary.getBucket(int)                                                                                                                      |     29    1%  |             19  |        3  |
+|  deltablue.BinaryConstraint.recalculate()                                                                                                           |     29    1%  |             19  |        3  |
+|  deltablue.Planner.lambda$chainTest$7(int)                                                                                                          |     29    1%  |              0  |        3  |
+|  deltablue.Planner$$Lambda$12.0x00000008000c66a0.apply(int)                                                                                         |     29    1%  |              0  |        3  |
+|  java.util.Arrays.setAll(Object[], IntFunction) Arrays.java                                                                                         |     29    1%  |              0  |        3  |
+|  deltablue.BinaryConstraint.inputsHasOne(TestInterface)                                                                                             |     29    1%  |             19  |        3  |
+|  java.lang.invoke.DirectMethodHandle.allocateInstance(Object) DirectMethodHandle.java                                                               |     24    1%  |              9  |        4  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(int, Object) Invokers$Holder                                                                   |     24    1%  |             24  |        1  |
+|  jdk.internal.misc.Unsafe.allocateInstance(Class) Unsafe.java (native)                                                                              |     23    1%  |             14  |        4  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |     22    1%  |              0  |        2  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |     22    1%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |     22    1%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |     22    1%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |     22    1%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                  |     22    1%  |              0  |        5  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                           |     19    0%  |              0  |        2  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                         |     19    0%  |              0  |        2  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java                                                        |     19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                            |     19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                                                                                  |     19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                |     19    0%  |              0  |        2  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeArrayLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                  |     19    0%  |              0  |        2  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                       |     19    0%  |              0  |        2  |
+|  deltablue.BinaryConstraint.addToGraph()                                                                                                            |     19    0%  |              9  |        2  |
+|  deltablue.Variable.addConstraint(AbstractConstraint)                                                                                               |     19    0%  |              0  |        2  |
+|  som.Vector.lambda$remove$0(Object, boolean[], Object[], int[], Object)                                                                             |     18    0%  |             18  |        2  |
+|  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(Object, Object, Object) DirectMethodHandle$Holder                                      |     17    0%  |              2  |        3  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object) Invokers$Holder                                                        |     17    0%  |              0  |        3  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |     17    0%  |              0  |        3  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |     17    0%  |              0  |        3  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |     17    0%  |              0  |        3  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |     17    0%  |              0  |        3  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |     17    0%  |              0  |        3  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, int, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                  |     17    0%  |              0  |        3  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |     17    0%  |              0  |        3  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, List) StringConcatFactory.java                                               |     17    0%  |          < 0.1  |        3  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |     17    0%  |              0  |        3  |
+|  deltablue.UnaryConstraint.getOutput()                                                                                                              |     16    0%  |             16  |        2  |
+|  Harness.processArguments(String[])                                                                                                                 |     15    0%  |              0  |        2  |
+|  java.lang.ClassLoader.defineClass(String, byte[], int, int, ProtectionDomain) ClassLoader.java                                                     |     15    0%  |              0  |        2  |
+|  java.lang.ClassLoader.defineClass1(ClassLoader, String, byte[], int, int, ProtectionDomain, String) ClassLoader.java (native)                      |     15    0%  |             15  |        2  |
+|  java.security.SecureClassLoader.defineClass(String, byte[], int, int, CodeSource) SecureClassLoader.java                                           |     15    0%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                                       |     15    0%  |              0  |        2  |
+|  deltablue.EqualityConstraint.execute()                                                                                                             |     13    0%  |              8  |        2  |
+|  java.io.BufferedOutputStream.write(byte[], int, int) BufferedOutputStream.java                                                                     |     12    0%  |              0  |        1  |
+|  java.lang.System.arraycopy(Object, int, Object, int, int) System.java (native)                                                                     |     12    0%  |             12  |        1  |
+|  som.Vector.removeFirst()                                                                                                                           |     12    0%  |             12  |        2  |
+|  deltablue.Variable.setValue(int)                                                                                                                   |     12    0%  |             12  |        2  |
+|  java.lang.ClassLoader.checkName(String) ClassLoader.java                                                                                           |     12    0%  |             12  |        1  |
+|  java.lang.ClassLoader.findLoadedClass(String) ClassLoader.java                                                                                     |     12    0%  |              0  |        1  |
+|  deltablue.Variable.setStay(boolean)                                                                                                                |     10    0%  |             10  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |     10    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaFormEditor.foldArgumentsForm(int, boolean, MethodType, int[]) LambdaFormEditor.java                                         |     10    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                      |     10    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                           |     10    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandles.foldArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                |     10    0%  |              0  |        2  |
+|  deltablue.UnaryConstraint.chooseMethod(int)                                                                                                        |     10    0%  |             10  |        2  |
+|  deltablue.Strength.stronger(Strength)                                                                                                              |      9    0%  |              9  |        1  |
+|  deltablue.Variable.setWalkStrength(Strength)                                                                                                       |      9    0%  |              9  |        1  |
+|  som.IdentityDictionary$IdEntry.match(int, Object)                                                                                                  |      9    0%  |              9  |        1  |
+|  deltablue.Variable.getDeterminedBy()                                                                                                               |      9    0%  |              9  |        1  |
+|  deltablue.Variable.setDeterminedBy(AbstractConstraint)                                                                                             |      9    0%  |              9  |        1  |
+|  java.nio.Buffer.limit() Buffer.java                                                                                                                |      9    0%  |              9  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |      9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |      9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |      9    0%  |              9  |        1  |
+|  java.nio.CharBuffer.position(int) CharBuffer.java                                                                                                  |      9    0%  |              9  |        1  |
+|  som.Vector.at(int)                                                                                                                                 |      9    0%  |              9  |        1  |
+|  deltablue.Variable.getMark()                                                                                                                       |      9    0%  |              9  |        1  |
+|  som.Dictionary.getBucketIdx(int)                                                                                                                   |      9    0%  |              9  |        1  |
+|  deltablue.UnaryConstraint.addToGraph()                                                                                                             |      9    0%  |              0  |        1  |
+|  deltablue.AbstractConstraint.lambda$inputsKnown$0(int, Variable)                                                                                   |      9    0%  |              9  |        1  |
+|  deltablue.AbstractConstraint$$Lambda$21.0x00000008000ccb68.test(Object)                                                                            |      9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(Object, Object) DirectMethodHandle$Holder                                              |      9    0%  |              0  |        2  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object) Invokers$Holder                                                                |      9    0%  |              0  |        2  |
+|  deltablue.UnaryConstraint.isSatisfied()                                                                                                            |      8    0%  |              8  |        1  |
+|  deltablue.Strength.getArithmeticValue()                                                                                                            |      8    0%  |              8  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.endEdit() LambdaFormBuffer.java                                                                                  |      7    0%  |              7  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                           |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.bindArgumentL(int, Object) BoundMethodHandle.java                                                               |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendL(MethodType, LambdaForm, Object) BoundMethodHandle.java                                |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL         |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |      6    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                          |      6    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                             |      6    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                         |      6    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.resolveInvokerMember(Class, String, MethodType) InvokerBytecodeGenerator.java                            |      6    0%  |              6  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                    |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                              |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentL(BoundMethodHandle, int, Object) LambdaFormEditor.java                                              |      6    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                     |      6    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.insertArguments(MethodHandle, int, Object[]) MethodHandles.java                                                     |      6    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.newArrayWithSuffix(String) StringConcatFactory.java                                                           |      6    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.<init>(File, String, boolean) RandomAccessFile.java                                                                       |      6    0%  |              0  |        2  |
+|  java.io.RandomAccessFile.<init>(File, String) RandomAccessFile.java                                                                                |      6    0%  |              0  |        2  |
+|  java.io.RandomAccessFile.open(String, int) RandomAccessFile.java                                                                                   |      6    0%  |              0  |        2  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                                   |      6    0%  |              0  |        3  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                                  |      6    0%  |              0  |        3  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                                 |      6    0%  |              0  |        3  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java                     |      6    0%  |              0  |        3  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                                     |      6    0%  |              0  |        3  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                                               |      6    0%  |              0  |        3  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                                      |      6    0%  |              0  |        3  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                                          |      6    0%  |              0  |        3  |
+|  java.util.zip.ZipFile$Source.<init>(ZipFile$Source$Key, boolean, ZipCoder) ZipFile.java                                                            |      6    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                                             |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                                  |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                                  |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                                    |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                          |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                          |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                                       |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      6    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      6    0%  |              0  |        3  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                             |      6    0%  |              0  |        3  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                         |      6    0%  |              0  |        3  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, long) DirectMethodHandle$Holder                                            |      4    0%  |              4  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c3c00.invoke(Object, long) LambdaForm$MH                                                               |      4    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800104800.invoke(Object, Object, long) LambdaForm$MH                                                       |      4    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800104c00.linkToTargetMethod(Object, long, Object) LambdaForm$MH                                           |      4    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$RandomAccessFile_open_Probe.onEnter() a                                                                           |      4    0%  |              4  |        1  |
+|  java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(byte) BoundMethodHandle.java                                                             |      2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer.findSpecies(Object) ClassSpecializer.java                                                                        |      2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactories(Class, List) ClassSpecializer.java                                                         |      2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactory(Class, List) ClassSpecializer.java                                                           |      2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer$SpeciesData, Class) ClassSpecializer.java                         |      2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer$SpeciesData) ClassSpecializer.java                                          |      2    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaForm$BasicType) LambdaFormEditor.java                                                       |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.appendParameterTypes(List) MethodType.java                                                                             |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, Class[]) MethodType.java                                                                     |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, List) MethodType.java                                                                        |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                      |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.canonicalize(MethodType, int) MethodTypeForm.java                                                                  |      2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.canonicalizeAll(Class[], int) MethodTypeForm.java                                                                  |      2    0%  |              2  |        1  |
+|  java.lang.invoke.MethodTypeForm.findForm(MethodType) MethodTypeForm.java                                                                           |      2    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.FilesLW$RandomAccessFilesTelemetry$RandomAccessFile_open_Probe.onReturn(RandomAccessFile, String) a                     |      1    0%  |              0  |        1  |
+|  com.yourkit.probes.ResourceCounter.open(Object, String) a                                                                                          |      1    0%  |              1  |        1  |
+|  java.nio.file.Files.readAttributes(Path, Class, LinkOption[]) Files.java                                                                           |      0    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.getFileAttributeView(Path, Class, LinkOption[]) LinuxFileSystemProvider.java                                    |      0    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.readAttributes(Path, Class, LinkOption[]) LinuxFileSystemProvider.java                                          |      0    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributeViews.createBasicView(UnixPath, boolean) UnixFileAttributeViews.java                                                   |      0    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.getFileAttributeView(Path, Class, LinkOption[]) UnixFileSystemProvider.java                                      |      0    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.readAttributes(Path, Class, LinkOption[]) UnixFileSystemProvider.java                                            |      0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:19:54

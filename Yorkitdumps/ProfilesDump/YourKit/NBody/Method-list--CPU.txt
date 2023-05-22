@@ -1,0 +1,106 @@
+Method list (CPU)
+
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|                                                              Method                                                              |   Time (ms)   |  Own Time (ms)  |  Samples  |
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                          |  6,939   99%  |              0  |      693  |
+|  Run.runBenchmark()                                                                                                              |  6,916   99%  |          < 0.1  |      692  |
+|  Run.doRuns(Benchmark)                                                                                                           |  6,902   99%  |              0  |      691  |
+|  Run.measure(Benchmark)                                                                                                          |  6,902   99%  |              0  |      691  |
+|  NBody.innerBenchmarkLoop(int)                                                                                                   |  6,892   99%  |             37  |      690  |
+|  nbody.NBodySystem.advance(double)                                                                                               |  6,854   98%  |          3,253  |      687  |
+|  nbody.Body.setVX(double)                                                                                                        |  1,949   28%  |          1,949  |      197  |
+|  nbody.Body.setVZ(double)                                                                                                        |    604    9%  |            604  |       58  |
+|  nbody.Body.setVY(double)                                                                                                        |    416    6%  |            416  |       42  |
+|  nbody.Body.getZ()                                                                                                               |    291    4%  |            291  |       29  |
+|  nbody.Body.getY()                                                                                                               |    140    2%  |            140  |       14  |
+|  nbody.Body.setY(double)                                                                                                         |     71    1%  |             71  |        7  |
+|  nbody.Body.getX()                                                                                                               |     58    1%  |             58  |        6  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                        |     43    1%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                               |     43    1%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                       |     43    1%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                 |     43    1%  |              0  |        6  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                    |     43    1%  |              0  |        6  |
+|  nbody.Body.setZ(double)                                                                                                         |     28    0%  |             28  |        3  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                            |     24    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                            |     24    0%  |              0  |        2  |
+|  Harness.processArguments(String[])                                                                                              |     23    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass(String, byte[], int, int, ProtectionDomain) ClassLoader.java                                  |     23    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass1(ClassLoader, String, byte[], int, int, ProtectionDomain, String) ClassLoader.java (native)   |     23    0%  |             23  |        1  |
+|  java.security.SecureClassLoader.defineClass(String, byte[], int, int, CodeSource) SecureClassLoader.java                        |     23    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                    |     23    0%  |              0  |        1  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                |     20    0%  |              0  |        5  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                               |     20    0%  |              0  |        5  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java              |     20    0%  |              0  |        5  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java  |     20    0%  |              0  |        5  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                  |     20    0%  |              0  |        4  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                   |     20    0%  |              0  |        4  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                            |     20    0%  |              0  |        4  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                       |     20    0%  |              0  |        4  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                          |     20    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                               |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                               |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                 |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                      |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                      |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java       |     20    0%  |              0  |        5  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                       |     20    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                    |     20    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                            |     20    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                            |     20    0%  |              0  |        4  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                          |     20    0%  |              0  |        5  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                      |     20    0%  |              0  |        5  |
+|  nbody.Body.setX(double)                                                                                                         |     19    0%  |             19  |        2  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                        |     14    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                      |     14    0%  |              0  |        1  |
+|  java.nio.CharBuffer.wrap(char[], int, int) CharBuffer.java                                                                      |     14    0%  |             14  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                         |     14    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                             |     14    0%  |              0  |        1  |
+|  java.io.File.toPath() File.java                                                                                                 |     13    0%  |              0  |        2  |
+|  java.nio.file.FileSystems.getDefault() FileSystems.java                                                                         |     13    0%  |              0  |        2  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.<clinit>() FileSystems.java                                                   |     13    0%  |              0  |        2  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.defaultFileSystem() FileSystems.java                                          |     13    0%  |          < 0.1  |        2  |
+|  nbody.Body.getVY()                                                                                                              |      9    0%  |              9  |        1  |
+|  java.io.BufferedWriter.write(String, int, int) BufferedWriter.java                                                              |      9    0%  |              0  |        1  |
+|  java.io.Writer.write(String) Writer.java                                                                                        |      9    0%  |              0  |        1  |
+|  java.lang.String.getChars(int, int, char[], int) String.java                                                                    |      9    0%  |              9  |        1  |
+|  Run.printResult(long)                                                                                                           |      9    0%  |              0  |        1  |
+|  nbody.Body.getVZ()                                                                                                              |      9    0%  |              9  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.getDefaultProvider() FileSystems.java                                         |      7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                      |      7    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                      |      7    0%  |              0  |        1  |
+|  java.security.AccessController.doPrivileged(PrivilegedAction) AccessController.java                                             |      7    0%  |              0  |        1  |
+|  java.security.AccessController.executePrivileged(PrivilegedAction, AccessControlContext, Class) AccessController.java           |      7    0%  |              0  |        1  |
+|  sun.nio.fs.DefaultFileSystemProvider.<clinit>() DefaultFileSystemProvider.java                                                  |      7    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystem.<init>(UnixFileSystemProvider, String) LinuxFileSystem.java                                          |      7    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.<init>() LinuxFileSystemProvider.java                                                        |      7    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                           |      7    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                           |      7    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileSystem.<init>(UnixFileSystemProvider, String) UnixFileSystem.java                                            |      7    0%  |              7  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.<init>() UnixFileSystemProvider.java                                                          |      7    0%  |              0  |        1  |
+|  java.nio.file.Files.readAttributes(Path, Class, LinkOption[]) Files.java                                                        |      6    0%  |              0  |        2  |
+|  sun.nio.fs.LinuxFileSystemProvider.readAttributes(Path, Class, LinkOption[]) LinuxFileSystemProvider.java                       |      6    0%  |              0  |        2  |
+|  sun.nio.fs.UnixFileSystemProvider.readAttributes(Path, Class, LinkOption[]) UnixFileSystemProvider.java                         |      6    0%  |          < 0.1  |        2  |
+|  java.net.URI.<init>(String) URI.java                                                                                            |      6    0%  |              6  |        1  |
+|  java.net.URI.create(String) URI.java                                                                                            |      6    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.getFileAttributeView(Path, Class, LinkOption[]) LinuxFileSystemProvider.java                 |      3    0%  |              3  |        1  |
+|  java.lang.ThreadLocal.get() ThreadLocal.java                                                                                    |      2    0%  |              0  |        1  |
+|  java.lang.ThreadLocal.setInitialValue() ThreadLocal.java                                                                        |      2    0%  |              0  |        1  |
+|  java.util.Collections.newSetFromMap(Map) Collections.java                                                                       |      2    0%  |              0  |        1  |
+|  java.util.Collections$SetFromMap.<init>(Map) Collections.java                                                                   |      2    0%  |              0  |        1  |
+|  java.util.IdentityHashMap.keySet() IdentityHashMap.java                                                                         |      2    0%  |              2  |        1  |
+|  jdk.internal.misc.TerminatingThreadLocal.register(TerminatingThreadLocal) TerminatingThreadLocal.java                           |      2    0%  |              0  |        1  |
+|  jdk.internal.misc.TerminatingThreadLocal$1.initialValue() TerminatingThreadLocal.java                                           |      2    0%  |              0  |        1  |
+|  jdk.internal.misc.TerminatingThreadLocal$1.initialValue() TerminatingThreadLocal.java                                           |      2    0%  |              0  |        1  |
+|  sun.nio.fs.NativeBuffers.getNativeBufferFromCache(int) NativeBuffers.java                                                       |      2    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributes.get(UnixPath, boolean) UnixFileAttributes.java                                                    |      2    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes() UnixFileAttributeViews.java                                            |      2    0%  |              0  |        1  |
+|  sun.nio.fs.UnixNativeDispatcher.copyToNativeBuffer(UnixPath) UnixNativeDispatcher.java                                          |      2    0%  |              0  |        1  |
+|  sun.nio.fs.UnixNativeDispatcher.stat(UnixPath, UnixFileAttributes) UnixNativeDispatcher.java                                    |      2    0%  |              0  |        1  |
+|  java.net.URL.<init>(String, String, int, String, URLStreamHandler) URL.java                                                     |      0    0%  |              0  |        1  |
+|  java.net.URL.getURLStreamHandler(String) URL.java                                                                               |      0    0%  |              0  |        1  |
+|  java.net.URL$DefaultFactory.createURLStreamHandler(String) URL.java                                                             |      0    0%  |              0  |        1  |
+|  sun.net.www.protocol.jar.Handler.<init>() Handler.java                                                                          |      0    0%  |              0  |        1  |
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 11:57:23

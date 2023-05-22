@@ -1,0 +1,80 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  11,410   99%  |              0  |    1,141  |
+|  Run.runBenchmark()                                                                                                                                 |  11,410   99%  |              0  |    1,141  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  11,383   99%  |              0  |    1,140  |
+|  Run.measure(Benchmark)                                                                                                                             |  11,383   99%  |              0  |    1,140  |
+|  Mandelbrot.innerBenchmarkLoop(int)                                                                                                                 |  11,373   99%  |              0  |    1,139  |
+|  Mandelbrot.mandelbrot(int)                                                                                                                         |  11,373   99%  |         11,373  |    1,139  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                                   |      30    0%  |              0  |        2  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                                  |      30    0%  |              0  |        2  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                           |      30    0%  |              0  |        2  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                                 |      30    0%  |              0  |        2  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java                     |      30    0%  |              0  |        2  |
+|  java.util.HashMap.hash(Object) HashMap.java                                                                                                        |      30    0%  |              0  |        1  |
+|  java.util.HashMap.put(Object, Object) HashMap.java                                                                                                 |      30    0%  |              0  |        1  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                                     |      30    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                                               |      30    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                                      |      30    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                                          |      30    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                                             |      30    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source$Key.hashCode() ZipFile.java                                                                                           |      30    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                  |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                          |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                    |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                       |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                                  |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                                  |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                                    |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                          |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                          |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                                       |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      30    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |      30    0%  |              0  |        2  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                             |      30    0%  |              0  |        2  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                         |      30    0%  |              0  |        2  |
+|  sun.nio.fs.UnixFileAttributes.lastModifiedTime() UnixFileAttributes.java                                                                           |      30    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileAttributes.toFileTime(long, long) UnixFileAttributes.java                                                                       |      30    0%  |             30  |        1  |
+|  sun.nio.fs.UnixFileAttributes$UnixAsBasicFileAttributes.lastModifiedTime() UnixFileAttributes.java                                                 |      30    0%  |              0  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |      27    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                           |      27    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.bindArgumentL(int, Object) BoundMethodHandle.java                                                               |      27    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendL(MethodType, LambdaForm, Object) BoundMethodHandle.java                                |      27    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL         |      27    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |      27    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |      27    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |      27    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                          |      27    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |      27    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                             |      27    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                              |      27    0%  |             27  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |      27    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                    |      27    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                              |      27    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentL(BoundMethodHandle, int, Object) LambdaFormEditor.java                                              |      27    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                     |      27    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, int, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                  |      27    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |      27    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.insertArguments(MethodHandle, int, Object[]) MethodHandles.java                                                     |      27    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, List) StringConcatFactory.java                                               |      27    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |      27    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.prepender(String, Class) StringConcatFactory.java                                                             |      27    0%  |              0  |        1  |
+|  java.io.BufferedWriter.ensureOpen() BufferedWriter.java                                                                                            |       9    0%  |              9  |        1  |
+|  java.io.BufferedWriter.write(String, int, int) BufferedWriter.java                                                                                 |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |       9    0%  |              0  |        1  |
+|  java.io.Writer.write(String) Writer.java                                                                                                           |       9    0%  |              0  |        1  |
+|  Run.printResult(long)                                                                                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, long, Object, long, Object) DirectMethodHandle$Holder                              |       6    0%  |              0  |        1  |
+|  java.lang.Long.getChars(long, int, byte[]) Long.java                                                                                               |       6    0%  |              6  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], long) StringConcatHelper.java                                                                   |       6    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], long, String) StringConcatHelper.java                                                           |       6    0%  |              0  |        1  |
+|  java.util.jar.JarFile.<clinit>() JarFile.java                                                                                                      |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:15:28

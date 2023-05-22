@@ -1,0 +1,88 @@
+Method list (CPU)
+
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|                                                              Method                                                              |   Time (ms)   |  Own Time (ms)  |  Samples  |
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                          |  8,489   99%  |              0  |      856  |
+|  Run.doRuns(Benchmark)                                                                                                           |  8,478   99%  |              0  |      853  |
+|  Run.measure(Benchmark)                                                                                                          |  8,478   99%  |          < 0.1  |      853  |
+|  Run.runBenchmark()                                                                                                              |  8,478   99%  |              0  |      853  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                               |  8,471   99%  |              0  |      852  |
+|  Towers.benchmark()                                                                                                              |  8,471   99%  |             19  |      852  |
+|  Towers.moveDisks(int, int, int)                                                                                                 |  8,451   99%  |            549  |      850  |
+|  Towers.moveTopDisk(int, int)                                                                                                    |  7,911   93%  |            582  |      793  |
+|  Towers.pushDisk(Towers$TowersDisk, int)                                                                                         |  4,079   48%  |          3,041  |      410  |
+|  Towers.popDiskFrom(int)                                                                                                         |  3,250   38%  |          2,568  |      323  |
+|  Towers$TowersDisk.setNext(Towers$TowersDisk)                                                                                    |  1,508   18%  |          1,498  |      152  |
+|  Towers$TowersDisk.getSize()                                                                                                     |    206    2%  |            206  |       20  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                        |     44    1%  |              0  |        7  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                               |     44    1%  |          < 0.1  |        7  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                       |     44    1%  |              0  |        7  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                 |     44    1%  |              0  |        7  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                    |     44    1%  |              0  |        7  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                 |     40    0%  |              0  |        5  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                |     34    0%  |              0  |        4  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                               |     34    0%  |              0  |        4  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java              |     34    0%  |              0  |        4  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java  |     34    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                               |     34    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                               |     34    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                      |     34    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                      |     34    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java       |     34    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                       |     34    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                            |     34    0%  |          < 0.1  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                            |     34    0%  |              0  |        3  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                          |     34    0%  |              0  |        4  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                      |     34    0%  |              0  |        4  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                  |     31    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                   |     31    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                            |     31    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                    |     31    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                       |     18    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                          |     18    0%  |             18  |        1  |
+|  java.nio.DirectByteBuffer.asLongBuffer() DirectByteBuffer.java                                                                  |     12    0%  |             12  |        1  |
+|  jdk.internal.perf.PerfCounter.<init>(String, int) PerfCounter.java                                                              |     12    0%  |              0  |        1  |
+|  jdk.internal.perf.PerfCounter.getZipFileOpenTime() PerfCounter.java                                                             |     12    0%  |              0  |        1  |
+|  jdk.internal.perf.PerfCounter.newPerfCounter(String) PerfCounter.java                                                           |     12    0%  |              0  |        1  |
+|  jdk.internal.perf.PerfCounter$CoreCounters.<clinit>() PerfCounter.java                                                          |     12    0%  |              0  |        1  |
+|  Harness.processArguments(String[])                                                                                              |     10    0%  |              0  |        3  |
+|  java.util.jar.JarFile.getEntry(String) JarFile.java                                                                             |      9    0%  |              0  |        2  |
+|  java.util.jar.JarFile.getJarEntry(String) JarFile.java                                                                          |      9    0%  |              0  |        2  |
+|  java.util.jar.JarEntry.<init>(String) JarEntry.java                                                                             |      6    0%  |              6  |        1  |
+|  java.util.jar.JarFile.entryFor(String) JarFile.java                                                                             |      6    0%  |              0  |        1  |
+|  java.util.jar.JarFile$JarFileEntry.<init>(JarFile, String) JarFile.java                                                         |      6    0%  |              0  |        1  |
+|  java.util.jar.JavaUtilJarAccessImpl.entryFor(JarFile, String) JavaUtilJarAccessImpl.java                                        |      6    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.getEntry(String) ZipFile.java                                                                             |      6    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.getZipEntry(String, int) ZipFile.java                                                                     |      6    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getResource(String, boolean) URLClassPath.java                                       |      6    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.reinvoke_L(Object, long, Object) DelegatingMethodHandle$Holder                   |      6    0%  |              6  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c7800.invoke(Object, Object, long) LambdaForm$MH                                    |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c7c00.linkToTargetMethod(Object, long, Object) LambdaForm$MH                        |      6    0%  |              0  |        1  |
+|  Run.printResult(long)                                                                                                           |      6    0%  |              0  |        1  |
+|  Towers$TowersDisk.getNext()                                                                                                     |      4    0%  |              4  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                    |      3    0%  |          < 0.1  |        2  |
+|  java.util.jar.JarFile.checkForSpecialAttributes() JarFile.java                                                                  |      2    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getBytes(ZipEntry) JarFile.java                                                                           |      2    0%  |              0  |        1  |
+|  java.util.jar.JarFile.isMultiRelease() JarFile.java                                                                             |      2    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.getInputStream(ZipEntry) ZipFile.java                                                                     |      2    0%  |              2  |        1  |
+|  jdk.internal.util.jar.JarIndex.getJarIndex(JarFile) JarIndex.java                                                               |      2    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files.readOnEnter(RandomAccessFile) a                                                                |      2    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$RandomAccessFile_read_array_Probe.onEnter(RandomAccessFile) a                                  |      2    0%  |              0  |        1  |
+|  com.yourkit.probes.ObjectRowIndexMap.get(Object) a                                                                              |      2    0%  |              2  |        1  |
+|  com.yourkit.probes.ResourceRegistry.getOrCreate(Object) a                                                                       |      2    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.read(byte[], int, int) RandomAccessFile.java                                                           |      2    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.readFully(byte[], int, int) RandomAccessFile.java                                                      |      2    0%  |              0  |        1  |
+|  java.util.zip.InflaterInputStream.read(byte[], int, int) InflaterInputStream.java                                               |      2    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.readFullyAt(byte[], int, int, long) ZipFile.java                                                   |      2    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.fill() ZipFile.java                                                            |      2    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInputStream.initDataOffset() ZipFile.java                                                          |      2    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInputStream.read(byte[], int, int) ZipFile.java                                                    |      2    0%  |              0  |        1  |
+|  jdk.internal.loader.Resource.getBytes() Resource.java                                                                           |      2    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getBytes() URLClassPath.java                                                       |      2    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass(String, byte[], int, int, ProtectionDomain) ClassLoader.java                                  |      1    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass1(ClassLoader, String, byte[], int, int, ProtectionDomain, String) ClassLoader.java (native)   |      1    0%  |              1  |        1  |
+|  java.security.SecureClassLoader.defineClass(String, byte[], int, int, CodeSource) SecureClassLoader.java                        |      1    0%  |              0  |        1  |
++----------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:15:16

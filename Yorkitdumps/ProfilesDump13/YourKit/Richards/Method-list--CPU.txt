@@ -1,0 +1,132 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                   Method                                                                    |   Time (ms)    |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                     |  27,534   99%  |              0  |    2,756  |
+|  Run.doRuns(Benchmark)                                                                                                                      |  27,534   99%  |              0  |    2,756  |
+|  Run.measure(Benchmark)                                                                                                                     |  27,534   99%  |          < 0.1  |    2,756  |
+|  Run.runBenchmark()                                                                                                                         |  27,534   99%  |              0  |    2,756  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                          |  27,514   99%  |              0  |    2,754  |
+|  Richards.benchmark()                                                                                                                       |  27,454   99%  |          7,712  |    2,748  |
+|  richards.Scheduler.start()                                                                                                                 |  19,406   70%  |          < 0.1  |    1,943  |
+|  richards.Scheduler.schedule()                                                                                                              |  18,907   69%  |            785  |    1,892  |
+|  richards.TaskControlBlock.runTask()                                                                                                        |  17,246   63%  |         10,252  |    1,725  |
+|  richards.Scheduler$$Lambda$14.0x00000008000c7978.apply(Packet, RBObject)                                                                   |   3,635   13%  |            899  |      362  |
+|  richards.Scheduler.lambda$createHandler$1(Packet, RBObject)                                                                                |   2,736   10%  |            349  |      272  |
+|  richards.Scheduler$$Lambda$15.0x00000008000c7ba0.apply(Packet, RBObject)                                                                   |   1,983    7%  |          1,121  |      199  |
+|  richards.HandlerTaskDataRecord.workInAdd(Packet)                                                                                           |   1,465    5%  |            446  |      145  |
+|  richards.RBObject.append(Packet, Packet)                                                                                                   |   1,153    4%  |            858  |      115  |
+|  richards.Scheduler.queuePacket(Packet)                                                                                                     |     998    4%  |             69  |      100  |
+|  richards.Scheduler.lambda$createDevice$0(Packet, RBObject)                                                                                 |     861    3%  |            360  |       87  |
+|  richards.TaskState.isTaskHoldingOrWaiting()                                                                                                |     854    3%  |            854  |       86  |
+|  richards.Scheduler$$Lambda$12.0x00000008000c7528.apply(Packet, RBObject)                                                                   |     829    3%  |            297  |       84  |
+|  richards.TaskControlBlock.addInputAndCheckPriority(Packet, TaskControlBlock)                                                               |     678    2%  |            678  |       68  |
+|  richards.Scheduler$$Lambda$13.0x00000008000c7750.apply(Packet, RBObject)                                                                   |     566    2%  |            248  |       57  |
+|  richards.Scheduler.lambda$createIdler$2(Packet, RBObject)                                                                                  |     531    2%  |            192  |       55  |
+|  richards.Scheduler.findTask(int)                                                                                                           |     370    1%  |            370  |       37  |
+|  richards.Packet.<init>(Packet, int, int)                                                                                                   |     362    1%  |            362  |       37  |
+|  richards.Scheduler.createPacket(Packet, int, int)                                                                                          |     362    1%  |              0  |       37  |
+|  richards.Scheduler.lambda$createWorker$3(Packet, RBObject)                                                                                 |     318    1%  |            108  |       32  |
+|  richards.Scheduler.<init>()                                                                                                                |     310    1%  |            310  |       31  |
+|  richards.Packet.setLink(Packet)                                                                                                            |     294    1%  |            294  |       30  |
+|  richards.Scheduler.release(int)                                                                                                            |     289    1%  |             19  |       29  |
+|  richards.HandlerTaskDataRecord.deviceInAdd(Packet)                                                                                         |     242    1%  |            107  |       24  |
+|  richards.DeviceTaskDataRecord.getPending()                                                                                                 |     177    1%  |            177  |       18  |
+|  richards.DeviceTaskDataRecord.setPending(Packet)                                                                                           |     134    0%  |            134  |       14  |
+|  richards.TaskState.setTaskHolding(boolean)                                                                                                 |     129    0%  |            129  |       13  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                   |      61    0%  |              0  |        5  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                          |      61    0%  |              0  |        5  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                  |      61    0%  |              0  |        5  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                            |      61    0%  |              0  |        5  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                               |      61    0%  |              0  |        5  |
+|  richards.Scheduler.createIdler(int, int, Packet, TaskState)                                                                                |      59    0%  |          < 0.1  |        6  |
+|  richards.TaskState.createWaitingWithPacket()                                                                                               |      49    0%  |             49  |        5  |
+|  richards.IdleTaskDataRecord.setControl(int)                                                                                                |      49    0%  |             49  |        5  |
+|  richards.Scheduler.createTask(int, int, Packet, TaskState, ProcessFunction, RBObject)                                                      |      49    0%  |             39  |        5  |
+|  richards.WorkerTaskDataRecord.getCount()                                                                                                   |      39    0%  |             39  |        4  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                           |      35    0%  |              0  |        4  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                          |      35    0%  |              0  |        4  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                         |      35    0%  |              0  |        3  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java             |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                          |      35    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                          |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                            |      35    0%  |              0  |        4  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                 |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                 |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                  |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                  |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                       |      35    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                       |      35    0%  |              0  |        3  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                     |      35    0%  |              0  |        4  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                 |      35    0%  |              0  |        4  |
+|  richards.HandlerTaskDataRecord.workIn(Packet)                                                                                              |      29    0%  |             29  |        3  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                             |      26    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                                       |      26    0%  |              0  |        2  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                              |      26    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                                  |      26    0%  |              0  |        2  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                                     |      26    0%  |          < 0.1  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                               |      26    0%  |              0  |        2  |
+|  java.util.jar.Attributes.read(Manifest$FastInputStream, byte[], String, int) Attributes.java                                               |      25    0%  |             25  |        1  |
+|  java.util.jar.JarFile.getManifest() JarFile.java                                                                                           |      25    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getManifestFromReference() JarFile.java                                                                              |      25    0%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(JarVerifier, InputStream, String) Manifest.java                                                              |      25    0%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(InputStream, String) Manifest.java                                                                           |      25    0%  |              0  |        1  |
+|  java.util.jar.Manifest.read(InputStream, String) Manifest.java                                                                             |      25    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                               |      25    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getManifest() URLClassPath.java                                                               |      25    0%  |              0  |        1  |
+|  richards.TaskControlBlock.getLink()                                                                                                        |      20    0%  |             20  |        2  |
+|  richards.TaskState.running()                                                                                                               |      19    0%  |             19  |        2  |
+|  richards.TaskState.<init>()                                                                                                                |      19    0%  |              9  |        2  |
+|  richards.TaskControlBlock.getPriority()                                                                                                    |      19    0%  |             19  |        2  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                           |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                       |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                       |      19    0%  |              0  |        2  |
+|  Run.printResult(long)                                                                                                                      |      19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                  |      19    0%  |              9  |        2  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object) Invokers$Holder                                                        |      19    0%  |             19  |        2  |
+|  richards.TaskState.isWaitingWithPacket()                                                                                                   |      17    0%  |             17  |        2  |
+|  java.io.RandomAccessFile.<init>(File, String) RandomAccessFile.java                                                                        |      16    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.<init>(File, String, boolean) RandomAccessFile.java                                                               |      16    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.open(String, int) RandomAccessFile.java                                                                           |      16    0%  |             16  |        1  |
+|  java.util.zip.ZipFile$Source.<init>(ZipFile$Source$Key, boolean, ZipCoder) ZipFile.java                                                    |      16    0%  |              0  |        1  |
+|  richards.RBObject.<init>()                                                                                                                 |      16    0%  |             16  |        2  |
+|  java.io.File.toPath() File.java                                                                                                            |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems.getDefault() FileSystems.java                                                                                    |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.<clinit>() FileSystems.java                                                              |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.defaultFileSystem() FileSystems.java                                                     |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.getDefaultProvider() FileSystems.java                                                    |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                 |      10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                 |      10    0%  |              0  |        1  |
+|  java.security.AccessController.doPrivileged(PrivilegedAction) AccessController.java                                                        |      10    0%  |              0  |        1  |
+|  java.security.AccessController.executePrivileged(PrivilegedAction, AccessControlContext, Class) AccessController.java                      |      10    0%  |              0  |        1  |
+|  sun.nio.fs.DefaultFileSystemProvider.<clinit>() DefaultFileSystemProvider.java                                                             |      10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.<init>() LinuxFileSystemProvider.java                                                                   |      10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                                      |      10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                                      |      10    0%  |             10  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.<init>() UnixFileSystemProvider.java                                                                     |      10    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                             |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                       |       9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                     |       9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.writeBytes(byte[], int, int, boolean) FileOutputStream.java (native)                                              |       9    0%  |              9  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                               |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                              |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                   |       9    0%  |              0  |        1  |
+|  richards.WorkerTaskDataRecord.setCount(int)                                                                                                |       9    0%  |              9  |        1  |
+|  richards.TaskState.createRunning()                                                                                                         |       9    0%  |              0  |        1  |
+|  richards.TaskControlBlock.<init>(TaskControlBlock, int, int, Packet, TaskState, ProcessFunction, RBObject)                                 |       9    0%  |              0  |        1  |
+|  richards.Scheduler.createHandler(int, int, Packet, TaskState)                                                                              |       9    0%  |              0  |        1  |
+|  java.util.jar.JarFile.checkForSpecialAttributes() JarFile.java                                                                             |       9    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getBytes(ZipEntry) JarFile.java                                                                                      |       9    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getEntry(String) JarFile.java                                                                                        |       9    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getJarEntry(String) JarFile.java                                                                                     |       9    0%  |              0  |        1  |
+|  java.util.jar.JarFile.isMultiRelease() JarFile.java                                                                                        |       9    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.getInputStream(ZipEntry) ZipFile.java                                                                                |       9    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$CleanableResource.getInflater() ZipFile.java                                                                         |       9    0%  |              9  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.<init>(ZipFile, ZipFile$ZipFileInputStream, ZipFile$CleanableResource, int) ZipFile.java  |       9    0%  |              0  |        1  |
+|  jdk.internal.util.jar.JarIndex.getJarIndex(JarFile) JarIndex.java                                                                          |       9    0%  |              0  |        1  |
+|  richards.DeviceTaskDataRecord.<init>()                                                                                                     |       6    0%  |              0  |        1  |
+|  richards.Scheduler.createDevice(int, int, Packet, TaskState)                                                                               |       6    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:11:47

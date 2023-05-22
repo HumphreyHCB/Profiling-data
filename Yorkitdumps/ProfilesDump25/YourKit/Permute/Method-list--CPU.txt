@@ -1,0 +1,145 @@
+Method list (CPU)
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|                                                                        Method                                                                         |   Time (ms)   |  Own Time (ms)  |  Samples  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                               |  8,840   99%  |          < 0.1  |      893  |
+|  Run.runBenchmark()                                                                                                                                   |  8,833   99%  |          < 0.1  |      891  |
+|  Run.doRuns(Benchmark)                                                                                                                                |  8,827   99%  |              0  |      890  |
+|  Run.measure(Benchmark)                                                                                                                               |  8,827   99%  |          < 0.1  |      890  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                    |  8,801   99%  |              0  |      887  |
+|  Permute.benchmark()                                                                                                                                  |  8,791   99%  |             29  |      886  |
+|  Permute.permute(int)                                                                                                                                 |  8,761   99%  |          5,037  |      883  |
+|  Permute.swap(int, int)                                                                                                                               |  3,723   42%  |          3,723  |      380  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                             |     43    0%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                    |     43    0%  |          < 0.1  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                            |     43    0%  |              0  |        6  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                      |     43    0%  |              0  |        6  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                         |     43    0%  |              0  |        6  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                                     |     36    0%  |              0  |        4  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                                    |     36    0%  |              0  |        4  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                               |     36    0%  |              0  |        4  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                           |     36    0%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                                         |     32    0%  |              0  |        3  |
+|  java.security.SecureClassLoader.defineClass(String, byte[], int, int, CodeSource) SecureClassLoader.java                                             |     25    0%  |              0  |        2  |
+|  Run.printResult(long)                                                                                                                                |     25    0%  |              0  |        3  |
+|  java.security.SecureClassLoader.getProtectionDomain(CodeSource) SecureClassLoader.java                                                               |     24    0%  |             24  |        1  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                 |     19    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                 |     19    0%  |          < 0.1  |        2  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                       |     11    0%  |              0  |        2  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                    |     11    0%  |              0  |        2  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder                |     11    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                    |     11    0%  |              0  |        2  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                              |     11    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, int, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                    |     11    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java            |     11    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, List) StringConcatFactory.java                                                 |     11    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java    |     11    0%  |              0  |        2  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                                   |     11    0%  |              0  |        3  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java                       |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                                    |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                                    |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                                      |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                           |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                           |     11    0%  |              0  |        3  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                            |     11    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                            |     11    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                                         |     11    0%  |              1  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                                 |     11    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                                 |     11    0%  |              0  |        2  |
+|  java.io.File.toPath() File.java                                                                                                                      |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems.getDefault() FileSystems.java                                                                                              |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.<clinit>() FileSystems.java                                                                        |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.defaultFileSystem() FileSystems.java                                                               |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder.getDefaultProvider() FileSystems.java                                                              |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                           |     10    0%  |              0  |        1  |
+|  java.nio.file.FileSystems$DefaultFileSystemHolder$1.run() FileSystems.java                                                                           |     10    0%  |              0  |        1  |
+|  java.security.AccessController.doPrivileged(PrivilegedAction) AccessController.java                                                                  |     10    0%  |              0  |        1  |
+|  java.security.AccessController.executePrivileged(PrivilegedAction, AccessControlContext, Class) AccessController.java                                |     10    0%  |              0  |        1  |
+|  java.util.jar.JarFile.<init>(File, boolean, int, Runtime$Version) JarFile.java                                                                       |     10    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.<init>(File, int) ZipFile.java                                                                                                 |     10    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.<init>(File, int, Charset) ZipFile.java                                                                                        |     10    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$CleanableResource.<init>(ZipFile, ZipCoder, File, int) ZipFile.java                                                            |     10    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.get(File, boolean, ZipCoder) ZipFile.java                                                                               |     10    0%  |              0  |        1  |
+|  sun.nio.fs.DefaultFileSystemProvider.<clinit>() DefaultFileSystemProvider.java                                                                       |     10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystem.<init>(UnixFileSystemProvider, String) LinuxFileSystem.java                                                               |     10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.<init>() LinuxFileSystemProvider.java                                                                             |     10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                                                |     10    0%  |              0  |        1  |
+|  sun.nio.fs.LinuxFileSystemProvider.newFileSystem(String) LinuxFileSystemProvider.java                                                                |     10    0%  |              0  |        1  |
+|  sun.nio.fs.UnixFileSystem.<init>(UnixFileSystemProvider, String) UnixFileSystem.java                                                                 |     10    0%  |             10  |        1  |
+|  sun.nio.fs.UnixFileSystemProvider.<init>() UnixFileSystemProvider.java                                                                               |     10    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                       |      9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                 |      9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                               |      9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.writeBytes(byte[], int, int, boolean) FileOutputStream.java (native)                                                        |      9    0%  |              9  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                     |      9    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                         |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                            |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                        |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                             |      9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                             |      9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                           |      9    0%  |              0  |        1  |
+|  java.nio.Buffer.limit() Buffer.java                                                                                                                  |      9    0%  |              9  |        1  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java                                                          |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                                                                                    |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                              |      9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                  |      9    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeArrayLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                    |      9    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                         |      9    0%  |              0  |        1  |
+|  Permute.verifyResult(Object)                                                                                                                         |      9    0%  |              9  |        1  |
+|  Harness.processArguments(String[])                                                                                                                   |      7    0%  |              0  |        2  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)   |      6    0%  |              6  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                             |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.bindArgumentL(int, Object) BoundMethodHandle.java                                                                 |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendL(MethodType, LambdaForm, Object) BoundMethodHandle.java                                  |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |      6    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL             |      6    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                            |      6    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                               |      6    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                           |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                      |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                                |      6    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentL(BoundMethodHandle, int, Object) LambdaFormEditor.java                                                |      6    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                       |      6    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.insertArguments(MethodHandle, int, Object[]) MethodHandles.java                                                       |      6    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                   |      6    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.newArrayWithSuffix(String) StringConcatFactory.java                                                             |      6    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                               |      6    0%  |              0  |        1  |
+|  java.lang.ref.Cleaner.register(Object, Runnable) Cleaner.java                                                                                        |      6    0%  |              0  |        1  |
+|  java.util.jar.JarFile.getInputStream(ZipEntry) JarFile.java                                                                                          |      6    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.getInputStream(ZipEntry) ZipFile.java                                                                                          |      6    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.<init>(ZipFile, ZipFile$ZipFileInputStream, ZipFile$CleanableResource, int) ZipFile.java            |      6    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.<init>(ZipFile, ZipFile$ZipFileInputStream, ZipFile$CleanableResource, Inflater, int) ZipFile.java  |      6    0%  |              0  |        1  |
+|  jdk.internal.loader.Resource.cachedInputStream() Resource.java                                                                                       |      6    0%  |              0  |        1  |
+|  jdk.internal.loader.Resource.getByteBuffer() Resource.java                                                                                           |      6    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getInputStream() URLClassPath.java                                                                      |      6    0%  |              0  |        1  |
+|  jdk.internal.ref.CleanerImpl$PhantomCleanableRef.<init>(Object, Cleaner, Runnable) CleanerImpl.java                                                  |      6    0%  |              0  |        1  |
+|  jdk.internal.ref.PhantomCleanable.<init>(Object, Cleaner) PhantomCleanable.java                                                                      |      6    0%  |              6  |        1  |
+|  java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(byte) BoundMethodHandle.java                                                               |      5    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer.findSpecies(Object) ClassSpecializer.java                                                                          |      5    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findGetter(Class, List, int) ClassSpecializer.java                                                         |      5    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findGetters(Class, List) ClassSpecializer.java                                                             |      5    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer$SpeciesData, Class) ClassSpecializer.java                           |      5    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer$SpeciesData) ClassSpecializer.java                                            |      5    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                     |      5    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                  |      5    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.foldArgumentsForm(int, boolean, MethodType, int[]) LambdaFormEditor.java                                           |      5    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                        |      5    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaForm$BasicType) LambdaFormEditor.java                                                         |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                             |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.foldArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                  |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.findGetter(Class, String, Class) MethodHandles.java                                                            |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectField(byte, Class, MemberName) MethodHandles.java                                                     |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectFieldCommon(byte, Class, MemberName, boolean) MethodHandles.java                                      |      5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, Class[]) MethodType.java                                                                       |      5    0%  |              5  |        1  |
+|  java.lang.ClassLoader.defineClass(String, byte[], int, int, ProtectionDomain) ClassLoader.java                                                       |      1    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass1(ClassLoader, String, byte[], int, int, ProtectionDomain, String) ClassLoader.java (native)                        |      1    0%  |              1  |        1  |
+|  com.sun.management.GcInfo.<init>(GcInfoBuilder, long, long, long, MemoryUsage[], MemoryUsage[], Object[]) GcInfo.java                                |      0    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.<clinit>() GcInfoCompositeData.java                                                                  |      0    0%  |              0  |        1  |
+|  jdk.internal.access.SharedSecrets.getJavaUtilZipFileAccess() SharedSecrets.java                                                                      |      0    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<clinit>() URLClassPath.java                                                                              |      0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType.<clinit>() MappedMXBeanType.java                                                                                     |      0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType.newBasicType(Class, OpenType) MappedMXBeanType.java                                                                  |      0    0%  |              0  |        1  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:17:37

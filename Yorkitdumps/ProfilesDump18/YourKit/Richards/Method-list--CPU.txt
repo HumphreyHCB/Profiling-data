@@ -1,0 +1,189 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  27,109   99%  |              0  |    2,725  |
+|  Run.runBenchmark()                                                                                                                                 |  27,109   99%  |          < 0.1  |    2,725  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  27,050   99%  |              0  |    2,720  |
+|  Run.measure(Benchmark)                                                                                                                             |  27,050   99%  |          < 0.1  |    2,720  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                  |  27,036   99%  |          < 0.1  |    2,718  |
+|  Richards.benchmark()                                                                                                                               |  26,957   99%  |          6,867  |    2,710  |
+|  richards.Scheduler.start()                                                                                                                         |  19,682   73%  |          < 0.1  |    1,981  |
+|  richards.Scheduler.schedule()                                                                                                                      |  19,223   71%  |            670  |    1,935  |
+|  richards.TaskControlBlock.runTask()                                                                                                                |  17,671   65%  |         10,437  |    1,779  |
+|  richards.Scheduler$$Lambda$14.0x00000008000c7978.apply(Packet, RBObject)                                                                           |   3,744   14%  |            968  |      376  |
+|  richards.Scheduler.lambda$createHandler$1(Packet, RBObject)                                                                                        |   2,775   10%  |            286  |      280  |
+|  richards.Scheduler$$Lambda$15.0x00000008000c7ba0.apply(Packet, RBObject)                                                                           |   2,177    8%  |          1,031  |      219  |
+|  richards.HandlerTaskDataRecord.workInAdd(Packet)                                                                                                   |   1,954    7%  |            702  |      197  |
+|  richards.RBObject.append(Packet, Packet)                                                                                                           |   1,361    5%  |          1,054  |      138  |
+|  richards.Scheduler.lambda$createDevice$0(Packet, RBObject)                                                                                         |   1,146    4%  |            398  |      115  |
+|  richards.TaskState.isTaskHoldingOrWaiting()                                                                                                        |     874    3%  |            874  |       86  |
+|  richards.Scheduler$$Lambda$12.0x00000008000c7528.apply(Packet, RBObject)                                                                           |     865    3%  |            379  |       88  |
+|  richards.Scheduler.queuePacket(Packet)                                                                                                             |     738    3%  |             88  |       75  |
+|  richards.Scheduler$$Lambda$13.0x00000008000c7750.apply(Packet, RBObject)                                                                           |     516    2%  |            199  |       52  |
+|  richards.Scheduler.lambda$createIdler$2(Packet, RBObject)                                                                                          |     486    2%  |            193  |       50  |
+|  richards.Scheduler.<init>()                                                                                                                        |     407    2%  |            407  |       41  |
+|  richards.TaskControlBlock.addInputAndCheckPriority(Packet, TaskControlBlock)                                                                       |     379    1%  |            379  |       38  |
+|  richards.Packet.setLink(Packet)                                                                                                                    |     327    1%  |            327  |       33  |
+|  richards.Scheduler.lambda$createWorker$3(Packet, RBObject)                                                                                         |     317    1%  |            133  |       32  |
+|  richards.Scheduler.findTask(int)                                                                                                                   |     300    1%  |            300  |       31  |
+|  richards.DeviceTaskDataRecord.getPending()                                                                                                         |     269    1%  |            269  |       27  |
+|  richards.Scheduler.release(int)                                                                                                                    |     252    1%  |              0  |       26  |
+|  richards.Packet.<init>(Packet, int, int)                                                                                                           |     229    1%  |            229  |       23  |
+|  richards.Scheduler.createPacket(Packet, int, int)                                                                                                  |     229    1%  |              0  |       23  |
+|  richards.DeviceTaskDataRecord.setPending(Packet)                                                                                                   |     229    1%  |            229  |       23  |
+|  richards.TaskState.setTaskHolding(boolean)                                                                                                         |     202    1%  |            202  |       21  |
+|  richards.TaskState.createWaitingWithPacket()                                                                                                       |     189    1%  |            189  |       19  |
+|  richards.HandlerTaskDataRecord.deviceInAdd(Packet)                                                                                                 |     159    1%  |             49  |       16  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |      53    0%  |              0  |        4  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |      53    0%  |              0  |        4  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |      53    0%  |              0  |        4  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |      53    0%  |              0  |        4  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |      53    0%  |              0  |        4  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, int, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                  |      53    0%  |              0  |        4  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |      53    0%  |              0  |        4  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, List) StringConcatFactory.java                                               |      53    0%  |          < 0.1  |        4  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |      53    0%  |              0  |        4  |
+|  java.lang.invoke.StringConcatFactory.prepender(String, Class) StringConcatFactory.java                                                             |      48    0%  |              0  |        2  |
+|  java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(byte) BoundMethodHandle.java                                                             |      47    0%  |              0  |        2  |
+|  java.lang.invoke.ClassSpecializer.findSpecies(Object) ClassSpecializer.java                                                                        |      47    0%  |              0  |        2  |
+|  java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer$SpeciesData) ClassSpecializer.java                                          |      47    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaForm$BasicType) LambdaFormEditor.java                                                       |      47    0%  |              0  |        2  |
+|  java.lang.invoke.BoundMethodHandle.bindArgumentL(int, Object) BoundMethodHandle.java                                                               |      46    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentL(BoundMethodHandle, int, Object) LambdaFormEditor.java                                              |      46    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandles.insertArguments(MethodHandle, int, Object[]) MethodHandles.java                                                     |      46    0%  |              0  |        2  |
+|  java.lang.ClassLoader.findBootstrapClass(String) ClassLoader.java (native)                                                                         |      44    0%  |             44  |        1  |
+|  java.lang.ClassLoader.findBootstrapClassOrNull(String) ClassLoader.java                                                                            |      44    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentForm(int) LambdaFormEditor.java                                                                      |      44    0%  |              0  |        1  |
+|  java.lang.System$2.findBootstrapClassOrNull(String) System.java                                                                                    |      44    0%  |              0  |        1  |
+|  jdk.internal.loader.BootLoader.loadClassOrNull(String) BootLoader.java                                                                             |      44    0%  |              0  |        1  |
+|  richards.IdleTaskDataRecord.setControl(int)                                                                                                        |      39    0%  |             39  |        4  |
+|  richards.Scheduler.createIdler(int, int, Packet, TaskState)                                                                                        |      29    0%  |              0  |        3  |
+|  richards.Scheduler.createTask(int, int, Packet, TaskState, ProcessFunction, RBObject)                                                              |      29    0%  |             19  |        3  |
+|  richards.HandlerTaskDataRecord.workIn(Packet)                                                                                                      |      29    0%  |             29  |        3  |
+|  Run.printResult(long)                                                                                                                              |      13    0%  |              0  |        2  |
+|  richards.Scheduler.markWaiting()                                                                                                                   |      11    0%  |             11  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnExit(int, Throwable) a                                                                                     |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onExit(int, Throwable) a                                                  |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |       9    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |       9    0%  |              0  |        2  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |       9    0%  |              0  |        2  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |       9    0%  |              0  |        2  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |       9    0%  |              0  |        2  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |       9    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |       9    0%  |              0  |        2  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object) Invokers$Holder                                                                |       9    0%  |              9  |        1  |
+|  richards.Scheduler.createHandler(int, int, Packet, TaskState)                                                                                      |       9    0%  |              0  |        1  |
+|  richards.TaskControlBlock.<init>(TaskControlBlock, int, int, Packet, TaskState, ProcessFunction, RBObject)                                         |       9    0%  |              0  |        1  |
+|  richards.TaskState.<init>()                                                                                                                        |       9    0%  |              9  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |       9    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |       9    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |       9    0%  |              0  |        2  |
+|  richards.WorkerTaskDataRecord.getCount()                                                                                                           |       9    0%  |              9  |        1  |
+|  richards.WorkerTaskDataRecord.setCount(int)                                                                                                        |       9    0%  |              9  |        1  |
+|  Richards.verifyResult(Object)                                                                                                                      |       8    0%  |              8  |        1  |
+|  richards.Packet.getKind()                                                                                                                          |       7    0%  |              7  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType) MethodHandles.java                                                     |       6    0%  |              0  |        2  |
+|  richards.TaskControlBlock.getIdentity()                                                                                                            |       5    0%  |              5  |        1  |
+|  java.lang.invoke.MemberName.checkForTypeAlias(Class) MemberName.java                                                                               |       3    0%  |              3  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolve(byte, MemberName, Class, int, boolean) MemberName.java                                                 |       3    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolveOrFail(byte, MemberName, Class, int, Class) MemberName.java                                             |       3    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.resolveOrFail(byte, Class, String, MethodType) MethodHandles.java                                            |       3    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory$1.apply(Class) StringConcatFactory.java                                                                       |       3    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory$1.apply(Object) StringConcatFactory.java                                                                      |       3    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.lookupStatic(String, MethodType) StringConcatHelper.java                                                              |       3    0%  |              0  |        1  |
+|  java.lang.System$2.stringConcatHelper(String, MethodType) System.java                                                                              |       3    0%  |              0  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Object, Function) ConcurrentHashMap.java                                                    |       3    0%  |              0  |        1  |
+|  java.lang.Class.getPackageName() Class.java                                                                                                        |       2    0%  |              2  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactories(Class, List) ClassSpecializer.java                                                         |       2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactory(Class, List) ClassSpecializer.java                                                           |       2    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer$SpeciesData, Class) ClassSpecializer.java                         |       2    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                   |       2    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                |       2    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                         |       2    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.shouldBeInitialized(MemberName) DirectMethodHandle.java                                                        |       2    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.foldArgumentsForm(int, boolean, MethodType, int[]) LambdaFormEditor.java                                         |       2    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                      |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                           |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.foldArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethod(byte, Class, MemberName, MethodHandles$Lookup) MethodHandles.java                            |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodCommon(byte, Class, MemberName, boolean, boolean, MethodHandles$Lookup) MethodHandles.java    |       2    0%  |              0  |        2  |
+|  sun.invoke.util.VerifyAccess.isSamePackage(Class, Class) VerifyAccess.java                                                                         |       2    0%  |              0  |        1  |
+|  java.lang.Class.forName(String, boolean, ClassLoader) Class.java                                                                                   |       2    0%  |              0  |        2  |
+|  java.lang.Class.forName0(String, boolean, ClassLoader, Class) Class.java (native)                                                                  |       2    0%  |              0  |        2  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                           |       2    0%  |              0  |        2  |
+|  java.security.AccessController.doPrivileged(PrivilegedExceptionAction, AccessControlContext) AccessController.java                                 |       2    0%  |              0  |        2  |
+|  java.security.AccessController.executePrivileged(PrivilegedExceptionAction, AccessControlContext, Class) AccessController.java                     |       2    0%  |              0  |        2  |
+|  java.util.jar.JarFile.<clinit>() JarFile.java                                                                                                      |       2    0%  |              2  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                  |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                          |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                    |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                       |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getLoader(int) URLClassPath.java                                                                                  |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getLoader(URL) URLClassPath.java                                                                                  |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath.getResource(String, boolean) URLClassPath.java                                                                    |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$3.run() URLClassPath.java                                                                                         |       2    0%  |              0  |        2  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<init>(URL, URLStreamHandler, HashMap, AccessControlContext) URLClassPath.java                          |       2    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.ensureOpen() URLClassPath.java                                                                          |       2    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.getJarFile(URL) URLClassPath.java                                                                       |       2    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |       2    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$1.run() URLClassPath.java                                                                               |       2    0%  |              0  |        1  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                             |       2    0%  |              0  |        2  |
+|  sun.launcher.LauncherHelper.loadMainClass(int, String) LauncherHelper.java                                                                         |       2    0%  |              0  |        2  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                           |       2    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendL(MethodType, LambdaForm, Object) BoundMethodHandle.java                                |       2    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL         |       2    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |       2    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                          |       2    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                             |       2    0%  |              0  |        2  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                              |       2    0%  |              0  |        2  |
+|  java.lang.invoke.InvokerBytecodeGenerator.toByteArray() InvokerBytecodeGenerator.java                                                              |       2    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                    |       2    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                              |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                     |       2    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.newArrayWithSuffix(String) StringConcatFactory.java                                                           |       2    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.ClassWriter.toByteArray() ClassWriter.java                                                                          |       2    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.Handler.getExceptionTableSize(Handler) Handler.java                                                                 |       2    0%  |              2  |        1  |
+|  jdk.internal.org.objectweb.asm.MethodWriter.putMethodInfo(ByteVector) MethodWriter.java                                                            |       2    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getAllPoolNames() GarbageCollectorExtImpl.java                                                 |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getGcInfoBuilder() GarbageCollectorExtImpl.java                                                |       0    0%  |              0  |        1  |
+|  com.yourkit.an.ap.<init>(Class, String) a                                                                                                          |       0    0%  |              0  |        1  |
+|  com.yourkit.an.ap.getDeclaredField(Class, String) a                                                                                                |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files.retrieveFilePath(Object) a                                                                                        |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                             |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$1.retrieveResourceName(Object) a                                                                                  |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                          |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtil.getFieldValue(Object, String) a                                                                                  |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.getFieldValue(Class, Object, String, CallStatus) a                                                           |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.getJniField(Class, String, CallStatus) a                                                                     |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ResourceRegistry.getOrCreate(Object) a                                                                                          |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ResourceRegistry.getResourceName(String, Object) a                                                                              |       0    0%  |              0  |        1  |
+|  com.yourkit.probes.ResourceRegistry.openOnExitImpl(long, String, Object, Object, Throwable, FailedEventPolicy) a                                   |       0    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniField.<init>(Class, String) a                                                                                               |       0    0%  |              0  |        1  |
+|  java.lang.Class.getDeclaredField(String) Class.java                                                                                                |       0    0%  |              0  |        1  |
+|  java.lang.Class.getDeclaredFields0(boolean) Class.java (native)                                                                                    |       0    0%  |              0  |        1  |
+|  java.lang.Class.privateGetDeclaredFields(boolean) Class.java                                                                                       |       0    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                |       0    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                    |       0    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.clinit(ClassWriter, String, List) InvokerBytecodeGenerator.java                                          |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Class, int, Class, String, Object) MethodHandleNatives.java                          |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.ensureInitialized(Class) MethodHandles.java                                                                  |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodForConstant(byte, Class, MemberName) MethodHandles.java                                       |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodNoSecurityManager(byte, Class, MemberName, MethodHandles$Lookup) MethodHandles.java           |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(byte, Class, String, Object) MethodHandles.java                                     |       0    0%  |              0  |        1  |
+|  java.util.zip.ZipFile.<clinit>() ZipFile.java                                                                                                      |       0    0%  |              0  |        1  |
+|  jdk.internal.access.SharedSecrets.ensureClassInitialized(Class) SharedSecrets.java                                                                 |       0    0%  |              0  |        1  |
+|  jdk.internal.access.SharedSecrets.getJavaUtilZipFileAccess() SharedSecrets.java                                                                    |       0    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader.<clinit>() URLClassPath.java                                                                            |       0    0%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.ensureClassInitialized(Class) Unsafe.java                                                                                 |       0    0%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.ensureClassInitialized0(Class) Unsafe.java (native)                                                                       |       0    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.ClassWriter.visitField(int, String, String, String, Object) ClassWriter.java                                        |       0    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.FieldVisitor.<init>(int) FieldVisitor.java                                                                          |       0    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.FieldWriter.<init>(SymbolTable, int, String, String, String, Object) FieldWriter.java                               |       0    0%  |              0  |        1  |
+|  sun.management.ManagementFactoryHelper.getAllMemoryPoolNames() ManagementFactoryHelper.java                                                        |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2022.9-b183 May 22, 2023 12:14:12
