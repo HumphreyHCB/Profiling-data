@@ -1,0 +1,1487 @@
+--- Execution profile ---
+Total samples       : 409660
+unknown_Java        : 17425 (4.25%)
+not_walkable_Java   : 8749 (2.14%)
+deoptimization      : 10 (0.00%)
+
+--- 34899980108 ns (8.52%), 34893 samples
+  [ 0] itable stub
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 16847266491 ns (4.11%), 16844 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 15843963350 ns (3.87%), 15842 samples
+  [ 0] richards.TaskControlBlock.runTask
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 11465903980 ns (2.80%), 11464 samples
+  [ 0] richards.TaskControlBlock.runTask
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 9536686913 ns (2.33%), 9535 samples
+  [ 0] richards.TaskControlBlock.getIdentity
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 9304100816 ns (2.27%), 9302 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 8591202923 ns (2.10%), 8589 samples
+  [ 0] Interpreter
+  [ 1] [not_walkable_Java]
+
+--- 7894560618 ns (1.93%), 7893 samples
+  [ 0] richards.TaskControlBlock.runTask
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 6388228434 ns (1.56%), 6387 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 6201035236 ns (1.51%), 6200 samples
+  [ 0] richards.TaskState.isTaskHoldingOrWaiting
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 4714929842 ns (1.15%), 4714 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 4547867613 ns (1.11%), 4547 samples
+  [ 0] richards.HandlerTaskDataRecord.deviceInAdd
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 4522486216 ns (1.10%), 4522 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 3598649103 ns (0.88%), 3599 samples
+  [ 0] richards.Packet.setLink
+  [ 1] richards.RBObject.append
+  [ 2] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 3] richards.Scheduler.queuePacket
+  [ 4] richards.Scheduler.lambda$createHandler$1
+  [ 5] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 6] richards.TaskControlBlock.runTask
+  [ 7] richards.Scheduler.schedule
+  [ 8] richards.Scheduler.start
+  [ 9] Richards.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 3499375053 ns (0.85%), 3499 samples
+  [ 0] richards.TaskState.isTaskHoldingOrWaiting
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 3386098430 ns (0.83%), 3386 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 3141569541 ns (0.77%), 3141 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 3008653558 ns (0.73%), 3008 samples
+  [ 0] richards.Scheduler.lambda$createDevice$0
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 2936987688 ns (0.72%), 2937 samples
+  [ 0] richards.HandlerTaskDataRecord.deviceIn
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 2727060061 ns (0.67%), 2727 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 2717574429 ns (0.66%), 2717 samples
+  [ 0] richards.TaskState.isTaskHoldingOrWaiting
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 2518352154 ns (0.61%), 2518 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 2462802780 ns (0.60%), 2463 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] [unknown_Java]
+
+--- 2257435649 ns (0.55%), 2257 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 2207343950 ns (0.54%), 2207 samples
+  [ 0] richards.TaskState.isTaskHoldingOrWaiting
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1960210625 ns (0.48%), 1960 samples
+  [ 0] richards.Packet.setIdentity
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1947314018 ns (0.48%), 1947 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 1883300391 ns (0.46%), 1883 samples
+  [ 0] richards.TaskState.isTaskHoldingOrWaiting
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1749239651 ns (0.43%), 1749 samples
+  [ 0] richards.Scheduler.queuePacket
+  [ 1] richards.Scheduler.lambda$createDevice$0
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1729268435 ns (0.42%), 1729 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 1667223512 ns (0.41%), 1667 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 1] [unknown_Java]
+
+--- 1629315461 ns (0.40%), 1629 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 1594286231 ns (0.39%), 1594 samples
+  [ 0] richards.Scheduler.schedule
+  [ 1] richards.Scheduler.start
+  [ 2] Richards.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 1498505766 ns (0.37%), 1498 samples
+  [ 0] richards.DeviceTaskDataRecord.setPending
+  [ 1] richards.Scheduler.lambda$createDevice$0
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1493057919 ns (0.36%), 1493 samples
+  [ 0] richards.HandlerTaskDataRecord.workIn
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1491943327 ns (0.36%), 1492 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 1437355443 ns (0.35%), 1437 samples
+  [ 0] I2C/C2I adapters(0xb)
+  [ 1] [unknown_Java]
+
+--- 1378242734 ns (0.34%), 1378 samples
+  [ 0] richards.TaskState.running
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 1328038563 ns (0.32%), 1328 samples
+  [ 0] richards.RBObject.append
+  [ 1] richards.HandlerTaskDataRecord.deviceInAdd
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1271211742 ns (0.31%), 1271 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1236142201 ns (0.30%), 1236 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 1223245334 ns (0.30%), 1223 samples
+  [ 0] richards.HandlerTaskDataRecord.deviceIn
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1189037521 ns (0.29%), 1189 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 1157226313 ns (0.28%), 1157 samples
+  [ 0] richards.HandlerTaskDataRecord.workInAdd
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1139106697 ns (0.28%), 1139 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 1125127873 ns (0.27%), 1125 samples
+  [ 0] richards.RBObject.append
+  [ 1] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 2] richards.Scheduler.queuePacket
+  [ 3] richards.Scheduler.lambda$createHandler$1
+  [ 4] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 5] richards.TaskControlBlock.runTask
+  [ 6] richards.Scheduler.schedule
+  [ 7] richards.Scheduler.start
+  [ 8] Richards.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 1110164710 ns (0.27%), 1110 samples
+  [ 0] richards.TaskState.isWaitingWithPacket
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 1059213401 ns (0.26%), 1059 samples
+  [ 0] richards.TaskControlBlock.getLink
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 990002124 ns (0.24%), 990 samples
+  [ 0] I2C/C2I adapters(0xbb)
+  [ 1] [unknown_Java]
+
+--- 977231581 ns (0.24%), 977 samples
+  [ 0] richards.Scheduler.lambda$createIdler$2
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 920188474 ns (0.22%), 920 samples
+  [ 0] richards.Scheduler.queuePacket
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 918134834 ns (0.22%), 918 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 883181912 ns (0.22%), 883 samples
+  [ 0] richards.Scheduler.findTask
+  [ 1] richards.Scheduler.release
+  [ 2] richards.Scheduler.lambda$createIdler$2
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 869139866 ns (0.21%), 869 samples
+  [ 0] richards.Scheduler.findTask
+  [ 1] richards.Scheduler.release
+  [ 2] richards.Scheduler.lambda$createIdler$2
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 862114746 ns (0.21%), 862 samples
+  [ 0] richards.TaskState.setTaskHolding
+  [ 1] richards.Scheduler.release
+  [ 2] richards.Scheduler.lambda$createIdler$2
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 831934412 ns (0.20%), 832 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 786136758 ns (0.19%), 786 samples
+  [ 0] richards.TaskState.setTaskHolding
+  [ 1] richards.Scheduler.release
+  [ 2] richards.Scheduler.lambda$createIdler$2
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 776158236 ns (0.19%), 776 samples
+  [ 0] richards.Scheduler.lambda$createDevice$0
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 730254035 ns (0.18%), 730 samples
+  [ 0] richards.Packet.setLink
+  [ 1] richards.RBObject.append
+  [ 2] richards.HandlerTaskDataRecord.workInAdd
+  [ 3] richards.Scheduler.lambda$createHandler$1
+  [ 4] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 5] richards.TaskControlBlock.runTask
+  [ 6] richards.Scheduler.schedule
+  [ 7] richards.Scheduler.start
+  [ 8] Richards.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 721094061 ns (0.18%), 721 samples
+  [ 0] richards.TaskState.setTaskHolding
+  [ 1] richards.Scheduler.holdSelf
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 695131441 ns (0.17%), 695 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 674108689 ns (0.16%), 674 samples
+  [ 0] richards.Packet.getDatum
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 657145347 ns (0.16%), 657 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 642213014 ns (0.16%), 642 samples
+  [ 0] richards.DeviceTaskDataRecord.setPending
+  [ 1] richards.Scheduler.lambda$createDevice$0
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 620138538 ns (0.15%), 620 samples
+  [ 0] richards.TaskControlBlock.runTask
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 607069492 ns (0.15%), 607 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 601920071 ns (0.15%), 602 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 592090614 ns (0.14%), 592 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 574094883 ns (0.14%), 574 samples
+  [ 0] richards.IdleTaskDataRecord.setControl
+  [ 1] richards.Scheduler.lambda$createIdler$2
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 549119852 ns (0.13%), 549 samples
+  [ 0] richards.Scheduler.lambda$createWorker$3
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 544144134 ns (0.13%), 544 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 1] [unknown_Java]
+
+--- 535002144 ns (0.13%), 535 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 532987470 ns (0.13%), 533 samples
+  [ 0] richards.Scheduler.lambda$createWorker$3
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 525130783 ns (0.13%), 525 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 521165648 ns (0.13%), 521 samples
+  [ 0] richards.IdleTaskDataRecord.setCount
+  [ 1] richards.Scheduler.lambda$createIdler$2
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 512025116 ns (0.12%), 512 samples
+  [ 0] richards.Packet.setIdentity
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createWorker$3
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 498054645 ns (0.12%), 498 samples
+  [ 0] richards.Scheduler.findTask
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 492113986 ns (0.12%), 492 samples
+  [ 0] richards.Packet.setLink
+  [ 1] richards.RBObject.append
+  [ 2] richards.HandlerTaskDataRecord.deviceInAdd
+  [ 3] richards.Scheduler.lambda$createHandler$1
+  [ 4] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 5] richards.TaskControlBlock.runTask
+  [ 6] richards.Scheduler.schedule
+  [ 7] richards.Scheduler.start
+  [ 8] Richards.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 486090741 ns (0.12%), 486 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 1] [unknown_Java]
+
+--- 477089268 ns (0.12%), 477 samples
+  [ 0] richards.IdleTaskDataRecord.setControl
+  [ 1] richards.Scheduler.lambda$createIdler$2
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 471952055 ns (0.12%), 472 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createWorker$3
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 471088188 ns (0.11%), 471 samples
+  [ 0] richards.TaskControlBlock.runTask
+  [ 1] richards.Scheduler.schedule
+  [ 2] richards.Scheduler.start
+  [ 3] Richards.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 468969343 ns (0.11%), 469 samples
+  [ 0] richards.Scheduler.lambda$createWorker$3
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 436022209 ns (0.11%), 436 samples
+  [ 0] richards.Packet.setIdentity
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 398049277 ns (0.10%), 398 samples
+  [ 0] richards.IdleTaskDataRecord.getControl
+  [ 1] richards.Scheduler.lambda$createIdler$2
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 387950900 ns (0.09%), 388 samples
+  [ 0] richards.Scheduler.findTask
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createWorker$3
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 375004068 ns (0.09%), 375 samples
+  [ 0] I2C/C2I adapters(0xbbb)
+  [ 1] [unknown_Java]
+
+--- 346056176 ns (0.08%), 346 samples
+  [ 0] richards.Packet.setLink
+  [ 1] richards.RBObject.append
+  [ 2] richards.HandlerTaskDataRecord.workInAdd
+  [ 3] richards.Scheduler.lambda$createHandler$1
+  [ 4] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 5] richards.TaskControlBlock.runTask
+  [ 6] richards.Scheduler.schedule
+  [ 7] richards.Scheduler.start
+  [ 8] Richards.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 329967809 ns (0.08%), 330 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 320245587 ns (0.08%), 320 samples
+  [ 0] InstanceKlass::find_method_index
+  [ 1] InstanceKlass::find_instance_method
+  [ 2] ConcreteMethodFinder::is_witness
+  [ 3] ConcreteMethodFinder::find_witness_anywhere
+  [ 4] Dependencies::find_unique_concrete_method
+  [ 5] c2v_findUniqueConcreteMethod
+  [ 6] jdk.vm.ci.hotspot.CompilerToVM.findUniqueConcreteMethod
+  [ 7] jdk.vm.ci.hotspot.CompilerToVM.findUniqueConcreteMethod
+  [ 8] jdk.vm.ci.hotspot.HotSpotResolvedJavaMethodImpl.uniqueConcreteMethod
+  [ 9] jdk.vm.ci.hotspot.HotSpotResolvedObjectTypeImpl.findUniqueConcreteMethod
+  [10] jdk.graal.compiler.nodes.java.MethodCallTargetNode.devirtualizeCall
+  [11] jdk.graal.compiler.nodes.java.MethodCallTargetNode.findSpecialCallTarget
+  [12] jdk.graal.compiler.java.BytecodeParser.appendInvoke
+  [13] jdk.graal.compiler.java.BytecodeParser.genDynamicInvokeHelper
+  [14] jdk.graal.compiler.java.BytecodeParser.genInvokeVirtual
+  [15] jdk.graal.compiler.java.BytecodeParser.genInvokeVirtual
+  [16] jdk.graal.compiler.java.BytecodeParser.processBytecode
+  [17] jdk.graal.compiler.java.BytecodeParser.iterateBytecodesForBlock
+  [18] jdk.graal.compiler.java.BytecodeParser.handleBytecodeBlock
+  [19] jdk.graal.compiler.java.BytecodeParser.processBlock
+  [20] jdk.graal.compiler.java.BytecodeParser.build
+  [21] jdk.graal.compiler.java.BytecodeParser.buildRootMethod
+  [22] jdk.graal.compiler.java.GraphBuilderPhase$Instance.run
+  [23] jdk.graal.compiler.java.GraphBuilderPhase.run
+  [24] jdk.graal.compiler.java.GraphBuilderPhase.run
+  [25] jdk.graal.compiler.phases.BasePhase.apply
+  [26] jdk.graal.compiler.phases.BasePhase.apply
+  [27] jdk.graal.compiler.phases.PhaseSuite.run
+  [28] jdk.graal.compiler.phases.BasePhase.apply
+  [29] jdk.graal.compiler.phases.BasePhase.apply
+  [30] jdk.graal.compiler.phases.common.inlining.info.elem.InlineableGraph.parseBytecodes
+  [31] jdk.graal.compiler.phases.common.inlining.info.elem.InlineableGraph.<init>
+  [32] jdk.graal.compiler.phases.common.inlining.info.elem.Inlineable.getInlineableElement
+  [33] jdk.graal.compiler.phases.common.inlining.info.AbstractInlineInfo.populateInlinableElements
+  [34] jdk.graal.compiler.phases.common.inlining.walker.InliningData.processNextInvoke
+  [35] jdk.graal.compiler.phases.common.inlining.walker.InliningData.moveForward
+  [36] jdk.graal.compiler.phases.common.inlining.InliningPhase.run
+  [37] jdk.graal.compiler.phases.common.inlining.InliningPhase.run
+  [38] jdk.graal.compiler.phases.BasePhase.apply
+  [39] jdk.graal.compiler.phases.BasePhase.apply
+  [40] jdk.graal.compiler.core.phases.BaseTier.run
+  [41] jdk.graal.compiler.phases.BasePhase.apply
+  [42] jdk.graal.compiler.phases.BasePhase.apply
+  [43] jdk.graal.compiler.core.GraalCompiler.emitFrontEnd
+  [44] jdk.graal.compiler.core.GraalCompiler.compile
+  [45] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [46] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [47] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [48] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [49] jdk.graal.compiler.core.CompilationWrapper.run
+  [50] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [51] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [52] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [53] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [54] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 308962605 ns (0.08%), 309 samples
+  [ 0] richards.TaskControlBlock.addInputAndCheckPriority
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createWorker$3
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 306078943 ns (0.07%), 306 samples
+  [ 0] richards.IdleTaskDataRecord.setControl
+  [ 1] richards.Scheduler.lambda$createIdler$2
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 304383509 ns (0.07%), 304 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 1] [unknown_Java]
+
+--- 294003653 ns (0.07%), 294 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 284032021 ns (0.07%), 284 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 278066565 ns (0.07%), 278 samples
+  [ 0] richards.Scheduler.findTask
+  [ 1] richards.Scheduler.queuePacket
+  [ 2] richards.Scheduler.lambda$createHandler$1
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 277061496 ns (0.07%), 277 samples
+  [ 0] richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  [ 1] richards.TaskControlBlock.runTask
+  [ 2] richards.Scheduler.schedule
+  [ 3] richards.Scheduler.start
+  [ 4] Richards.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 261956628 ns (0.06%), 262 samples
+  [ 0] richards.Scheduler.queuePacket
+  [ 1] richards.Scheduler.lambda$createHandler$1
+  [ 2] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 3] richards.TaskControlBlock.runTask
+  [ 4] richards.Scheduler.schedule
+  [ 5] richards.Scheduler.start
+  [ 6] Richards.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 248973114 ns (0.06%), 249 samples
+  [ 0] richards.Scheduler.lambda$createHandler$1
+  [ 1] richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  [ 2] richards.TaskControlBlock.runTask
+  [ 3] richards.Scheduler.schedule
+  [ 4] richards.Scheduler.start
+  [ 5] Richards.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 248076003 ns (0.06%), 248 samples
+  [ 0] richards.TaskControlBlock.getLink
+  [ 1] richards.Scheduler.holdSelf
+  [ 2] richards.Scheduler.lambda$createDevice$0
+  [ 3] richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  [ 4] richards.TaskControlBlock.runTask
+  [ 5] richards.Scheduler.schedule
+  [ 6] richards.Scheduler.start
+  [ 7] Richards.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 39144286933    9.55%    39137  richards.Scheduler.schedule
+ 36549681033    8.92%    36544  richards.TaskControlBlock.runTask
+ 35474932977    8.66%    35468  itable stub
+ 16513648571    4.03%    16511  richards.TaskState.isTaskHoldingOrWaiting
+ 15547360498    3.79%    15547  richards.Scheduler.lambda$createHandler$1
+ 11142778195    2.72%    11141  richards.Scheduler$$Lambda.0x00007ffb841c2e58.apply
+  9536686913    2.33%     9535  richards.TaskControlBlock.getIdentity
+  8687169646    2.12%     8685  Interpreter
+  8107711253    1.98%     8107  richards.TaskControlBlock.addInputAndCheckPriority
+  5961205827    1.45%     5960  richards.Scheduler$$Lambda.0x00007ffb841c2c38.apply
+  5215086804    1.27%     5215  richards.Packet.setLink
+  4570879499    1.12%     4570  richards.HandlerTaskDataRecord.deviceInAdd
+  4162234152    1.02%     4162  richards.HandlerTaskDataRecord.deviceIn
+  3877887901    0.95%     3877  richards.Scheduler.lambda$createDevice$0
+  3500918566    0.85%     3500  I2C/C2I adapters(0xb)
+  3374376247    0.82%     3374  richards.Scheduler.findTask
+  3194409185    0.78%     3194  richards.RBObject.append
+  3137284348    0.77%     3137  richards.Packet.setIdentity
+  3032590709    0.74%     3032  richards.Scheduler$$Lambda.0x00007ffb841c27f8.apply
+  2981402274    0.73%     2981  richards.Scheduler.queuePacket
+  2369345565    0.58%     2369  richards.TaskState.setTaskHolding
+  2141719200    0.52%     2141  richards.DeviceTaskDataRecord.setPending
+  1995055829    0.49%     1995  richards.Scheduler.lambda$createWorker$3
+  1611134284    0.39%     1611  I2C/C2I adapters(0xbb)
+  1578286846    0.39%     1578  richards.TaskState.running
+  1546297721    0.38%     1546  richards.Scheduler.lambda$createIdler$2
+  1519523667    0.37%     1519  richards.Scheduler$$Lambda.0x00007ffb841c2a18.apply
+  1518054545    0.37%     1518  richards.HandlerTaskDataRecord.workIn
+  1494280958    0.36%     1494  richards.IdleTaskDataRecord.setControl
+  1437141134    0.35%     1436  InstanceKlass::find_method_index
+  1308289774    0.32%     1308  richards.TaskControlBlock.getLink
+  1223240124    0.30%     1223  richards.HandlerTaskDataRecord.workInAdd
+  1130169107    0.28%     1130  richards.TaskState.isWaitingWithPacket
+   928133893    0.23%      928  jdk.graal.compiler.phases.BasePhase.apply
+   683018957    0.17%      683  java.util.ArrayList.add
+   676107649    0.16%      676  richards.Packet.getDatum
+   594993204    0.15%      595  jdk.graal.compiler.phases.common.LoweringPhase.process
+   590990761    0.14%      591  org.graalvm.collections.EconomicMapImpl.getHashIndex
+   543109315    0.13%      543  jdk.graal.compiler.nodes.loop.LoopFragment.computeNodes
+   521165648    0.13%      521  richards.IdleTaskDataRecord.setCount
+   509095256    0.12%      509  I2C/C2I adapters(0xbbb)
+   500045925    0.12%      500  jdk.graal.compiler.phases.common.ConditionalEliminationUtil.tryProveGuardCondition
+   485919415    0.12%      486  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.scheduleEarliestIterative
+   481921657    0.12%      482  jdk.graal.compiler.phases.common.util.EconomicSetNodeEventListener.changed
+   474225941    0.12%      475  jdk.graal.compiler.phases.common.CanonicalizerPhase.tryCanonicalize
+   469969739    0.11%      470  jdk.graal.compiler.phases.common.CanonicalizerPhase.processNode
+   458125255    0.11%      458  org.graalvm.collections.EconomicMapImpl.findLinear
+   430144204    0.10%      430  jdk.graal.compiler.java.BytecodeParser.appendInvoke
+   428009793    0.10%      428  jdk.graal.compiler.nodes.cfg.ReversePostOrder.compute
+   425318719    0.10%      424  G1ParScanThreadState::trim_queue_to_threshold
+   420011968    0.10%      420  jdk.graal.compiler.core.common.type.AbstractObjectStamp.join0
+   418075933    0.10%      418  jdk.graal.compiler.phases.common.inlining.InliningUtil.inline
+   413090151    0.10%      413  jdk.graal.compiler.graph.Node.updatePredecessor
+   407164046    0.10%      407  jdk.graal.compiler.java.BytecodeParser.iterateBytecodesForBlock
+   406786205    0.10%      407  jdk.graal.compiler.nodes.IfNode.simplify
+   401001614    0.10%      401  jdk.graal.compiler.virtual.phases.ea.EffectsClosure.processBlock
+   400274578    0.10%      400  I2C/C2I adapters(0xba)
+   398049277    0.10%      398  richards.IdleTaskDataRecord.getControl
+   393081326    0.10%      393  jdk.graal.compiler.phases.common.CanonicalizerPhase.processWorkSet
+   393066928    0.10%      393  jdk.graal.compiler.core.common.type.IntegerStamp.create
+   389009902    0.09%      389  java.util.Formatter$FormatSpecifier.print
+   377153347    0.09%      377  CodeHeap::find_blob
+   374019171    0.09%      374  richards.Packet.getIdentity
+   363144935    0.09%      363  CodeCache::find_blob
+   356069420    0.09%      356  jdk.graal.compiler.graph.iterators.PredicatedProxyNodeIterator.forward
+   351185873    0.09%      351  jdk.graal.compiler.graph.Graph.findDuplicate
+   348059130    0.08%      348  jdk.graal.compiler.core.gen.NodeLIRBuilder.doBlock
+   339941989    0.08%      340  jdk.graal.compiler.graph.NodeMap.set
+   328843788    0.08%      329  jdk.graal.compiler.nodes.PiNode.canonical
+   326039113    0.08%      326  jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime
+   316025094    0.08%      316  jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.fromMetaspace
+   314947767    0.08%      315  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.sortNodesLatestWithinBlock
+   314092494    0.08%      314  jdk.graal.compiler.graph.Graph.register
+   314065491    0.08%      314  jdk.graal.compiler.phases.common.inlining.policy.GreedyInliningPolicy.isWorthInlining
+   309067687    0.08%      309  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.rpoInnerLoopsFirst
+   308094513    0.08%      308  java.lang.AbstractStringBuilder.append
+   300232410    0.07%      300  jdk.graal.compiler.java.BciBlockMapping.computeBlockOrder
+   297211617    0.07%      297  InstanceKlass::allocate_objArray
+   297119227    0.07%      297  jdk.graal.compiler.nodes.cfg.HIRBlock.assignPredecessorsAndSuccessors
+   292090353    0.07%      292  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.computeLoopInformation
+   291019346    0.07%      291  jdk.graal.compiler.graph.NodeWorkList$QueueConsumingIterator.dropDeleted
+   290996667    0.07%      291  jdk.graal.compiler.graph.Node.getNodeInfo
+   287031029    0.07%      287  jdk.graal.compiler.graph.NodeClass.dataEquals
+   282006912    0.07%      282  jdk.graal.compiler.phases.common.inlining.InliningUtil.updateSourcePosition
+   280124186    0.07%      280  jdk.graal.compiler.graph.Node.clone
+   276124682    0.07%      276  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.visitDominatorTreeDefault
+   274047838    0.07%      274  org.graalvm.collections.EconomicMapImpl.compareKeys
+   269426543    0.07%      269  __tls_get_addr
+   263096986    0.06%      263  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.perBasicBlockFrequencyAction
+   256145911    0.06%      256  jdk.graal.compiler.java.BytecodeParser.createTarget
+   256064011    0.06%      256  jdk.internal.math.DoubleToDecimal.toDecimal
+   254054273    0.06%      254  java.lang.Object.getClass
+   253010827    0.06%      253  java.util.Arrays.copyOf
+   252192279    0.06%      252  ConstantPool::klass_at_impl
+   247039619    0.06%      247  jdk.graal.compiler.graph.NodeUsageIterator.advance
+   244128079    0.06%      244  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.computeDominators
+   244066304    0.06%      244  jdk.graal.compiler.debug.DebugContext.log
+   243913282    0.06%      244  jdk.graal.compiler.lir.LIRIntrospection.visitEach
+   243181176    0.06%      243  jdk.graal.compiler.java.FrameStateBuilder.create
+   241185838    0.06%      241  jdk.graal.compiler.graph.Node.initialize
+   241047696    0.06%      241  jdk.graal.compiler.phases.common.ConditionalEliminationPhase$Instance.processNode
+   240993278    0.06%      241  jdk.graal.compiler.nodes.calc.AddNode.canonical
+   239857294    0.06%      240  CompilationPolicy::select_task
+   238028025    0.06%      238  java.util.ArrayList$Itr.next
+   234984485    0.06%      235  jdk.graal.compiler.nodes.ValueNode.graph
+   234128628    0.06%      234  jdk.graal.compiler.lir.alloc.lsra.IntervalWalker.walkTo
+   230046350    0.06%      230  richards.TaskState.packetPending
+   227181973    0.06%      227  jdk.graal.compiler.nodes.FrameState.<init>
+   226156782    0.06%      226  java.util.HashMap.getNode
+   226118955    0.06%      226  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.identifyBlocks
+   224927538    0.05%      225  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlock
+   222028159    0.05%      222  java.util.Formatter.format
+   221029994    0.05%      221  jdk.graal.compiler.nodes.loop.LoopFragment.markFloating
+   220962591    0.05%      221  jdk.graal.compiler.nodes.util.GraphUtil.killWithUnusedFloatingInputs
+   220022575    0.05%      220  jdk.graal.compiler.phases.graph.ReentrantBlockIterator.apply
+   219923904    0.05%      220  jdk.graal.compiler.phases.common.inlining.walker.ComputeInliningRelevance$Scope.process
+   219562558    0.05%      220  jdk.graal.compiler.java.BytecodeParser.processBytecode
+   218956846    0.05%      219  java.util.ArrayDeque.addLast
+   216001659    0.05%      216  jdk.graal.compiler.graph.Node.addUsage
+   215117465    0.05%      215  java.util.concurrent.ConcurrentHashMap.computeIfAbsent
+   215109414    0.05%      215  jdk.graal.compiler.java.BytecodeParser.<init>
+   215031199    0.05%      215  InterpreterRuntime::anewarray
+   213123250    0.05%      213  jdk.graal.compiler.java.BytecodeParser.build
+   208936698    0.05%      209  jdk.graal.compiler.graph.NodeMap.get
+   206075495    0.05%      206  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.computePostdominators
+   205973624    0.05%      206  jdk.graal.compiler.phases.BasePhase.getEnclosingPhase
+   205173684    0.05%      205  methodHandle::~methodHandle
+   203045251    0.05%      203  java.util.ArrayList.grow
+   202059481    0.05%      202  jdk.graal.compiler.graph.NodeClass.createNodeDuplicates
+   201040038    0.05%      201  jdk.graal.compiler.graph.NodeClass.addGraphDuplicate
+   201039888    0.05%      201  jdk.graal.compiler.graph.Graph$NodeEventListener.event
+   200951436    0.05%      201  jdk.graal.compiler.hotspot.HotSpotCompiledCodeBuilder.getSortedSites
+   198143429    0.05%      198  Dictionary::find_class
+   198096860    0.05%      198  jdk.graal.compiler.phases.graph.ReentrantNodeIterator.apply
+   197983958    0.05%      198  richards.Packet.getLink
+   195120054    0.05%      194  InterpreterRuntime::frequency_counter_overflow_inner
+   193959186    0.05%      194  jdk.graal.compiler.lir.alloc.lsra.Range.intersectsAt
+   193103117    0.05%      193  jdk.graal.compiler.java.LocalLiveness.computeLiveness
+   193062607    0.05%      193  java.lang.Object.<init>
+   192069078    0.05%      192  InstanceKlass::array_klass
+   192056880    0.05%      192  jdk.graal.compiler.java.BytecodeParser.genIf
+   192047461    0.05%      192  jdk.graal.compiler.nodes.calc.IntegerLowerThanNode$LowerOp.findSynonym
+   191108674    0.05%      191  jdk.graal.compiler.core.common.type.IntegerStamp.<init>
+   189013064    0.05%      189  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processStack
+   187994334    0.05%      188  jdk.graal.compiler.phases.graph.FixedNodeRelativeFrequencyCache.findBegin
+   186997979    0.05%      187  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlocks
+   186020532    0.05%      186  jdk.graal.compiler.phases.common.DominatorBasedGlobalValueNumberingPhase$GVNVisitor.enter
+   184976751    0.05%      185  jdk.graal.compiler.graph.Graph.fireNodeEvent
+   184128788    0.04%      184  MemAllocator::allocate
+   183986752    0.04%      184  jdk.graal.compiler.graph.NodeList.<init>
+   183950741    0.04%      184  jdk.graal.compiler.graph.NodeClass.updateEdgesInPlace
+   180163018    0.04%      180  MethodData::bci_to_dp
+   180095428    0.04%      180  jdk.graal.compiler.lir.alloc.lsra.LinearScanLifetimeAnalysisPhase.buildIntervals
+   180027895    0.04%      180  jdk.graal.compiler.options.OptionValues.get
+   180026150    0.04%      180  jdk.graal.compiler.lir.RedundantMoveElimination$Optimization.solveDataFlow
+   177868258    0.04%      178  jdk.graal.compiler.nodes.java.LoadFieldNode.canonical
+   176025833    0.04%      176  I2C/C2I adapters(0xbbbb)
+   176000503    0.04%      176  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processInputs
+   175033641    0.04%      175  richards.Packet.setDatum
+   174999966    0.04%      175  jdk.graal.compiler.graph.Graph.findNodeInCache
+   173919126    0.04%      174  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.blockFor
+   171169870    0.04%      171  jdk.graal.compiler.java.BciBlockMapping.iterateOverBytecodes
+   170122664    0.04%      170  jdk.graal.compiler.lir.alloc.lsra.LinearScanAssignLocationsPhase.assignLocations
+   170077408    0.04%      170  jdk.graal.compiler.phases.common.ConditionalEliminationPhase$Instance.registerNewCondition
+   169092192    0.04%      169  java.lang.AbstractStringBuilder.appendChars
+   168989767    0.04%      169  org.graalvm.collections.EconomicMapImpl.put
+   168960381    0.04%      169  java.lang.Class.isAssignableFrom
+   168018245    0.04%      168  jdk.graal.compiler.graph.NodeWorkList.addAll
+   168002011    0.04%      168  jdk.graal.compiler.graph.Node.isAlive
+   166923357    0.04%      167  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.sortIntoList
+   166057784    0.04%      166  jdk.graal.compiler.core.gen.NodeLIRBuilder.matchComplexExpressions
+   165020481    0.04%      165  org.graalvm.collections.EconomicMapImpl.setKey
+   164049194    0.04%      164  JavaThread::pd_last_frame
+   163919731    0.04%      164  jdk.graal.compiler.hotspot.meta.DefaultHotSpotLoweringProvider.lowerWithoutDelegation
+   163015674    0.04%      163  org.graalvm.collections.EconomicMapImpl.findHash
+   162053621    0.04%      162  jdk.graal.compiler.asm.amd64.AMD64BaseAssembler.emitOperandHelper
+   160974082    0.04%      161  jdk.graal.compiler.virtual.phases.ea.PEReadEliminationClosure.processNode
+   160046883    0.04%      160  jdk.graal.compiler.java.LocalLiveness.computeLocalLiveness
+   159061573    0.04%      159  InterpreterRuntime::resolve_invoke
+   159054863    0.04%      159  jdk.graal.compiler.phases.common.ConditionalEliminationPhase$Instance.registerNewStamp
+   158044411    0.04%      158  jdk.graal.compiler.debug.DebugContext.logAndIndent
+   157983277    0.04%      158  jdk.graal.compiler.graph.Graph.updateNodeCaches
+   157009863    0.04%      157  java.util.ArrayList.<init>
+   156034095    0.04%      156  jdk.graal.compiler.phases.common.FixReadsPhase$RawConditionalEliminationVisitor.processEnd
+   155958449    0.04%      156  jdk.graal.compiler.core.common.Fields.copy
+   154982945    0.04%      155  org.graalvm.collections.EconomicMapImpl.grow
+   153860374    0.04%      154  jdk.graal.compiler.lir.alloc.lsra.Interval.getSplitChildAtOpId
+   151978477    0.04%      152  jdk.graal.compiler.nodes.memory.ReadNode.canonicalizeRead
+   151964048    0.04%      152  jdk.graal.compiler.debug.DebugContext.isCounterEnabledSlow
+   151845800    0.04%      152  __GI___pthread_mutex_trylock
+   151627733    0.04%      151  jdk.graal.compiler.nodes.loop.LoopsData.<init>
+   151079357    0.04%      151  java.lang.invoke.Invokers$Holder.linkToTargetMethod
+   150979234    0.04%      151  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.hasNext
+   150964868    0.04%      151  java.util.regex.Pattern.compile
+   150031491    0.04%      150  jdk.graal.compiler.phases.common.FixReadsPhase$RawConditionalEliminationVisitor.processNode
+   150027167    0.04%      150  jdk.graal.compiler.phases.graph.ScheduledNodeIterator.processNodes
+   149080231    0.04%      149  jdk.graal.compiler.lir.alloc.lsra.LinearScanLifetimeAnalysisPhase.computeLocalLiveSets
+   149068265    0.04%      149  jdk.graal.compiler.java.BytecodeParser.processBlock
+   148090276    0.04%      148  jdk.graal.compiler.nodes.util.GraphUtil.killCFGInner
+   146991066    0.04%      147  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.forward

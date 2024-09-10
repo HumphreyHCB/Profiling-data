@@ -1,0 +1,4 @@
+We now sample at 1ms
+and new async
+and -XX:-BackgroundCompilation
+Pointless are now at a 1/8 ratio, we mius 2 the no counter for each one, we also by hand adjusted value in the cost to get List correct

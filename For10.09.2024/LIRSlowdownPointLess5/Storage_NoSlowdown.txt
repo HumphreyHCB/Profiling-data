@@ -1,0 +1,2569 @@
+--- Execution profile ---
+Total samples       : 119605
+unknown_Java        : 4290 (3.59%)
+not_walkable_Java   : 11 (0.01%)
+
+--- 34311510101 ns (28.67%), 34306 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 19263879115 ns (16.10%), 19261 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 13846554696 ns (11.57%), 13844 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 9015419589 ns (7.53%), 9014 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 6655363288 ns (5.56%), 6654 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.benchmark
+  [24] Benchmark.innerBenchmarkLoop
+  [25] Run.measure
+  [26] Run.doRuns
+  [27] Run.runBenchmark
+  [28] Harness.main
+
+--- 3688577561 ns (3.08%), 3688 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] [unknown_Java]
+
+--- 2979875473 ns (2.49%), 2979 samples
+  [ 0] jdk.internal.misc.Unsafe.allocateInstance
+  [ 1] java.lang.invoke.DirectMethodHandle.allocateInstance
+  [ 2] java.lang.invoke.LambdaForm$DMH.0x00007f7634007400.newInvokeSpecial
+  [ 3] java.lang.invoke.LambdaForm$MH.0x00007f7634007c00.linkToTargetMethod
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 2832181758 ns (2.37%), 2831 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 2174374927 ns (1.82%), 2174 samples
+  [ 0] som.Random.next
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.benchmark
+  [27] Benchmark.innerBenchmarkLoop
+  [28] Run.measure
+  [29] Run.doRuns
+  [30] Run.runBenchmark
+  [31] Harness.main
+
+--- 1910557657 ns (1.60%), 1910 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 1897460035 ns (1.59%), 1897 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 1792398646 ns (1.50%), 1792 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 1582337369 ns (1.32%), 1582 samples
+  [ 0] som.Random.next
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.benchmark
+  [27] Benchmark.innerBenchmarkLoop
+  [28] Run.measure
+  [29] Run.doRuns
+  [30] Run.runBenchmark
+  [31] Harness.main
+
+--- 1580211276 ns (1.32%), 1580 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 1466099908 ns (1.23%), 1466 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 1415147625 ns (1.18%), 1415 samples
+  [ 0] Storage.lambda$buildTreeDepth$0
+  [ 1] Storage$$Lambda.0x00007f7634004638.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.lambda$buildTreeDepth$0
+  [ 9] Storage$$Lambda.0x00007f7634004638.apply
+  [10] java.util.Arrays.setAll
+  [11] Storage.buildTreeDepth
+  [12] Storage.lambda$buildTreeDepth$0
+  [13] Storage$$Lambda.0x00007f7634004638.apply
+  [14] java.util.Arrays.setAll
+  [15] Storage.buildTreeDepth
+  [16] Storage.lambda$buildTreeDepth$0
+  [17] Storage$$Lambda.0x00007f7634004638.apply
+  [18] java.util.Arrays.setAll
+  [19] Storage.buildTreeDepth
+  [20] Storage.lambda$buildTreeDepth$0
+  [21] Storage$$Lambda.0x00007f7634004638.apply
+  [22] java.util.Arrays.setAll
+  [23] Storage.buildTreeDepth
+  [24] Storage.benchmark
+  [25] Benchmark.innerBenchmarkLoop
+  [26] Run.measure
+  [27] Run.doRuns
+  [28] Run.runBenchmark
+  [29] Harness.main
+
+--- 1248100996 ns (1.04%), 1248 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 1174255124 ns (0.98%), 1174 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 1139863286 ns (0.95%), 1140 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 849221161 ns (0.71%), 849 samples
+  [ 0] som.Random.next
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 799115965 ns (0.67%), 799 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 734098364 ns (0.61%), 734 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 628188385 ns (0.52%), 628 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 596117328 ns (0.50%), 596 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] [unknown_Java]
+
+--- 448106723 ns (0.37%), 448 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.benchmark
+  [24] Benchmark.innerBenchmarkLoop
+  [25] Run.measure
+  [26] Run.doRuns
+  [27] Run.runBenchmark
+  [28] Harness.main
+
+--- 428136710 ns (0.36%), 428 samples
+  [ 0] som.Random.next
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.benchmark
+  [27] Benchmark.innerBenchmarkLoop
+  [28] Run.measure
+  [29] Run.doRuns
+  [30] Run.runBenchmark
+  [31] Harness.main
+
+--- 419098610 ns (0.35%), 419 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 313110660 ns (0.26%), 313 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 187053000 ns (0.16%), 187 samples
+  [ 0] jdk.internal.misc.Unsafe.allocateInstance
+  [ 1] java.lang.invoke.DirectMethodHandle.allocateInstance
+  [ 2] java.lang.invoke.LambdaForm$DMH.0x00007f7634007400.newInvokeSpecial
+  [ 3] java.lang.invoke.LambdaForm$MH.0x00007f7634007c00.linkToTargetMethod
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 178046082 ns (0.15%), 178 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 142049964 ns (0.12%), 142 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 135011895 ns (0.11%), 135 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 131035543 ns (0.11%), 131 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 130006595 ns (0.11%), 130 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.benchmark
+  [24] Benchmark.innerBenchmarkLoop
+  [25] Run.measure
+  [26] Run.doRuns
+  [27] Run.runBenchmark
+  [28] Harness.main
+
+--- 119055054 ns (0.10%), 119 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 116016363 ns (0.10%), 112 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParScanThreadState::steal_and_trim_queue
+  [ 2] G1ParEvacuateFollowersClosure::do_void
+  [ 3] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 114065145 ns (0.10%), 114 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 110017162 ns (0.09%), 110 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 99028216 ns (0.08%), 99 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 91029269 ns (0.08%), 91 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 91021789 ns (0.08%), 91 samples
+  [ 0] Storage.lambda$buildTreeDepth$0
+  [ 1] Storage$$Lambda.0x00007f7634004638.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.lambda$buildTreeDepth$0
+  [ 9] Storage$$Lambda.0x00007f7634004638.apply
+  [10] java.util.Arrays.setAll
+  [11] Storage.buildTreeDepth
+  [12] Storage.lambda$buildTreeDepth$0
+  [13] Storage$$Lambda.0x00007f7634004638.apply
+  [14] java.util.Arrays.setAll
+  [15] Storage.buildTreeDepth
+  [16] Storage.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 91013227 ns (0.08%), 91 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 74336153 ns (0.06%), 72 samples
+  [ 0] HeapRegionManager::par_iterate
+  [ 1] G1PrepareEvacuationTask::work
+  [ 2] WorkerThread::run
+  [ 3] Thread::call_run
+  [ 4] thread_native_entry
+  [ 5] start_thread
+
+--- 71185649 ns (0.06%), 70 samples
+  [ 0] SpinPause
+  [ 1] G1ParEvacuateFollowersClosure::do_void
+  [ 2] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 69023409 ns (0.06%), 69 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 65054278 ns (0.05%), 65 samples
+  [ 0] Storage.lambda$buildTreeDepth$0
+  [ 1] Storage$$Lambda.0x00007f7634004638.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.lambda$buildTreeDepth$0
+  [ 9] Storage$$Lambda.0x00007f7634004638.apply
+  [10] java.util.Arrays.setAll
+  [11] Storage.buildTreeDepth
+  [12] Storage.lambda$buildTreeDepth$0
+  [13] Storage$$Lambda.0x00007f7634004638.apply
+  [14] java.util.Arrays.setAll
+  [15] Storage.buildTreeDepth
+  [16] Storage.lambda$buildTreeDepth$0
+  [17] Storage$$Lambda.0x00007f7634004638.apply
+  [18] java.util.Arrays.setAll
+  [19] Storage.buildTreeDepth
+  [20] Storage.benchmark
+  [21] Benchmark.innerBenchmarkLoop
+  [22] Run.measure
+  [23] Run.doRuns
+  [24] Run.runBenchmark
+  [25] Harness.main
+
+--- 61708517 ns (0.05%), 60 samples
+  [ 0] __memset_avx2_unaligned_erms
+  [ 1] G1BatchedTask::work
+  [ 2] WorkerThread::run
+  [ 3] Thread::call_run
+  [ 4] thread_native_entry
+  [ 5] start_thread
+
+--- 58029683 ns (0.05%), 58 samples
+  [ 0] som.Random.next
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 57007738 ns (0.05%), 57 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.benchmark
+  [26] Benchmark.innerBenchmarkLoop
+  [27] Run.measure
+  [28] Run.doRuns
+  [29] Run.runBenchmark
+  [30] Harness.main
+
+--- 56035632 ns (0.05%), 56 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 55994314 ns (0.05%), 56 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 53021372 ns (0.04%), 53 samples
+  [ 0] __memset_avx2_unaligned_erms
+  [ 1] MemAllocator::mem_allocate_inside_tlab_slow
+  [ 2] MemAllocator::allocate
+  [ 3] InstanceKlass::allocate_objArray
+  [ 4] JVMCIRuntime::new_array_common
+  [ 5] som.Random.next
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.lambda$buildTreeDepth$0
+  [24] Storage$$Lambda.0x00007f7634004638.apply
+  [25] java.util.Arrays.setAll
+  [26] Storage.buildTreeDepth
+  [27] Storage.lambda$buildTreeDepth$0
+  [28] Storage$$Lambda.0x00007f7634004638.apply
+  [29] java.util.Arrays.setAll
+  [30] Storage.buildTreeDepth
+  [31] Storage.benchmark
+  [32] Benchmark.innerBenchmarkLoop
+  [33] Run.measure
+  [34] Run.doRuns
+  [35] Run.runBenchmark
+  [36] Harness.main
+
+--- 53004656 ns (0.04%), 53 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 44005344 ns (0.04%), 44 samples
+  [ 0] Storage$$Lambda.0x00007f7634004638.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 41856012 ns (0.03%), 41 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParEvacuateFollowersClosure::do_void
+  [ 2] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 32076588 ns (0.03%), 32 samples
+  [ 0] clear_page_rep_[k]
+  [ 1] clear_huge_page_[k]
+  [ 2] __do_huge_pmd_anonymous_page_[k]
+  [ 3] __handle_mm_fault_[k]
+  [ 4] handle_mm_fault_[k]
+  [ 5] do_user_addr_fault_[k]
+  [ 6] exc_page_fault_[k]
+  [ 7] asm_exc_page_fault_[k]
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.lambda$buildTreeDepth$0
+  [26] Storage$$Lambda.0x00007f7634004638.apply
+  [27] java.util.Arrays.setAll
+  [28] Storage.buildTreeDepth
+  [29] Storage.lambda$buildTreeDepth$0
+  [30] Storage$$Lambda.0x00007f7634004638.apply
+  [31] java.util.Arrays.setAll
+  [32] Storage.buildTreeDepth
+  [33] Storage.benchmark
+  [34] Benchmark.innerBenchmarkLoop
+  [35] Run.measure
+  [36] Run.doRuns
+  [37] Run.runBenchmark
+  [38] Harness.main
+
+--- 28822729 ns (0.02%), 28 samples
+  [ 0] FreeListAllocator::reset
+  [ 1] HeapRegionRemSet::clear_locked
+  [ 2] HeapRegion::hr_clear
+  [ 3] G1CollectedHeap::free_region
+  [ 4] FreeCSetClosure::do_heap_region
+  [ 5] G1CollectedHeap::par_iterate_regions_array
+  [ 6] G1PostEvacuateCollectionSetCleanupTask2::FreeCollectionSetTask::do_work
+  [ 7] G1BatchedTask::work
+  [ 8] WorkerThread::run
+  [ 9] Thread::call_run
+  [10] thread_native_entry
+  [11] start_thread
+
+--- 27011775 ns (0.02%), 26 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThread::run
+  [10] Thread::call_run
+  [11] thread_native_entry
+  [12] start_thread
+
+--- 26004879 ns (0.02%), 26 samples
+  [ 0] InstanceKlass::allocate_objArray
+  [ 1] JVMCIRuntime::new_array_common
+  [ 2] som.Random.next
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.lambda$buildTreeDepth$0
+  [ 9] Storage$$Lambda.0x00007f7634004638.apply
+  [10] java.util.Arrays.setAll
+  [11] Storage.buildTreeDepth
+  [12] Storage.lambda$buildTreeDepth$0
+  [13] Storage$$Lambda.0x00007f7634004638.apply
+  [14] java.util.Arrays.setAll
+  [15] Storage.buildTreeDepth
+  [16] Storage.lambda$buildTreeDepth$0
+  [17] Storage$$Lambda.0x00007f7634004638.apply
+  [18] java.util.Arrays.setAll
+  [19] Storage.buildTreeDepth
+  [20] Storage.lambda$buildTreeDepth$0
+  [21] Storage$$Lambda.0x00007f7634004638.apply
+  [22] java.util.Arrays.setAll
+  [23] Storage.buildTreeDepth
+  [24] Storage.lambda$buildTreeDepth$0
+  [25] Storage$$Lambda.0x00007f7634004638.apply
+  [26] java.util.Arrays.setAll
+  [27] Storage.buildTreeDepth
+  [28] Storage.benchmark
+  [29] Benchmark.innerBenchmarkLoop
+  [30] Run.measure
+  [31] Run.doRuns
+  [32] Run.runBenchmark
+  [33] Harness.main
+
+--- 25772124 ns (0.02%), 25 samples
+  [ 0] G1MergeHeapRootsTask::G1MergeCardSetClosure::do_heap_region
+  [ 1] G1MergeHeapRootsTask::G1CombinedClosure::do_heap_region
+  [ 2] G1CollectedHeap::par_iterate_regions_array
+  [ 3] G1MergeHeapRootsTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 25006107 ns (0.02%), 25 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 25001912 ns (0.02%), 25 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Storage.buildTreeDepth
+  [ 2] Storage.lambda$buildTreeDepth$0
+  [ 3] Storage$$Lambda.0x00007f7634004638.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.benchmark
+  [23] Benchmark.innerBenchmarkLoop
+  [24] Run.measure
+  [25] Run.doRuns
+  [26] Run.runBenchmark
+  [27] Harness.main
+
+--- 23567896 ns (0.02%), 23 samples
+  [ 0] void WeakProcessor::Task::work<G1STWIsAliveClosure, G1KeepAliveClosure>
+  [ 1] WorkerThread::run
+  [ 2] Thread::call_run
+  [ 3] thread_native_entry
+  [ 4] start_thread
+
+--- 22592399 ns (0.02%), 22 samples
+  [ 0] FreeCSetClosure::do_heap_region
+  [ 1] G1CollectedHeap::par_iterate_regions_array
+  [ 2] G1PostEvacuateCollectionSetCleanupTask2::FreeCollectionSetTask::do_work
+  [ 3] G1BatchedTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 21661974 ns (0.02%), 21 samples
+  [ 0] G1CardSet::reset_table_scanner
+  [ 1] G1PrepareEvacuationTask::G1PrepareRegionsClosure::do_heap_region
+  [ 2] HeapRegionManager::par_iterate
+  [ 3] G1PrepareEvacuationTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 21485602 ns (0.02%), 21 samples
+  [ 0] G1ParScanThreadState::steal_and_trim_queue
+  [ 1] G1ParEvacuateFollowersClosure::do_void
+  [ 2] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 19597424 ns (0.02%), 19 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] ___pthread_cond_broadcast
+
+--- 17193214 ns (0.01%), 17 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ScanHRForRegionClosure::scan_heap_roots
+  [ 2] G1RemSet::scan_heap_roots
+  [ 3] G1EvacuateRegionsTask::scan_roots
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 17001785 ns (0.01%), 17 samples
+  [ 0] ClassLoaderData::holder
+  [ 1] som.Random.next
+  [ 2] Storage.buildTreeDepth
+  [ 3] Storage.lambda$buildTreeDepth$0
+  [ 4] Storage$$Lambda.0x00007f7634004638.apply
+  [ 5] java.util.Arrays.setAll
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.lambda$buildTreeDepth$0
+  [24] Storage$$Lambda.0x00007f7634004638.apply
+  [25] java.util.Arrays.setAll
+  [26] Storage.buildTreeDepth
+  [27] Storage.benchmark
+  [28] Benchmark.innerBenchmarkLoop
+  [29] Run.measure
+  [30] Run.doRuns
+  [31] Run.runBenchmark
+  [32] Harness.main
+
+--- 15461324 ns (0.01%), 15 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThreads::run_task
+  [10] G1YoungCollector::post_evacuate_collection_set
+  [11] G1YoungCollector::collect
+  [12] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [13] G1CollectedHeap::do_collection_pause_at_safepoint
+  [14] VM_G1CollectForAllocation::doit
+  [15] VM_Operation::evaluate
+  [16] VMThread::evaluate_operation
+  [17] VMThread::inner_execute
+  [18] VMThread::run
+  [19] Thread::call_run
+  [20] thread_native_entry
+  [21] start_thread
+
+--- 14396222 ns (0.01%), 14 samples
+  [ 0] G1ScanCollectionSetRegionClosure::do_heap_region
+  [ 1] G1CollectedHeap::par_iterate_regions_array
+  [ 2] G1RemSet::scan_collection_set_regions
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 14302404 ns (0.01%), 14 samples
+  [ 0] __memset_avx2_unaligned_erms
+  [ 1] G1YoungCollector::evacuate_initial_collection_set
+  [ 2] G1YoungCollector::collect
+  [ 3] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [ 4] G1CollectedHeap::do_collection_pause_at_safepoint
+  [ 5] VM_G1CollectForAllocation::doit
+  [ 6] VM_Operation::evaluate
+  [ 7] VMThread::evaluate_operation
+  [ 8] VMThread::inner_execute
+  [ 9] VMThread::run
+  [10] Thread::call_run
+  [11] thread_native_entry
+  [12] start_thread
+
+--- 14006273 ns (0.01%), 14 samples
+  [ 0] MemAllocator::Allocation::notify_allocation_jfr_sampler
+  [ 1] InstanceKlass::allocate_objArray
+  [ 2] JVMCIRuntime::new_array_common
+  [ 3] som.Random.next
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.lambda$buildTreeDepth$0
+  [26] Storage$$Lambda.0x00007f7634004638.apply
+  [27] java.util.Arrays.setAll
+  [28] Storage.buildTreeDepth
+  [29] Storage.benchmark
+  [30] Benchmark.innerBenchmarkLoop
+  [31] Run.measure
+  [32] Run.doRuns
+  [33] Run.runBenchmark
+  [34] Harness.main
+
+--- 13042804 ns (0.01%), 13 samples
+  [ 0] clear_page_rep_[k]
+  [ 1] clear_huge_page_[k]
+  [ 2] __do_huge_pmd_anonymous_page_[k]
+  [ 3] __handle_mm_fault_[k]
+  [ 4] handle_mm_fault_[k]
+  [ 5] do_user_addr_fault_[k]
+  [ 6] exc_page_fault_[k]
+  [ 7] asm_exc_page_fault_[k]
+  [ 8] ObjArrayAllocator::initialize
+  [ 9] MemAllocator::allocate
+  [10] InstanceKlass::allocate_objArray
+  [11] JVMCIRuntime::new_array_common
+  [12] som.Random.next
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.lambda$buildTreeDepth$0
+  [27] Storage$$Lambda.0x00007f7634004638.apply
+  [28] java.util.Arrays.setAll
+  [29] Storage.buildTreeDepth
+  [30] Storage.lambda$buildTreeDepth$0
+  [31] Storage$$Lambda.0x00007f7634004638.apply
+  [32] java.util.Arrays.setAll
+  [33] Storage.buildTreeDepth
+  [34] Storage.lambda$buildTreeDepth$0
+  [35] Storage$$Lambda.0x00007f7634004638.apply
+  [36] java.util.Arrays.setAll
+  [37] Storage.buildTreeDepth
+  [38] Storage.benchmark
+  [39] Benchmark.innerBenchmarkLoop
+  [40] Run.measure
+  [41] Run.doRuns
+  [42] Run.runBenchmark
+  [43] Harness.main
+
+--- 13007944 ns (0.01%), 13 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 12567225 ns (0.01%), 12 samples
+  [ 0] __futex_abstimed_wait_common
+
+--- 12414675 ns (0.01%), 12 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThreads::run_task
+  [10] HeapRegionManager::rebuild_free_list
+  [11] G1CollectedHeap::rebuild_free_region_list
+  [12] G1YoungCollector::post_evacuate_collection_set
+  [13] G1YoungCollector::collect
+  [14] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [15] G1CollectedHeap::do_collection_pause_at_safepoint
+  [16] VM_G1CollectForAllocation::doit
+  [17] VM_Operation::evaluate
+  [18] VMThread::evaluate_operation
+  [19] VMThread::inner_execute
+  [20] VMThread::run
+  [21] Thread::call_run
+  [22] thread_native_entry
+  [23] start_thread
+
+--- 12008654 ns (0.01%), 12 samples
+  [ 0] __memset_avx2_unaligned_erms
+  [ 1] MemAllocator::mem_allocate_inside_tlab_slow
+  [ 2] MemAllocator::allocate
+  [ 3] InstanceKlass::allocate_objArray
+  [ 4] JVMCIRuntime::new_array_common
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.benchmark
+  [27] Benchmark.innerBenchmarkLoop
+  [28] Run.measure
+  [29] Run.doRuns
+  [30] Run.runBenchmark
+  [31] Harness.main
+
+--- 11990711 ns (0.01%), 12 samples
+  [ 0] MemAllocator::mem_allocate_inside_tlab_slow
+  [ 1] MemAllocator::allocate
+  [ 2] InstanceKlass::allocate_objArray
+  [ 3] JVMCIRuntime::new_array_common
+  [ 4] som.Random.next
+  [ 5] Storage.buildTreeDepth
+  [ 6] Storage.lambda$buildTreeDepth$0
+  [ 7] Storage$$Lambda.0x00007f7634004638.apply
+  [ 8] java.util.Arrays.setAll
+  [ 9] Storage.buildTreeDepth
+  [10] Storage.lambda$buildTreeDepth$0
+  [11] Storage$$Lambda.0x00007f7634004638.apply
+  [12] java.util.Arrays.setAll
+  [13] Storage.buildTreeDepth
+  [14] Storage.lambda$buildTreeDepth$0
+  [15] Storage$$Lambda.0x00007f7634004638.apply
+  [16] java.util.Arrays.setAll
+  [17] Storage.buildTreeDepth
+  [18] Storage.lambda$buildTreeDepth$0
+  [19] Storage$$Lambda.0x00007f7634004638.apply
+  [20] java.util.Arrays.setAll
+  [21] Storage.buildTreeDepth
+  [22] Storage.lambda$buildTreeDepth$0
+  [23] Storage$$Lambda.0x00007f7634004638.apply
+  [24] java.util.Arrays.setAll
+  [25] Storage.buildTreeDepth
+  [26] Storage.lambda$buildTreeDepth$0
+  [27] Storage$$Lambda.0x00007f7634004638.apply
+  [28] java.util.Arrays.setAll
+  [29] Storage.buildTreeDepth
+  [30] Storage.benchmark
+  [31] Benchmark.innerBenchmarkLoop
+  [32] Run.measure
+  [33] Run.doRuns
+  [34] Run.runBenchmark
+  [35] Harness.main
+
+--- 11388112 ns (0.01%), 11 samples
+  [ 0] Thread::claim_par_threads_do
+  [ 1] G1RootProcessor::process_java_roots
+  [ 2] G1RootProcessor::evacuate_roots
+  [ 3] G1EvacuateRegionsTask::scan_roots
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 11268474 ns (0.01%), 11 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThreads::run_task
+  [10] G1YoungCollector::pre_evacuate_collection_set
+  [11] G1YoungCollector::collect
+  [12] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [13] G1CollectedHeap::do_collection_pause_at_safepoint
+  [14] VM_G1CollectForAllocation::doit
+  [15] VM_Operation::evaluate
+  [16] VMThread::evaluate_operation
+  [17] VMThread::inner_execute
+  [18] VMThread::run
+  [19] Thread::call_run
+  [20] thread_native_entry
+  [21] start_thread
+
+--- 11023363 ns (0.01%), 11 samples
+  [ 0] Interpreter
+  [ 1] [not_walkable_Java]
+
+--- 11021665 ns (0.01%), 11 samples
+  [ 0] Benchmark.innerBenchmarkLoop
+  [ 1] Run.measure
+  [ 2] Run.doRuns
+  [ 3] Run.runBenchmark
+  [ 4] Harness.main
+
+--- 11013073 ns (0.01%), 11 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 10997173 ns (0.01%), 11 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 10281567 ns (0.01%), 10 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThreads::run_task
+  [10] void WeakProcessor::weak_oops_do<G1STWIsAliveClosure, G1KeepAliveClosure>
+  [11] G1YoungCollector::post_evacuate_collection_set
+  [12] G1YoungCollector::collect
+  [13] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [14] G1CollectedHeap::do_collection_pause_at_safepoint
+  [15] VM_G1CollectForAllocation::doit
+  [16] VM_Operation::evaluate
+  [17] VMThread::evaluate_operation
+  [18] VMThread::inner_execute
+  [19] VMThread::run
+  [20] Thread::call_run
+  [21] thread_native_entry
+  [22] start_thread
+
+--- 10009194 ns (0.01%), 10 samples
+  [ 0] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 1] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 2] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 3] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 4] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 5] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 6] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 7] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 8] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 9] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [10] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [11] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [12] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [13] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [14] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [15] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [16] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [17] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [18] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [19] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [20] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [21] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [22] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [23] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [24] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [25] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [26] JNIEnv_::CallNonvirtualObjectMethod
+  [27] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [28] JVMCIRuntime::compile_method
+  [29] CompileBroker::invoke_compiler_on_method
+  [30] CompileBroker::compiler_thread_loop
+  [31] JavaThread::thread_main_inner
+  [32] Thread::call_run
+  [33] thread_native_entry
+  [34] start_thread
+
+--- 10006763 ns (0.01%), 10 samples
+  [ 0] Storage.verifyResult
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 10002784 ns (0.01%), 10 samples
+  [ 0] Storage.lambda$buildTreeDepth$0
+  [ 1] Storage$$Lambda.0x00007f7634004638.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 9999033 ns (0.01%), 10 samples
+  [ 0] __GI___pthread_mutex_trylock
+  [ 1] [unknown]
+  [ 2] som.Random.next
+  [ 3] Storage.buildTreeDepth
+  [ 4] Storage.lambda$buildTreeDepth$0
+  [ 5] Storage$$Lambda.0x00007f7634004638.apply
+  [ 6] java.util.Arrays.setAll
+  [ 7] Storage.buildTreeDepth
+  [ 8] Storage.lambda$buildTreeDepth$0
+  [ 9] Storage$$Lambda.0x00007f7634004638.apply
+  [10] java.util.Arrays.setAll
+  [11] Storage.buildTreeDepth
+  [12] Storage.lambda$buildTreeDepth$0
+  [13] Storage$$Lambda.0x00007f7634004638.apply
+  [14] java.util.Arrays.setAll
+  [15] Storage.buildTreeDepth
+  [16] Storage.lambda$buildTreeDepth$0
+  [17] Storage$$Lambda.0x00007f7634004638.apply
+  [18] java.util.Arrays.setAll
+  [19] Storage.buildTreeDepth
+  [20] Storage.lambda$buildTreeDepth$0
+  [21] Storage$$Lambda.0x00007f7634004638.apply
+  [22] java.util.Arrays.setAll
+  [23] Storage.buildTreeDepth
+  [24] Storage.lambda$buildTreeDepth$0
+  [25] Storage$$Lambda.0x00007f7634004638.apply
+  [26] java.util.Arrays.setAll
+  [27] Storage.buildTreeDepth
+  [28] Storage.benchmark
+  [29] Benchmark.innerBenchmarkLoop
+  [30] Run.measure
+  [31] Run.doRuns
+  [32] Run.runBenchmark
+  [33] Harness.main
+
+--- 9282563 ns (0.01%), 9 samples
+  [ 0] _raw_spin_unlock_irqrestore_[k]
+  [ 1] try_to_wake_up_[k]
+  [ 2] wake_up_q_[k]
+  [ 3] futex_wake_[k]
+  [ 4] do_futex_[k]
+  [ 5] __x64_sys_futex_[k]
+  [ 6] do_syscall_64_[k]
+  [ 7] entry_SYSCALL_64_after_hwframe_[k]
+  [ 8] sem_post@GLIBC_2.2.5
+  [ 9] WorkerThreads::run_task
+  [10] G1YoungCollector::evacuate_initial_collection_set
+  [11] G1YoungCollector::collect
+  [12] G1CollectedHeap::do_collection_pause_at_safepoint_helper
+  [13] G1CollectedHeap::do_collection_pause_at_safepoint
+  [14] VM_G1CollectForAllocation::doit
+  [15] VM_Operation::evaluate
+  [16] VMThread::evaluate_operation
+  [17] VMThread::inner_execute
+  [18] VMThread::run
+  [19] Thread::call_run
+  [20] thread_native_entry
+  [21] start_thread
+
+--- 9006621 ns (0.01%), 9 samples
+  [ 0] G1Allocator::unsafe_max_tlab_alloc
+  [ 1] MemAllocator::mem_allocate_inside_tlab_slow
+  [ 2] MemAllocator::allocate
+  [ 3] InstanceKlass::allocate_objArray
+  [ 4] JVMCIRuntime::new_array_common
+  [ 5] som.Random.next
+  [ 6] Storage.buildTreeDepth
+  [ 7] Storage.lambda$buildTreeDepth$0
+  [ 8] Storage$$Lambda.0x00007f7634004638.apply
+  [ 9] java.util.Arrays.setAll
+  [10] Storage.buildTreeDepth
+  [11] Storage.lambda$buildTreeDepth$0
+  [12] Storage$$Lambda.0x00007f7634004638.apply
+  [13] java.util.Arrays.setAll
+  [14] Storage.buildTreeDepth
+  [15] Storage.lambda$buildTreeDepth$0
+  [16] Storage$$Lambda.0x00007f7634004638.apply
+  [17] java.util.Arrays.setAll
+  [18] Storage.buildTreeDepth
+  [19] Storage.lambda$buildTreeDepth$0
+  [20] Storage$$Lambda.0x00007f7634004638.apply
+  [21] java.util.Arrays.setAll
+  [22] Storage.buildTreeDepth
+  [23] Storage.lambda$buildTreeDepth$0
+  [24] Storage$$Lambda.0x00007f7634004638.apply
+  [25] java.util.Arrays.setAll
+  [26] Storage.buildTreeDepth
+  [27] Storage.lambda$buildTreeDepth$0
+  [28] Storage$$Lambda.0x00007f7634004638.apply
+  [29] java.util.Arrays.setAll
+  [30] Storage.buildTreeDepth
+  [31] Storage.benchmark
+  [32] Benchmark.innerBenchmarkLoop
+  [33] Run.measure
+  [34] Run.doRuns
+  [35] Run.runBenchmark
+  [36] Harness.main
+
+--- 9006342 ns (0.01%), 9 samples
+  [ 0] MemAllocator::allocate
+  [ 1] InstanceKlass::allocate_objArray
+  [ 2] JVMCIRuntime::new_array_common
+  [ 3] som.Random.next
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.lambda$buildTreeDepth$0
+  [18] Storage$$Lambda.0x00007f7634004638.apply
+  [19] java.util.Arrays.setAll
+  [20] Storage.buildTreeDepth
+  [21] Storage.lambda$buildTreeDepth$0
+  [22] Storage$$Lambda.0x00007f7634004638.apply
+  [23] java.util.Arrays.setAll
+  [24] Storage.buildTreeDepth
+  [25] Storage.lambda$buildTreeDepth$0
+  [26] Storage$$Lambda.0x00007f7634004638.apply
+  [27] java.util.Arrays.setAll
+  [28] Storage.buildTreeDepth
+  [29] Storage.benchmark
+  [30] Benchmark.innerBenchmarkLoop
+  [31] Run.measure
+  [32] Run.doRuns
+  [33] Run.runBenchmark
+  [34] Harness.main
+
+--- 8999022 ns (0.01%), 9 samples
+  [ 0] Storage.buildTreeDepth
+  [ 1] Storage.lambda$buildTreeDepth$0
+  [ 2] Storage$$Lambda.0x00007f7634004638.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Storage.buildTreeDepth
+  [ 5] Storage.lambda$buildTreeDepth$0
+  [ 6] Storage$$Lambda.0x00007f7634004638.apply
+  [ 7] java.util.Arrays.setAll
+  [ 8] Storage.buildTreeDepth
+  [ 9] Storage.lambda$buildTreeDepth$0
+  [10] Storage$$Lambda.0x00007f7634004638.apply
+  [11] java.util.Arrays.setAll
+  [12] Storage.buildTreeDepth
+  [13] Storage.lambda$buildTreeDepth$0
+  [14] Storage$$Lambda.0x00007f7634004638.apply
+  [15] java.util.Arrays.setAll
+  [16] Storage.buildTreeDepth
+  [17] Storage.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 8998722 ns (0.01%), 9 samples
+  [ 0] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 1] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 2] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 3] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 4] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 5] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 6] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 7] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 8] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 9] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [10] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [11] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [12] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [13] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [14] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [15] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [16] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [17] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [18] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [19] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [20] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [21] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [22] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [23] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [24] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [25] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [26] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [27] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [28] JNIEnv_::CallNonvirtualObjectMethod
+  [29] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [30] JVMCIRuntime::compile_method
+  [31] CompileBroker::invoke_compiler_on_method
+  [32] CompileBroker::compiler_thread_loop
+  [33] JavaThread::thread_main_inner
+  [34] Thread::call_run
+  [35] thread_native_entry
+  [36] start_thread
+
+--- 8986013 ns (0.01%), 9 samples
+  [ 0] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 1] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 2] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 3] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 4] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 5] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 6] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 7] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 8] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [ 9] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [10] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [11] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [12] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [13] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [14] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [15] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [16] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [17] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [18] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [19] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [20] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [21] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [22] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [23] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [24] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [25] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [26] __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+  [27] JNIEnv_::CallNonvirtualObjectMethod
+  [28] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [29] JVMCIRuntime::compile_method
+  [30] CompileBroker::invoke_compiler_on_method
+  [31] CompileBroker::compiler_thread_loop
+  [32] JavaThread::thread_main_inner
+  [33] Thread::call_run
+  [34] thread_native_entry
+  [35] start_thread
+
+--- 8224053 ns (0.01%), 8 samples
+  [ 0] G1RebuildFreeListTask::work
+  [ 1] WorkerThread::run
+  [ 2] Thread::call_run
+  [ 3] thread_native_entry
+  [ 4] start_thread
+
+--- 8208572 ns (0.01%), 8 samples
+  [ 0] G1FromCardCache::clear
+  [ 1] HeapRegionRemSet::clear_locked
+  [ 2] HeapRegion::hr_clear
+  [ 3] G1CollectedHeap::free_region
+  [ 4] FreeCSetClosure::do_heap_region
+  [ 5] G1CollectedHeap::par_iterate_regions_array
+  [ 6] G1PostEvacuateCollectionSetCleanupTask2::FreeCollectionSetTask::do_work
+  [ 7] G1BatchedTask::work
+  [ 8] WorkerThread::run
+  [ 9] Thread::call_run
+  [10] thread_native_entry
+  [11] start_thread
+
+--- 8194027 ns (0.01%), 8 samples
+  [ 0] G1RemSet::prepare_region_for_scan
+  [ 1] G1PrepareEvacuationTask::G1PrepareRegionsClosure::do_heap_region
+  [ 2] HeapRegionManager::par_iterate
+  [ 3] G1PrepareEvacuationTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 8094481 ns (0.01%), 8 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParCopyClosure<(G1Barrier)1, false>::do_oop
+  [ 2] ClassLoaderData::oops_do
+  [ 3] G1CLDScanClosure::do_cld
+  [ 4] ClassLoaderDataGraph::roots_cld_do
+  [ 5] G1RootProcessor::process_java_roots
+  [ 6] G1RootProcessor::evacuate_roots
+  [ 7] G1EvacuateRegionsTask::scan_roots
+  [ 8] G1EvacuateRegionsBaseTask::work
+  [ 9] WorkerThread::run
+  [10] Thread::call_run
+  [11] thread_native_entry
+  [12] start_thread
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 72389833906   60.49%    72378  Storage.buildTreeDepth
+ 27188183386   22.72%    27183  java.util.Arrays.setAll
+  8028740773    6.71%     8027  Storage$$Lambda.0x00007f7634004638.apply
+  5100123371    4.26%     5099  som.Random.next
+  3174930396    2.65%     3174  jdk.internal.misc.Unsafe.allocateInstance
+  1584226357    1.32%     1584  Storage.lambda$buildTreeDepth$0
+   186153880    0.16%      181  G1ParScanThreadState::trim_queue_to_threshold
+   164960812    0.14%      165  __ZN41com_002eoracle_002esvm_002ecore_002ecode_002eIsolateEnterStub74TruffleToLibGraalEntryPoints__validateCompilerOption__Ujs0fEGwUTHHbobHrcnio9EJ32org_002egraalvm_002ejniutils_002eJNI_0024JString31org_002egraalvm_002ejniutils_002eJNI_0024JNIEnv31org_002egraalvm_002ejniutils_002eJNI_0024JClasslS0__S0__
+   163249981    0.14%      161  __memset_avx2_unaligned_erms
+   149207172    0.12%      145  _raw_spin_unlock_irqrestore_[k]
+    80369560    0.07%       80  clear_page_rep_[k]
+    74336153    0.06%       72  HeapRegionManager::par_iterate
+    71185649    0.06%       70  SpinPause
+    31006631    0.03%       31  InstanceKlass::allocate_objArray
+    28822729    0.02%       28  FreeListAllocator::reset
+    26923017    0.02%       26  [vdso]
+    25772124    0.02%       25  G1MergeHeapRootsTask::G1MergeCardSetClosure::do_heap_region
+    24004518    0.02%       24  ClassLoaderData::holder
+    23623240    0.02%       23  FreeCSetClosure::do_heap_region
+    23567896    0.02%       23  void WeakProcessor::Task::work<G1STWIsAliveClosure, G1KeepAliveClosure>
+    22008137    0.02%       22  MemAllocator::Allocation::notify_allocation_jfr_sampler
+    21661974    0.02%       21  G1CardSet::reset_table_scanner
+    21485602    0.02%       21  G1ParScanThreadState::steal_and_trim_queue
+    20314897    0.02%       20  __tls_get_addr
+    16000846    0.01%       16  __GI___pthread_mutex_trylock
+    15017975    0.01%       15  Benchmark.innerBenchmarkLoop
+    14396222    0.01%       14  G1ScanCollectionSetRegionClosure::do_heap_region
+    14260754    0.01%       14  G1FromCardCache::clear
+    14026702    0.01%       14  G1Allocator::unsafe_max_tlab_alloc
+    13990701    0.01%       14  MemAllocator::mem_allocate_inside_tlab_slow
+    13694603    0.01%       13  syscall_enter_from_user_mode_[k]
+    13564565    0.01%       13  __futex_abstimed_wait_common
+    13015824    0.01%       13  G1CardTable::g1_mark_as_young
+    13005943    0.01%       13  HeapRegionManager::allocate_free_region
+    13005215    0.01%       13  ObjArrayAllocator::initialize
+    11388112    0.01%       11  Thread::claim_par_threads_do
+    11023363    0.01%       11  Interpreter
+    11008411    0.01%       11  G1CollectedHeap::attempt_allocation_slow
+    10037682    0.01%       10  G1CollectedHeap::fill_with_dummy_object
+    10006763    0.01%       10  Storage.verifyResult
+    10006733    0.01%       10  MemAllocator::allocate
+     9004622    0.01%        9  HSpaceCounters::update_used
+     8311160    0.01%        8  _int_malloc
+     8233115    0.01%        8  G1CollectedHeap::par_iterate_regions_array
+     8224053    0.01%        8  G1RebuildFreeListTask::work
+     8194027    0.01%        8  G1RemSet::prepare_region_for_scan
+     8152492    0.01%        8  __memset_avx2_unaligned
+     8024102    0.01%        8  HeapRegionType::get_trace_type
+     8005131    0.01%        8  G1CollectedHeap::allocate_new_tlab
+     8004113    0.01%        8  InstanceKlass::array_klass
+     8001051    0.01%        8  zap_pte_range_[k]
+     7990391    0.01%        8  JfrAllocationTracer::JfrAllocationTracer
+     7977201    0.01%        8  G1MonitoringSupport::update_eden_size
+     7412222    0.01%        7  clock_gettime@GLIBC_2.2.5
+     7098141    0.01%        7  pthread_mutex_lock@@GLIBC_2.2.5
+     7054741    0.01%        7  do_user_addr_fault_[k]
+     7007722    0.01%        7  JVMCIRuntime::new_array_common
+     7004064    0.01%        7  Klass::check_array_allocation_length
+     6999623    0.01%        7  G1NUMA::index_of_current_thread
+     6990992    0.01%        7  HandleMark::initialize
+     6983023    0.01%        7  AccessInternal::PostRuntimeDispatch<G1BarrierSet::AccessBarrier<598116ul, G1BarrierSet>, (AccessInternal::BarrierType)2, 598116ul>::oop_access_barrier
+     6289461    0.01%        6  __audit_syscall_entry_[k]
+     6254732    0.01%        6  G1GCParPhaseTimesTracker::~G1GCParPhaseTimesTracker
+     6227471    0.01%        6  futex_hash_[k]
+     6222202    0.01%        6  syscall_trace_enter.constprop.0_[k]
+     6175121    0.01%        6  G1ParCopyClosure<(G1Barrier)0, false>::do_oop
+     6165180    0.01%        6  WorkerThread::run
+     6161452    0.01%        6  G1CodeRootSet::clear
+     6144552    0.01%        6  OopStorage::BasicParState::claim_next_segment
+     6126861    0.01%        6  HeapRegionClaimer::claim_region
+     6065740    0.01%        6  void OopOopIterateBackwardsDispatch<G1ScanEvacuatedObjClosure>::Table::oop_oop_iterate_backwards<InstanceKlass, narrowOop>
+     5988072    0.01%        6  _dl_update_slotinfo
+     5283401    0.00%        5  __x64_sys_futex_[k]
+     5246411    0.00%        5  futex_q_lock_[k]
+     5241320    0.00%        5  pthread_cond_timedwait@@GLIBC_2.3.2
+     5153361    0.00%        5  sem_post@GLIBC_2.2.5
+     5147673    0.00%        5  plist_add_[k]
+     5120663    0.00%        5  futex_wake_[k]
+     5116541    0.00%        5  G1MonotonicArena::num_segments
+     5107560    0.00%        5  malloc
+     5071201    0.00%        5  G1CollectedHeap::prepare_for_mutator_after_young_collection
+     5010530    0.00%        5  ResourceArea::rollback_to
+     5003353    0.00%        5  G1CollectionSet::add_eden_region
+     5003351    0.00%        5  ThreadLocalAllocBuffer::fill
+     5001052    0.00%        5  CardTableBarrierSet::on_slowpath_allocation_exit
+     4999872    0.00%        5  Storage.benchmark
+     4294842    0.00%        4  __get_user_8_[k]
+     4172902    0.00%        4  futex_wait_setup_[k]
+     4153533    0.00%        4  finish_task_switch.isra.0_[k]
+     4125041    0.00%        4  ConcurrentGCThread::should_terminate
+     4114072    0.00%        4  G1GCPhaseTimes::record_or_add_thread_work_item
+     4109641    0.00%        4  G1RemSet::prepare_for_scan_heap_roots
+     4108802    0.00%        4  __GI___printf_fp_l
+     4107543    0.00%        4  os::elapsed_counter
+     4095472    0.00%        4  void QuickSort::inner_sort<true, unsigned int, int (*)(unsigned int, unsigned int)>
+     4085601    0.00%        4  G1CardSet::clear
+     4080411    0.00%        4  ThreadsListHandle::ThreadsListHandle
+     4074521    0.00%        4  __strlen_avx2
+     4066350    0.00%        4  AbsSeq::dsd
+     4016962    0.00%        4  next_uptodate_page_[k]
+     4004382    0.00%        4  SharedRuntime::on_slowpath_allocation_exit
+     3997002    0.00%        4  G1CardTable::is_in_young
+     3204550    0.00%        3  free
+     3189641    0.00%        3  _copy_from_user_[k]
+     3119340    0.00%        3  ConstantPool::name_and_type_ref_index_at
+     3117980    0.00%        3  G1ParScanThreadState::G1ParScanThreadState
+     3115770    0.00%        3  __new_sem_wait_slow64.constprop.0
+     3096560    0.00%        3  frame::oops_interpreted_do
+     3095451    0.00%        3  JavaThread::oops_do_no_frames
+     3090070    0.00%        3  G1DirtyCardQueueSet::concatenate_log_and_stats
+     3085571    0.00%        3  Thread::oops_do_no_frames
+     3084322    0.00%        3  G1GCPhaseTimes::reset
+     3084290    0.00%        3  ___pthread_cond_broadcast
+     3078300    0.00%        3  __vfprintf_internal
+     3075030    0.00%        3  G1SurvRateGroup::record_surviving_words
+     3074363    0.00%        3  G1ParScanThreadStateSet::flush_stats
+     3073861    0.00%        3  OopMapCache::lookup
+     3067701    0.00%        3  G1RemSetScanState::G1ClearCardTableTask::do_work
+     3067270    0.00%        3  G1GCPhaseTimes::phase_name
+     3066120    0.00%        3  __list_add_valid_[k]
+     3065181    0.00%        3  G1CardSet::is_empty
+     3060550    0.00%        3  G1MonotonicArena::drop_all
+     3053571    0.00%        3  futex_wake_mark_[k]
+     3049000    0.00%        3  _IO_default_xsputn
+     3045291    0.00%        3  malloc_consolidate
+     3010380    0.00%        3  _invokeBasic
+     3003571    0.00%        3  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic
+     3002071    0.00%        3  I2C/C2I adapters(0xb)
+     3000800    0.00%        3  ObjectSampler::is_created
+     3000440    0.00%        3  HeapRegion::set_eden
+     3000230    0.00%        3  JVMCIRuntime::new_instance_common
+     2998521    0.00%        3  java.lang.Integer.valueOf
+     2996310    0.00%        3  JfrObjectAllocationSample::send_event
+     2972851    0.00%        3  readConfiguration0
+     2183512    0.00%        2  WatcherThread::sleep
+     2159331    0.00%        2  Mutex::lock_without_safepoint_check
+     2158880    0.00%        2  copy_user_generic_string_[k]
+     2143650    0.00%        2  futex_wait_[k]
+     2133320    0.00%        2  srso_safe_ret_[k]
+     2128220    0.00%        2  CompositeElapsedCounterSource::seconds
+     2124111    0.00%        2  StatSamplerTask::task
+     2123220    0.00%        2  futex_get_value_locked_[k]
+     2120290    0.00%        2  G1Policy::phase_times
+     2084532    0.00%        2  futex_wait_queue_[k]
+     2080770    0.00%        2  JavaThread::oops_do_frames
+     2080643    0.00%        2  Method::mask_for
+     2079940    0.00%        2  G1CardSetMemoryManager::memory_stats
+     2076641    0.00%        2  do_syscall_64_[k]
+     2074810    0.00%        2  G1CollectedHeap::collection_set_par_iterate_all
+     2073710    0.00%        2  native_queued_spin_lock_slowpath_[k]
+     2065691    0.00%        2  PLAB::max_size
+     2063291    0.00%        2  StackWatermarkSet::finish_processing
+     2063000    0.00%        2  ___pthread_testcancel
+     2062542    0.00%        2  CompositeElapsedCounterSource::now
+     2060174    0.00%        2  G1BatchedTask::work
+     2059850    0.00%        2  AbsSeq::davg
+     2059021    0.00%        2  GCHeapSummaryEventSender::visit
+     2056232    0.00%        2  G1RootProcessor::process_java_roots
+     2055440    0.00%        2  VM_Operation::evaluate
+     2051860    0.00%        2  AgeTable::print_age_table
+     2051220    0.00%        2  HeapRegion::hr_clear
+     2050280    0.00%        2  G1CollectedHeap::retire_gc_alloc_region
+     2049860    0.00%        2  G1ParScanThreadState::flush_stats
+     2048221    0.00%        2  G1CollectedHeap::heap_region_par_iterate_from_worker_offset
+     2048181    0.00%        2  G1MergeHeapRootsTask::work
+     2047980    0.00%        2  _int_free
+     2047770    0.00%        2  G1PLABAllocator::G1PLABAllocator
+     2045220    0.00%        2  G1RootProcessor::process_vm_roots
+     2043940    0.00%        2  CodeCache::find_blob
+     2041331    0.00%        2  G1PreEvacuateCollectionSetBatchTask::JavaThreadRetireTLABAndFlushLogs::do_work
+     2038130    0.00%        2  Threads::possibly_parallel_oops_do
+     2036291    0.00%        2  G1GCPhaseTimes::sum_thread_work_items
+     2035721    0.00%        2  PreservedMarksSet::init
+     2034711    0.00%        2  G1Allocator::survivor_attempt_allocation
+     2033641    0.00%        2  SafepointSynchronize::begin
+     2032892    0.00%        2  CodeHeapPool::get_memory_usage
+     2023591    0.00%        2  ClassLoaderDataGraph::roots_cld_do
+     2023270    0.00%        2  java.lang.StringLatin1.indexOf
+     2023262    0.00%        2  void OopOopIterateDispatch<G1ScanCardClosure>::Table::oop_oop_iterate<InstanceMirrorKlass, narrowOop>
+     2019591    0.00%        2  HeapRegionRemSet::clear_locked
+     2014070    0.00%        2  void G1ScanCardClosure::do_oop_work<narrowOop>
+     2012990    0.00%        2  __mod_lruvec_page_state_[k]
+     2007980    0.00%        2  VMThread::wait_until_executed
+     2004420    0.00%        2  java.lang.StringCoding.implEncodeAsciiArray
+     2004310    0.00%        2  InterpreterRuntime::ldc
+     2003671    0.00%        2  AccessInternal::PostRuntimeDispatch<G1BarrierSet::AccessBarrier<548964ul, G1BarrierSet>, (AccessInternal::BarrierType)2, 548964ul>::oop_access_barrier
+     2003591    0.00%        2  java.io.FileOutputStream.write
+     2003300    0.00%        2  java.nio.ByteBuffer.position
+     2002771    0.00%        2  java.lang.invoke.LambdaForm$MH.0x00007f763400b800.invoke
+     2002731    0.00%        2  sun.nio.cs.StreamEncoder.implWrite
+     2002050    0.00%        2  Mutex::owned_by_self
+     2001500    0.00%        2  java.lang.StringConcatHelper.prepend
+     2000992    0.00%        2  /home/hburchell/Repos/graal-dev/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+     2000880    0.00%        2  Run.measure
+     2000510    0.00%        2  Mutex::lock
+     2000311    0.00%        2  CollectedHeap::fill_with_object
+     2000211    0.00%        2  ThreadLocalAllocBuffer::end_reserve
+     1999131    0.00%        2  Stub<new_array_or_null(KlassPointer,int)Object>
+     1109300    0.00%        1  Monitor::wait_without_safepoint_check
+     1108521    0.00%        1  G1MonotonicArenaFreeMemoryTask::free_excess_arena_memory
