@@ -1,0 +1,20 @@
+[
+{"Class":"jdk.graal.compiler.lir.amd64.AMD64Unary$MemoryOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64ControlFlow$TestBranchOp","normalCost":2,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64ControlFlow$CmpConstBranchOp","normalCost":2,"vCost":0},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64DeoptimizeOp","normalCost":3,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64Call$DirectNearForeignCallOp","normalCost":3,"vCost":0},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64HotSpotDirectStaticCallOp","normalCost":4,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64Move$MoveToRegOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64Unary$MOp","normalCost":2,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.StandardOp$JumpOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64HotSpotCRuntimeCallPrologueOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64Move$MoveFromRegOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64BinaryConsumer$MemoryMROp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64Move$MoveFromConstOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64HotSpotReturnOp","normalCost":4,"vCost":0},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64HotSpotCRuntimeCallEpilogueOp","normalCost":3,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64BinaryConsumer$MemoryConstOp","normalCost":1,"vCost":0},
+  {"Class":"jdk.graal.compiler.lir.amd64.AMD64VZeroUpper","normalCost":0,"vCost":1},
+  {"Class":"jdk.graal.compiler.hotspot.amd64.AMD64HotSpotPatchReturnAddressOp","normalCost":1,"vCost":0}
+  ]

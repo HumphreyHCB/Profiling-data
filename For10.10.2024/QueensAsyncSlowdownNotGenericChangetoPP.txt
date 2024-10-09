@@ -1,0 +1,1655 @@
+--- Execution profile ---
+Total samples       : 206553
+unknown_Java        : 16126 (7.81%)
+not_walkable_Java   : 3054 (1.48%)
+deoptimization      : 3 (0.00%)
+
+--- 6305971486 ns (3.05%), 6305 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 5883177741 ns (2.85%), 5882 samples
+  [ 0] Queens.getRowColumn
+  [ 1] [unknown_Java]
+
+--- 4774620890 ns (2.31%), 4774 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 4653683393 ns (2.25%), 4653 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 4473767128 ns (2.17%), 4473 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 3881447322 ns (1.88%), 3881 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 3655651998 ns (1.77%), 3655 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 3371604763 ns (1.63%), 3371 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 3140419884 ns (1.52%), 3140 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 3082449163 ns (1.49%), 3082 samples
+  [ 0] Queens.setRowColumn
+  [ 1] [unknown_Java]
+
+--- 2993452341 ns (1.45%), 2993 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 2989933012 ns (1.45%), 2989 samples
+  [ 0] Interpreter
+  [ 1] [not_walkable_Java]
+
+--- 2985475663 ns (1.45%), 2985 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 2942534541 ns (1.42%), 2942 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 2650788780 ns (1.28%), 2650 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 2555350009 ns (1.24%), 2555 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 2209298570 ns (1.07%), 2209 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 2148224353 ns (1.04%), 2148 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 1949191666 ns (0.94%), 1949 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 1870231916 ns (0.91%), 1870 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1817206098 ns (0.88%), 1817 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1797248145 ns (0.87%), 1797 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1759316565 ns (0.85%), 1759 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 1728382955 ns (0.84%), 1728 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.placeQueen
+  [ 9] Queens.queens
+  [10] Queens.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 1541125518 ns (0.75%), 1541 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 1493357492 ns (0.72%), 1493 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1369287659 ns (0.66%), 1369 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1189167890 ns (0.58%), 1189 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 1188143587 ns (0.58%), 1188 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 1152116371 ns (0.56%), 1152 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.placeQueen
+  [ 9] Queens.queens
+  [10] Queens.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 1083182499 ns (0.52%), 1083 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 1076118252 ns (0.52%), 1076 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 1059138599 ns (0.51%), 1059 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 1057125754 ns (0.51%), 1057 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 1042218924 ns (0.50%), 1042 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 973250747 ns (0.47%), 973 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 971158226 ns (0.47%), 971 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 883159554 ns (0.43%), 883 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 872104444 ns (0.42%), 872 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 870184988 ns (0.42%), 870 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 852025947 ns (0.41%), 852 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 845209208 ns (0.41%), 845 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.placeQueen
+  [ 9] Queens.queens
+  [10] Queens.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 816076434 ns (0.40%), 816 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 814072502 ns (0.39%), 814 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 795145278 ns (0.38%), 795 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 790093631 ns (0.38%), 790 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 757119283 ns (0.37%), 757 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 712076740 ns (0.34%), 712 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 709082599 ns (0.34%), 709 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 704105804 ns (0.34%), 704 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.placeQueen
+  [ 9] Queens.queens
+  [10] Queens.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 684685097 ns (0.33%), 685 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 669243702 ns (0.32%), 669 samples
+  [ 0] I2C/C2I adapters(0xb)
+  [ 1] [unknown_Java]
+
+--- 665096066 ns (0.32%), 665 samples
+  [ 0] Queens.placeQueen
+  [ 1] [unknown_Java]
+
+--- 624086053 ns (0.30%), 624 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 612038453 ns (0.30%), 612 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 582118297 ns (0.28%), 582 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 579086053 ns (0.28%), 579 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 572083515 ns (0.28%), 572 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 542054160 ns (0.26%), 542 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 535111809 ns (0.26%), 535 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.queens
+  [ 4] Queens.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 509077129 ns (0.25%), 509 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 502076211 ns (0.24%), 502 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 471089170 ns (0.23%), 471 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 465067436 ns (0.23%), 465 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 463981226 ns (0.22%), 464 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 461056740 ns (0.22%), 461 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 460099248 ns (0.22%), 460 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 457101160 ns (0.22%), 457 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 457020817 ns (0.22%), 457 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 456066292 ns (0.22%), 456 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 434026345 ns (0.21%), 434 samples
+  [ 0] I2C/C2I adapters(0xbb)
+  [ 1] [unknown_Java]
+
+--- 433026961 ns (0.21%), 433 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 426080911 ns (0.21%), 426 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 419086366 ns (0.20%), 419 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 418058770 ns (0.20%), 418 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 415076292 ns (0.20%), 415 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 403104193 ns (0.20%), 403 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 397047647 ns (0.19%), 397 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 387094406 ns (0.19%), 387 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 386072763 ns (0.19%), 386 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 386049544 ns (0.19%), 386 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 380056469 ns (0.18%), 380 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 379013412 ns (0.18%), 379 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 376041710 ns (0.18%), 376 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 373071904 ns (0.18%), 373 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 366030985 ns (0.18%), 366 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 361117462 ns (0.17%), 361 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 343074696 ns (0.17%), 343 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 343036179 ns (0.17%), 343 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 337027342 ns (0.16%), 337 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 329039608 ns (0.16%), 329 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 329031140 ns (0.16%), 329 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.queens
+  [ 4] Queens.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 315028375 ns (0.15%), 315 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.queens
+  [ 7] Queens.benchmark
+  [ 8] Benchmark.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 305003016 ns (0.15%), 305 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 291055979 ns (0.14%), 291 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.queens
+  [ 5] Queens.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 287092646 ns (0.14%), 287 samples
+  [ 0] Queens.placeQueen
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 286062548 ns (0.14%), 286 samples
+  [ 0] Queens.getRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 286058519 ns (0.14%), 286 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.placeQueen
+  [ 8] Queens.queens
+  [ 9] Queens.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 283040086 ns (0.14%), 283 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.queens
+  [ 6] Queens.benchmark
+  [ 7] Benchmark.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 282029828 ns (0.14%), 282 samples
+  [ 0] Queens.setRowColumn
+  [ 1] Queens.placeQueen
+  [ 2] Queens.placeQueen
+  [ 3] Queens.placeQueen
+  [ 4] Queens.placeQueen
+  [ 5] Queens.placeQueen
+  [ 6] Queens.placeQueen
+  [ 7] Queens.queens
+  [ 8] Queens.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 68745939971   33.27%    68736  Queens.getRowColumn
+ 43374219771   20.99%    43367  Queens.placeQueen
+ 23769495506   11.51%    23766  Queens.setRowColumn
+  2998949306    1.45%     2998  Interpreter
+  1337450541    0.65%     1337  I2C/C2I adapters(0xb)
+  1271205124    0.62%     1271  java.util.Arrays.fill
+  1045222356    0.51%     1045  Queens.queens
+   719935953    0.35%      720  jdk.graal.compiler.graph.NodeIdAccessor.getNodeId
+   610078132    0.30%      610  I2C/C2I adapters(0xbb)
+   514007061    0.25%      514  itable stub
+   501925383    0.24%      502  java.util.ArrayList.add
+   417066950    0.20%      417  jdk.graal.compiler.phases.BasePhase.apply
+   324019503    0.16%      324  java.util.ArrayList$Itr.next
+   297324320    0.14%      297  InstanceKlass::find_method_index
+   271126552    0.13%      271  java.lang.Object.hashCode
+   235992307    0.11%      236  jdk.graal.compiler.core.common.util.CompilationAlarm.checkProgress
+   210033419    0.10%      210  java.lang.Object.<init>
+   201056319    0.10%      201  java.util.RegularEnumSet.contains
+   198976604    0.10%      199  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.scheduleEarliestIterative
+   190036582    0.09%      190  jdk.graal.compiler.lir.LIRIntrospection.visitEach
+   190033526    0.09%      190  jdk.graal.compiler.phases.common.CanonicalizerPhase.processNode
+   182996128    0.09%      183  jdk.graal.compiler.phases.common.LoweringPhase.process
+   175033896    0.08%      175  org.graalvm.collections.EconomicMapImpl.find
+   172935349    0.08%      173  jdk.graal.compiler.phases.common.CanonicalizerPhase.tryCanonicalize
+   172089302    0.08%      172  jdk.graal.compiler.nodes.cfg.ReversePostOrder.compute
+   172011290    0.08%      172  jdk.graal.compiler.options.OptionValues.get
+   170992593    0.08%      171  org.graalvm.collections.EconomicMapImpl.getHashIndex
+   166040960    0.08%      166  I2C/C2I adapters(0xbbb)
+   165002126    0.08%      165  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.forward
+   153050678    0.07%      153  org.graalvm.collections.EconomicMapImpl.get
+   149102673    0.07%      149  I2C/C2I adapters(0xba)
+   148047817    0.07%      148  jdk.graal.compiler.core.common.type.AbstractObjectStamp.join0
+   144039481    0.07%      144  java.util.concurrent.ConcurrentHashMap.computeIfAbsent
+   141006067    0.07%      141  java.util.ArrayDeque.addLast
+   139528665    0.07%      139  G1ParScanThreadState::trim_queue_to_threshold
+   139044271    0.07%      139  java.util.ArrayList.elementData
+   137046128    0.07%      137  jdk.graal.compiler.lir.alloc.lsra.Range.intersectsAt
+   134961279    0.07%      135  jdk.graal.compiler.nodes.loop.LoopFragment.computeNodes
+   133068603    0.06%      133  CodeCache::find_blob
+   128028701    0.06%      128  java.util.ArrayDeque.pollFirst
+   126028707    0.06%      126  org.graalvm.collections.EconomicMapImpl.put
+   125037244    0.06%      125  java.lang.StringLatin1.lastIndexOf
+   124087310    0.06%      124  jdk.graal.compiler.graph.Graph.findDuplicate
+   122049899    0.06%      122  jdk.graal.compiler.lir.alloc.lsra.IntervalWalker.walkTo
+   121998414    0.06%      122  jdk.graal.compiler.graph.iterators.PredicatedProxyNodeIterator.forward
+   121040228    0.06%      121  jdk.graal.compiler.graph.NodeWorkList$QueueConsumingIterator.dropDeleted
+   121030348    0.06%      121  org.graalvm.collections.EconomicMapImpl.findHash
+   120068850    0.06%      120  CodeHeap::find_blob
+   120020910    0.06%      120  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processInputs
+   118970845    0.06%      119  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.rpoInnerLoopsFirst
+   118077451    0.06%      118  jdk.graal.compiler.graph.Graph.register
+   118070692    0.06%      118  jdk.graal.compiler.debug.DebugContext.isCounterEnabledSlow
+   118010496    0.06%      118  java.util.Arrays.copyOf
+   115017403    0.06%      115  jdk.graal.compiler.debug.DebugContext.log
+   113996167    0.06%      114  jdk.graal.compiler.graph.NodeMap.set
+   113975633    0.06%      114  java.util.ArrayList$Itr.hasNext
+   111943413    0.05%      112  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.sortNodesLatestWithinBlock
+   110051035    0.05%      110  jdk.graal.compiler.debug.DebugContext.isLogEnabled
+   109026959    0.05%      109  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.next
+   109009297    0.05%      109  java.lang.StringLatin1.equals
+   107034713    0.05%      107  java.lang.String.lastIndexOf
+   106023674    0.05%      106  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.getBlocks
+   105064657    0.05%      105  jdk.graal.compiler.lir.alloc.lsra.Interval$RegisterBindingLists.addToListSortedByCurrentFromPositions
+   104993774    0.05%      105  jdk.graal.compiler.nodes.IfNode.simplify
+   104042830    0.05%      104  java.util.ArrayList.grow
+   104015872    0.05%      104  jdk.graal.compiler.phases.common.ConditionalEliminationUtil.tryProveGuardCondition
+   104003782    0.05%      104  jdk.internal.util.Preconditions.checkIndex
+   103016260    0.05%      103  jdk.vm.ci.hotspot.HotSpotVMConfig.config
+   102049253    0.05%      102  jdk.graal.compiler.virtual.phases.ea.EffectsClosure.processBlock
+   102047191    0.05%      102  InstanceKlass::allocate_objArray
+   102017967    0.05%      102  jdk.graal.compiler.nodes.cfg.HIRBlock.assignPredecessorsAndSuccessors
+   101937416    0.05%      102  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlocks
+   101811290    0.05%      101  clear_page_rep_[k]
+   101034627    0.05%      101  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.computeDominators
+   101027847    0.05%      101  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.perBasicBlockFrequencyAction
+   101002816    0.05%      101  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.hasNext
+   100008217    0.05%      100  jdk.graal.compiler.options.OptionKey.getValue
+    99997250    0.05%      100  ConstantPool::klass_at_impl
+    98996002    0.05%       99  jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.runtime
+    98953692    0.05%       99  jdk.graal.compiler.hotspot.HotSpotCompiledCodeBuilder.getSortedSites
+    97041623    0.05%       97  java.lang.Object.getClass
+    94878850    0.05%       95  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlock
+    94014464    0.05%       94  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial
+    92999280    0.05%       93  jdk.graal.compiler.graph.Node.isAlive
+    92989104    0.05%       93  jdk.graal.compiler.graph.NodeUsageIterator.next
+    92046743    0.04%       92  jdk.graal.compiler.graph.Node.updatePredecessor
+    92045359    0.04%       92  java.lang.String.equals
+    91981855    0.04%       92  jdk.graal.compiler.lir.LIRValueUtil.stripCast
+    91041025    0.04%       91  jdk.graal.compiler.nodes.PiNode.canonical
+    91010419    0.04%       91  InterpreterRuntime::frequency_counter_overflow_inner
+    90967399    0.04%       91  java.util.regex.Pattern.compile
+    88995555    0.04%       89  java.util.ArrayList.<init>
+    88038489    0.04%       88  jdk.graal.compiler.core.phases.BaseTier.run
+    87045910    0.04%       87  jdk.graal.compiler.phases.common.util.EconomicSetNodeEventListener.changed
+    87027274    0.04%       87  jdk.graal.compiler.nodes.ValueNode.graph
+    87007346    0.04%       87  jdk.graal.compiler.graph.NodeClass.dataEquals
+    86017408    0.04%       86  jdk.graal.compiler.phases.common.CanonicalizerPhase.processWorkSet
+    86005867    0.04%       86  jdk.graal.compiler.graph.TypedGraphNodeIterator.forward
+    86002771    0.04%       86  java.util.ArrayList$Itr.<init>
+    85991502    0.04%       86  jdk.graal.compiler.core.common.type.IntegerStamp.create
+    85991133    0.04%       86  java.lang.System.arraycopy
+    85043067    0.04%       85  InterpreterRuntime::anewarray
+    84022820    0.04%       84  jdk.graal.compiler.debug.ScopeImpl.<init>
+    83994269    0.04%       84  jdk.graal.compiler.core.common.Fields.getCount
+    83029642    0.04%       83  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processStack
+    82975079    0.04%       83  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.getInput
+    82111579    0.04%       82  __tls_get_addr
+    81982905    0.04%       82  jdk.graal.compiler.core.gen.NodeLIRBuilder.doBlock
+    81019256    0.04%       81  java.lang.Class.isInstance
+    81010134    0.04%       81  jdk.graal.compiler.core.common.cfg.BlockMap.get
+    80999189    0.04%       81  jdk.graal.compiler.graph.NodeBitMap.isMarked
+    79054688    0.04%       79  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.identifyBlocks
+    79044615    0.04%       79  java.lang.String.substring
+    77083607    0.04%       77  jdk.graal.compiler.java.BytecodeParser.iterateBytecodesForBlock
+    77019700    0.04%       77  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.compute
+    76991657    0.04%       77  jdk.graal.compiler.debug.DebugContext.enterCompilerPhase
+    76019149    0.04%       76  jdk.graal.compiler.graph.Graph$NodeEventListener.event
+    75995649    0.04%       76  jdk.graal.compiler.nodes.AbstractBeginNode$BlockNodeIterator.next
+    75008780    0.04%       75  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.visitDominatorTreeDefault
+    74895594    0.04%       75  CompilationPolicy::select_task
+    74027718    0.04%       74  org.graalvm.collections.EconomicMapImpl.findLinear
+    74022909    0.04%       74  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.computeLoopInformation
+    74016537    0.04%       74  jdk.graal.compiler.graph.NodeClass.valueNumber
+    73996677    0.04%       74  I2C/C2I adapters(0xbbbb)
+    73019424    0.04%       73  jdk.graal.compiler.lir.alloc.lsra.LinearScanLifetimeAnalysisPhase.buildIntervals
+    73001207    0.04%       73  java.lang.String.length
+    71998689    0.03%       72  java.lang.ThreadLocal$ThreadLocalMap.set
+    71995184    0.03%       72  jdk.graal.compiler.lir.dfa.LocationMarker.processInstructionBottomUp
+    71989921    0.03%       72  jdk.graal.compiler.graph.NodeUsageIterable.iterator
+    71033511    0.03%       71  jdk.graal.compiler.core.gen.NodeLIRBuilder.matchComplexExpressions
+    71010220    0.03%       71  jdk.graal.compiler.lir.alloc.lsra.LinearScanAssignLocationsPhase.assignLocations
+    71005725    0.03%       71  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.identifyBlock
+    71000374    0.03%       71  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.calcDominatorRanges
+    70628632    0.03%       68  _raw_spin_unlock_irqrestore_[k]
+    69996843    0.03%       70  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.<init>
+    68994239    0.03%       69  jdk.graal.compiler.graph.NodeClass$3.iterator
+    68025386    0.03%       68  jdk.graal.compiler.java.BciBlockMapping.computeBlockOrder
+    68012745    0.03%       68  jdk.vm.ci.code.ValueUtil.asRegisterValue
+    68006973    0.03%       68  jdk.graal.compiler.asm.amd64.AMD64BaseAssembler.emitOperandHelper
+    67993876    0.03%       68  jdk.vm.ci.meta.Value.<init>
+    67992136    0.03%       68  jdk.vm.ci.code.ValueUtil.asRegister
+    67037682    0.03%       67  InstanceKlass::array_klass
+    66985664    0.03%       67  jdk.graal.compiler.lir.alloc.lsra.LinearScanWalker.freeCollectInactiveFixed
+    66033007    0.03%       66  java.lang.invoke.Invokers$Holder.linkToTargetMethod
+    66003433    0.03%       66  jdk.graal.compiler.phases.common.ConditionalEliminationPhase$Instance.processNode
+    66001101    0.03%       66  jdk.graal.compiler.debug.ScopeImpl.updateFlags
+    64030485    0.03%       64  java.lang.Enum.ordinal
+    64016644    0.03%       64  java.util.ArrayDeque.elementAt
+    64002958    0.03%       64  jdk.graal.compiler.phases.common.CanonicalizerPhase.tryInferStamp
+    63051320    0.03%       63  sun.security.provider.SHA.implCompress0
+    63005775    0.03%       63  jdk.graal.compiler.phases.graph.ReentrantNodeIterator.apply
+    63005534    0.03%       63  jdk.graal.compiler.graph.Graph.withNodeSourcePosition
+    63002838    0.03%       63  java.util.ArrayList.size
+    62032031    0.03%       62  jdk.graal.compiler.lir.alloc.lsra.LinearScanWalker.activateCurrent
+    62029839    0.03%       62  jdk.graal.compiler.graph.Node.clone
+    62003507    0.03%       62  jdk.graal.compiler.phases.graph.ScheduledNodeIterator.processNodes
+    61022167    0.03%       61  jdk.graal.compiler.debug.DebugContext.logAndIndent
+    61020372    0.03%       61  org.graalvm.collections.EconomicMapImpl.getHashArray
+    61019411    0.03%       61  java.util.ArrayDeque.isEmpty
+    61018409    0.03%       61  org.graalvm.collections.EconomicMapImpl.checkKeyNonNull
+    60975040    0.03%       61  java.util.ArrayList$Itr.checkForComodification
+    60053969    0.03%       60  jdk.graal.compiler.java.FrameStateBuilder.create
+    60048026    0.03%       60  Dictionary::find_class
+    60043681    0.03%       60  jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.fromMetaspace
+    60035957    0.03%       60  CompilationPolicy::method_invocation_event
+    60034702    0.03%       60  jdk.graal.compiler.lir.alloc.lsra.Interval.getSplitChildAtOpId
+    60028855    0.03%       60  java.util.ArrayList.set
+    60003448    0.03%       60  jdk.graal.compiler.lir.alloc.lsra.LinearScanWalker.isRegisterInRange
+    59995747    0.03%       60  jdk.graal.compiler.phases.graph.ReentrantBlockIterator.apply
+    59005933    0.03%       59  jdk.graal.compiler.lir.phases.LIRPhase.apply
+    59002896    0.03%       59  jdk.graal.compiler.graph.NodeMap.get
+    58953756    0.03%       59  jdk.graal.compiler.lir.RedundantMoveElimination$Optimization.updateState
+    58043235    0.03%       58  InterpreterRuntime::ldc
+    58035475    0.03%       58  java.lang.invoke.DirectMethodHandle.allocateInstance
+    58022794    0.03%       58  jdk.graal.compiler.nodes.util.GraphUtil.killWithUnusedFloatingInputs
+    58016312    0.03%       58  jdk.graal.compiler.phases.PhaseSuite.notApplicableTo
+    57991235    0.03%       58  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.sortIntoList
+    57989911    0.03%       58  jdk.vm.ci.code.ValueUtil.isRegister
+    57974585    0.03%       58  java.lang.ThreadLocal.set
+    57020506    0.03%       57  java.util.ArrayList.iterator
+    57016146    0.03%       57  jni_GetObjectClass
+    57006279    0.03%       57  java.util.Arrays.copyOfRangeByte
+    56995232    0.03%       57  jdk.graal.compiler.graph.NodeUsageIterator.advance
+    56029230    0.03%       56  java.util.BitSet.get
+    56026525    0.03%       56  org.graalvm.collections.EconomicMapImpl.putHashEntry
+    56007934    0.03%       56  java.lang.String.isLatin1
+    55997750    0.03%       56  jdk.graal.compiler.phases.BasePhase.getEnclosingPhase
+    55996483    0.03%       56  jdk.graal.compiler.graph.NodeClass$3.<init>
+    55018489    0.03%       55  MemAllocator::allocate
+    55017616    0.03%       55  jdk.graal.compiler.graph.Graph.updateNodeCaches
+    55003060    0.03%       55  jdk.graal.compiler.graph.Graph.eventCounterOverflows
+    54996182    0.03%       55  jdk.graal.compiler.lir.dfa.LocationMarkerPhase$Marker.shouldProcessValue
+    54983525    0.03%       55  jdk.graal.compiler.phases.common.ConditionalEliminationPhase$Instance.registerNewCondition
+    54938781    0.03%       55  jdk.vm.ci.hotspot.HotSpotCompiledCodeStream.writeU1
+    54038351    0.03%       54  java.lang.String.charAt
+    54023254    0.03%       54  jdk.graal.compiler.phases.common.FixReadsPhase$RawConditionalEliminationVisitor.enter
+    54019537    0.03%       54  jdk.graal.compiler.debug.ScopeImpl.scope
+    53997817    0.03%       54  jdk.graal.compiler.graph.Position.get
+    53995733    0.03%       54  jdk.graal.compiler.lir.RedundantMoveElimination$Optimization.solveDataFlow
+    53992409    0.03%       54  jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp

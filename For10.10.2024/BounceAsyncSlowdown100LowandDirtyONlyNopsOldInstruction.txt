@@ -1,0 +1,1666 @@
+--- Execution profile ---
+Total samples       : 97554
+unknown_Java        : 5602 (5.74%)
+not_walkable_Java   : 4071 (4.17%)
+deoptimization      : 4 (0.00%)
+
+--- 13461996007 ns (13.79%), 13459 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 4033235760 ns (4.13%), 4032 samples
+  [ 0] Interpreter
+  [ 1] [not_walkable_Java]
+
+--- 1397368963 ns (1.43%), 1397 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 1374226012 ns (1.41%), 1374 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 1168126373 ns (1.20%), 1168 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] [unknown_Java]
+
+--- 1051226613 ns (1.08%), 1051 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 1041100448 ns (1.07%), 1041 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 1037214473 ns (1.06%), 1037 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 1036168838 ns (1.06%), 1036 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 949116942 ns (0.97%), 949 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 623324166 ns (0.64%), 623 samples
+  [ 0] I2C/C2I adapters(0xb)
+  [ 1] [unknown_Java]
+
+--- 578306368 ns (0.59%), 578 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 477996567 ns (0.49%), 478 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 441114047 ns (0.45%), 441 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 425067557 ns (0.44%), 425 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 409041127 ns (0.42%), 409 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 402081220 ns (0.41%), 402 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 397097900 ns (0.41%), 397 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 391128927 ns (0.40%), 391 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 384059274 ns (0.39%), 384 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 368179035 ns (0.38%), 368 samples
+  [ 0] I2C/C2I adapters(0xbb)
+  [ 1] [unknown_Java]
+
+--- 344045911 ns (0.35%), 344 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 238976095 ns (0.24%), 239 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 227056443 ns (0.23%), 227 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 200085443 ns (0.21%), 200 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 185010424 ns (0.19%), 185 samples
+  [ 0] java.lang.Object.<init>
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 179068712 ns (0.18%), 179 samples
+  [ 0] _invokeBasic
+  [ 1] [unknown_Java]
+
+--- 161042751 ns (0.17%), 161 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 148026157 ns (0.15%), 148 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 144027436 ns (0.15%), 144 samples
+  [ 0] java.lang.Math.abs
+  [ 1] Bounce$Ball.bounce
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 139004498 ns (0.14%), 139 samples
+  [ 0] I2C/C2I adapters(0xbbb)
+  [ 1] [unknown_Java]
+
+--- 131036199 ns (0.13%), 131 samples
+  [ 0] java.lang.Math.abs
+  [ 1] Bounce$Ball.bounce
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 123786082 ns (0.13%), 124 samples
+  [ 0] CompilationPolicy::select_task
+  [ 1] CompileQueue::get
+  [ 2] CompileBroker::compiler_thread_loop
+  [ 3] JavaThread::thread_main_inner
+  [ 4] Thread::call_run
+  [ 5] thread_native_entry
+  [ 6] start_thread
+
+--- 123020806 ns (0.13%), 123 samples
+  [ 0] Bounce.lambda$benchmark$0
+  [ 1] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Bounce.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 122018528 ns (0.13%), 122 samples
+  [ 0] java.lang.Math.abs
+  [ 1] Bounce$Ball.bounce
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 116009003 ns (0.12%), 116 samples
+  [ 0] I2C/C2I adapters(0xba)
+  [ 1] [unknown_Java]
+
+--- 110210563 ns (0.11%), 110 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ScanHRForRegionClosure::scan_heap_roots
+  [ 2] G1RemSet::scan_heap_roots
+  [ 3] G1EvacuateRegionsTask::scan_roots
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 110070021 ns (0.11%), 110 samples
+  [ 0] java.lang.Math.abs
+  [ 1] Bounce$Ball.bounce
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 92076044 ns (0.09%), 92 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 84014100 ns (0.09%), 84 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 81034017 ns (0.08%), 81 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 73031911 ns (0.07%), 73 samples
+  [ 0] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 69001147 ns (0.07%), 69 samples
+  [ 0] java.lang.invoke.MethodHandle.invokeBasic
+  [ 1] [unknown_Java]
+
+--- 68986937 ns (0.07%), 69 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 68032661 ns (0.07%), 68 samples
+  [ 0] java.lang.Object.<init>
+  [ 1] [unknown_Java]
+
+--- 67023576 ns (0.07%), 67 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 64996075 ns (0.07%), 65 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 62901536 ns (0.06%), 63 samples
+  [ 0] [unknown]
+  [ 1] com.sun.jna.Native.invokeLong
+  [ 2] com.sun.jna.Function.invoke
+  [ 3] com.sun.jna.Function.invoke
+  [ 4] com.sun.jna.Library$Handler.invoke
+  [ 5] capstone.$Proxy15.cs_disasm
+  [ 6] capstone.Capstone.disasm
+  [ 7] capstone.Capstone.disasm
+  [ 8] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [ 9] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [10] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [11] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [13] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [14] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [15] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [16] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [17] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [18] jdk.graal.compiler.core.GraalCompiler.compile
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [21] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [23] jdk.graal.compiler.core.CompilationWrapper.run
+  [24] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [25] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [26] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [27] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [28] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 58017535 ns (0.06%), 58 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 56006198 ns (0.06%), 56 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 52013441 ns (0.05%), 52 samples
+  [ 0] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 1] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 2] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 3] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 4] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [ 5] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [ 6] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [ 7] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [ 8] jdk.graal.compiler.core.GraalCompiler.compile
+  [ 9] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [10] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [11] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [12] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [13] jdk.graal.compiler.core.CompilationWrapper.run
+  [14] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [15] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [18] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 51996951 ns (0.05%), 52 samples
+  [ 0] jni_IsInstanceOf
+  [ 1] /home/hburchell/.cache/JNA/temp/jna10881175207110391166.tmp
+  [ 2] Java_com_sun_jna_Native_invokeLong
+  [ 3] com.sun.jna.Native.invokeLong
+  [ 4] com.sun.jna.Function.invoke
+  [ 5] com.sun.jna.Function.invoke
+  [ 6] com.sun.jna.Library$Handler.invoke
+  [ 7] capstone.$Proxy15.cs_disasm
+  [ 8] capstone.Capstone.disasm
+  [ 9] capstone.Capstone.disasm
+  [10] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [11] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [13] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [14] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [15] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [16] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [17] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [18] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [19] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [20] jdk.graal.compiler.core.GraalCompiler.compile
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [23] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [24] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [25] jdk.graal.compiler.core.CompilationWrapper.run
+  [26] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [27] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [28] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [29] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [30] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 51020347 ns (0.05%), 51 samples
+  [ 0] java.lang.Integer.parseInt
+  [ 1] java.util.Formatter$FormatSpecifier.width
+  [ 2] java.util.Formatter$FormatSpecifier.<init>
+  [ 3] java.util.Formatter.parse
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 49877996 ns (0.05%), 50 samples
+  [ 0] [unknown]
+  [ 1] [unknown]
+  [ 2] com.sun.jna.Native.invokeLong
+  [ 3] com.sun.jna.Function.invoke
+  [ 4] com.sun.jna.Function.invoke
+  [ 5] com.sun.jna.Library$Handler.invoke
+  [ 6] capstone.$Proxy15.cs_disasm
+  [ 7] capstone.Capstone.disasm
+  [ 8] capstone.Capstone.disasm
+  [ 9] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [10] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [11] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [13] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [14] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [15] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [16] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [17] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [18] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [19] jdk.graal.compiler.core.GraalCompiler.compile
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [22] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [23] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [24] jdk.graal.compiler.core.CompilationWrapper.run
+  [25] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [26] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [27] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [28] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [29] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 44982859 ns (0.05%), 45 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 43996105 ns (0.05%), 44 samples
+  [ 0] java.lang.Long.formatUnsignedLong0
+  [ 1] java.lang.Long.toUnsignedString0
+  [ 2] java.lang.Long.toHexString
+  [ 3] java.util.Formatter$FormatSpecifier.print
+  [ 4] java.util.Formatter$FormatSpecifier.print
+  [ 5] java.util.Formatter$FormatSpecifier.printInteger
+  [ 6] java.util.Formatter$FormatSpecifier.print
+  [ 7] java.util.Formatter.format
+  [ 8] java.util.Formatter.format
+  [ 9] java.lang.String.format
+  [10] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [11] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [13] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [14] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [15] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [16] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [17] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [18] jdk.graal.compiler.core.GraalCompiler.compile
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [21] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [23] jdk.graal.compiler.core.CompilationWrapper.run
+  [24] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [25] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [26] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [27] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [28] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 43988153 ns (0.05%), 44 samples
+  [ 0] I2C/C2I adapters(0xbba)
+  [ 1] [unknown_Java]
+
+--- 42930025 ns (0.04%), 43 samples
+  [ 0] java.util.WeakHashMap.put
+  [ 1] java.util.Collections$SynchronizedMap.put
+  [ 2] com.sun.jna.Memory.<init>
+  [ 3] com.sun.jna.ptr.ByReference.<init>
+  [ 4] com.sun.jna.ptr.PointerByReference.<init>
+  [ 5] com.sun.jna.ptr.PointerByReference.<init>
+  [ 6] capstone.Capstone.disasm
+  [ 7] capstone.Capstone.disasm
+  [ 8] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [ 9] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [10] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [11] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [13] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [14] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [15] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [16] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [17] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [18] jdk.graal.compiler.core.GraalCompiler.compile
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [21] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [23] jdk.graal.compiler.core.CompilationWrapper.run
+  [24] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [25] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [26] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [27] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [28] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 41016143 ns (0.04%), 41 samples
+  [ 0] java.util.regex.Matcher.<init>
+  [ 1] java.util.regex.Pattern.matcher
+  [ 2] java.util.Formatter.parse
+  [ 3] java.util.Formatter.format
+  [ 4] java.util.Formatter.format
+  [ 5] java.lang.String.format
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [13] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [14] jdk.graal.compiler.core.GraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.core.CompilationWrapper.run
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 41003414 ns (0.04%), 41 samples
+  [ 0] jdk.graal.compiler.lir.hashing.IntHasher.<clinit>
+  [ 1] jdk.graal.compiler.lir.gen.LIRGenerator.hasherFor
+  [ 2] jdk.graal.compiler.lir.gen.LIRGenerator.emitStrategySwitch
+  [ 3] jdk.graal.compiler.core.gen.NodeLIRBuilder.emitSwitch
+  [ 4] jdk.graal.compiler.nodes.extended.IntegerSwitchNode.generate
+  [ 5] jdk.graal.compiler.core.gen.NodeLIRBuilder.emitNode
+  [ 6] jdk.graal.compiler.core.gen.NodeLIRBuilder.doRoot
+  [ 7] jdk.graal.compiler.core.gen.NodeLIRBuilder.doBlock
+  [ 8] jdk.graal.compiler.core.LIRGenerationPhase.emitBlock
+  [ 9] jdk.graal.compiler.core.LIRGenerationPhase.run
+  [10] jdk.graal.compiler.core.LIRGenerationPhase.run
+  [11] jdk.graal.compiler.lir.phases.LIRPhase.apply
+  [12] jdk.graal.compiler.lir.phases.LIRPhase.apply
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitLIR0
+  [14] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitLIR
+  [15] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [16] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [17] jdk.graal.compiler.core.GraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [20] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [21] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [22] jdk.graal.compiler.core.CompilationWrapper.run
+  [23] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [24] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [25] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [26] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [27] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 40016890 ns (0.04%), 40 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 38015544 ns (0.04%), 38 samples
+  [ 0] Bounce.lambda$benchmark$0
+  [ 1] [unknown_Java]
+
+--- 37982569 ns (0.04%), 38 samples
+  [ 0] java.util.Formatter.format
+  [ 1] java.util.Formatter.format
+  [ 2] java.lang.String.format
+  [ 3] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 4] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 6] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 7] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [ 8] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [ 9] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [10] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [11] jdk.graal.compiler.core.GraalCompiler.compile
+  [12] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [13] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [14] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [15] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [16] jdk.graal.compiler.core.CompilationWrapper.run
+  [17] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [21] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 36987450 ns (0.04%), 37 samples
+  [ 0] vframeStream::vframeStream
+  [ 1] JVM_GetCallerClass
+  [ 2] jdk.internal.reflect.Reflection.getCallerClass
+  [ 3] java.lang.reflect.Constructor.newInstance
+  [ 4] com.sun.jna.Klass.newInstance
+  [ 5] com.sun.jna.IntegerType.fromNative
+  [ 6] com.sun.jna.NativeMappedConverter.fromNative
+  [ 7] com.sun.jna.Function.invoke
+  [ 8] com.sun.jna.Library$Handler.invoke
+  [ 9] capstone.$Proxy15.cs_disasm
+  [10] capstone.Capstone.disasm
+  [11] capstone.Capstone.disasm
+  [12] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [13] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [14] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [15] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [16] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [17] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [18] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [19] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [20] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [21] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [22] jdk.graal.compiler.core.GraalCompiler.compile
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [25] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [26] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [27] jdk.graal.compiler.core.CompilationWrapper.run
+  [28] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [29] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [30] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [31] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [32] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 36013759 ns (0.04%), 36 samples
+  [ 0] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 1] [unknown_Java]
+
+--- 35022200 ns (0.04%), 35 samples
+  [ 0] java.util.regex.Pattern$Start.match
+  [ 1] java.util.regex.Matcher.search
+  [ 2] java.util.regex.Matcher.find
+  [ 3] java.util.Formatter.parse
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 34014834 ns (0.03%), 34 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 34013728 ns (0.03%), 34 samples
+  [ 0] java.lang.AbstractStringBuilder.append
+  [ 1] java.lang.AbstractStringBuilder.append
+  [ 2] java.lang.StringBuilder.append
+  [ 3] java.lang.StringBuilder.append
+  [ 4] java.util.Formatter$FormatSpecifier.appendJustified
+  [ 5] java.util.Formatter$FormatSpecifier.print
+  [ 6] java.util.Formatter$FormatSpecifier.print
+  [ 7] java.util.Formatter$FormatSpecifier.printInteger
+  [ 8] java.util.Formatter$FormatSpecifier.print
+  [ 9] java.util.Formatter.format
+  [10] java.util.Formatter.format
+  [11] java.lang.String.format
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [13] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [14] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [15] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [16] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [17] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [18] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [19] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [20] jdk.graal.compiler.core.GraalCompiler.compile
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [23] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [24] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [25] jdk.graal.compiler.core.CompilationWrapper.run
+  [26] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [27] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [28] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [29] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [30] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 34004456 ns (0.03%), 34 samples
+  [ 0] java.util.Formatter$FormatSpecifier.print
+  [ 1] java.util.Formatter$FormatSpecifier.print
+  [ 2] java.util.Formatter$FormatSpecifier.printInteger
+  [ 3] java.util.Formatter$FormatSpecifier.print
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 34002738 ns (0.03%), 34 samples
+  [ 0] java.util.Formatter.parse
+  [ 1] java.util.Formatter.format
+  [ 2] java.util.Formatter.format
+  [ 3] java.lang.String.format
+  [ 4] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 7] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 8] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [ 9] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [10] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [11] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [12] jdk.graal.compiler.core.GraalCompiler.compile
+  [13] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [14] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [16] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [17] jdk.graal.compiler.core.CompilationWrapper.run
+  [18] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [22] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 33980541 ns (0.03%), 34 samples
+  [ 0] java.util.Formatter$FormatSpecifier.appendJustified
+  [ 1] java.util.Formatter$FormatSpecifier.print
+  [ 2] java.util.Formatter$FormatSpecifier.print
+  [ 3] java.util.Formatter$FormatSpecifier.printInteger
+  [ 4] java.util.Formatter$FormatSpecifier.print
+  [ 5] java.util.Formatter.format
+  [ 6] java.util.Formatter.format
+  [ 7] java.lang.String.format
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [10] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [12] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [14] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [15] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [16] jdk.graal.compiler.core.GraalCompiler.compile
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [18] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [21] jdk.graal.compiler.core.CompilationWrapper.run
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [26] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 33000536 ns (0.03%), 33 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 33000262 ns (0.03%), 33 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 32045868 ns (0.03%), 32 samples
+  [ 0] java.util.Arrays.setAll
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 32003696 ns (0.03%), 32 samples
+  [ 0] Bounce.benchmark
+  [ 1] Benchmark.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 32000910 ns (0.03%), 32 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 31015420 ns (0.03%), 31 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 31005694 ns (0.03%), 31 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 31001645 ns (0.03%), 31 samples
+  [ 0] som.Random.next
+  [ 1] Bounce$Ball.<init>
+  [ 2] Bounce.lambda$benchmark$0
+  [ 3] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 4] java.util.Arrays.setAll
+  [ 5] Bounce.benchmark
+  [ 6] Benchmark.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 30012948 ns (0.03%), 30 samples
+  [ 0] native signature handlers
+  [ 1] [unknown_Java]
+
+--- 30007748 ns (0.03%), 30 samples
+  [ 0] Bounce$Ball.bounce
+  [ 1] Bounce.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 29991437 ns (0.03%), 30 samples
+  [ 0] java.util.Formatter$FormatSpecifier.printInteger
+  [ 1] java.util.Formatter$FormatSpecifier.print
+  [ 2] java.util.Formatter.format
+  [ 3] java.util.Formatter.format
+  [ 4] java.lang.String.format
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 8] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [10] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [12] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [13] jdk.graal.compiler.core.GraalCompiler.compile
+  [14] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.core.CompilationWrapper.run
+  [19] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 29016890 ns (0.03%), 29 samples
+  [ 0] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 1] java.util.Arrays.setAll
+  [ 2] Bounce.benchmark
+  [ 3] Benchmark.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 29008384 ns (0.03%), 29 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 29007406 ns (0.03%), 29 samples
+  [ 0] java.util.regex.Pattern$Start.match
+  [ 1] java.util.regex.Matcher.search
+  [ 2] java.util.regex.Matcher.find
+  [ 3] java.util.Formatter.parse
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 29000880 ns (0.03%), 29 samples
+  [ 0] com.sun.jna.Function.invoke
+  [ 1] com.sun.jna.Library$Handler.invoke
+  [ 2] capstone.$Proxy15.cs_disasm
+  [ 3] capstone.Capstone.disasm
+  [ 4] capstone.Capstone.disasm
+  [ 5] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [ 6] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 28999189 ns (0.03%), 29 samples
+  [ 0] Bounce.lambda$benchmark$0
+  [ 1] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] Bounce.benchmark
+  [ 4] Benchmark.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 28991089 ns (0.03%), 29 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 28988639 ns (0.03%), 29 samples
+  [ 0] java.util.Formatter$FormatSpecifier.checkInteger
+  [ 1] java.util.Formatter$FormatSpecifier.<init>
+  [ 2] java.util.Formatter.parse
+  [ 3] java.util.Formatter.format
+  [ 4] java.util.Formatter.format
+  [ 5] java.lang.String.format
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [13] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [14] jdk.graal.compiler.core.GraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.core.CompilationWrapper.run
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 28979623 ns (0.03%), 29 samples
+  [ 0] java.util.Formatter.format
+  [ 1] java.util.Formatter.format
+  [ 2] java.lang.String.format
+  [ 3] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 4] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 6] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 7] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [ 8] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [ 9] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [10] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [11] jdk.graal.compiler.core.GraalCompiler.compile
+  [12] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [13] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [14] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [15] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [16] jdk.graal.compiler.core.CompilationWrapper.run
+  [17] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [19] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [21] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 28073956 ns (0.03%), 28 samples
+  [ 0] void OopOopIterateBackwardsDispatch<G1ScanEvacuatedObjClosure>::Table::oop_oop_iterate_backwards<InstanceKlass, narrowOop>
+  [ 1] G1ParScanThreadState::trim_queue_to_threshold
+  [ 2] G1ScanHRForRegionClosure::scan_heap_roots
+  [ 3] G1RemSet::scan_heap_roots
+  [ 4] G1EvacuateRegionsTask::scan_roots
+  [ 5] G1EvacuateRegionsBaseTask::work
+  [ 6] WorkerThread::run
+  [ 7] Thread::call_run
+  [ 8] thread_native_entry
+  [ 9] start_thread
+
+--- 28022738 ns (0.03%), 28 samples
+  [ 0] java.lang.Integer.parseInt
+  [ 1] java.util.Formatter$FormatSpecifier.width
+  [ 2] java.util.Formatter$FormatSpecifier.<init>
+  [ 3] java.util.Formatter.parse
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 28007609 ns (0.03%), 28 samples
+  [ 0] Bounce$Ball.<init>
+  [ 1] Bounce.lambda$benchmark$0
+  [ 2] Bounce$$Lambda.0x00007f1f642aefd8.apply
+  [ 3] java.util.Arrays.setAll
+  [ 4] Bounce.benchmark
+  [ 5] Benchmark.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 28007566 ns (0.03%), 28 samples
+  [ 0] java.util.Formatter.parse
+  [ 1] java.util.Formatter.format
+  [ 2] java.util.Formatter.format
+  [ 3] java.lang.String.format
+  [ 4] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 7] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 8] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [ 9] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [10] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [11] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [12] jdk.graal.compiler.core.GraalCompiler.compile
+  [13] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [14] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [16] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [17] jdk.graal.compiler.core.CompilationWrapper.run
+  [18] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [22] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 28003466 ns (0.03%), 28 samples
+  [ 0] java.util.Formatter$FormatSpecifier.<init>
+  [ 1] java.util.Formatter.parse
+  [ 2] java.util.Formatter.format
+  [ 3] java.util.Formatter.format
+  [ 4] java.lang.String.format
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 8] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [10] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [12] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [13] jdk.graal.compiler.core.GraalCompiler.compile
+  [14] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.core.CompilationWrapper.run
+  [19] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 27998787 ns (0.03%), 28 samples
+  [ 0] java.util.regex.Matcher.search
+  [ 1] java.util.regex.Matcher.find
+  [ 2] java.util.Formatter.parse
+  [ 3] java.util.Formatter.format
+  [ 4] java.util.Formatter.format
+  [ 5] java.lang.String.format
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [13] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [14] jdk.graal.compiler.core.GraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.core.CompilationWrapper.run
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 27995977 ns (0.03%), 28 samples
+  [ 0] java.util.Formatter$FormatSpecifier.checkNumeric
+  [ 1] java.util.Formatter$FormatSpecifier.checkInteger
+  [ 2] java.util.Formatter$FormatSpecifier.<init>
+  [ 3] java.util.Formatter.parse
+  [ 4] java.util.Formatter.format
+  [ 5] java.util.Formatter.format
+  [ 6] java.lang.String.format
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 9] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [11] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [13] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [14] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [15] jdk.graal.compiler.core.GraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [17] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [20] jdk.graal.compiler.core.CompilationWrapper.run
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [25] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 27983575 ns (0.03%), 28 samples
+  [ 0] java.lang.Integer.numberOfLeadingZeros
+  [ 1] java.lang.Long.numberOfLeadingZeros
+  [ 2] java.lang.Long.toUnsignedString0
+  [ 3] java.lang.Long.toHexString
+  [ 4] java.util.Formatter$FormatSpecifier.print
+  [ 5] java.util.Formatter$FormatSpecifier.print
+  [ 6] java.util.Formatter$FormatSpecifier.printInteger
+  [ 7] java.util.Formatter$FormatSpecifier.print
+  [ 8] java.util.Formatter.format
+  [ 9] java.util.Formatter.format
+  [10] java.lang.String.format
+  [11] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [12] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [13] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [14] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [15] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [16] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [17] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [18] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [19] jdk.graal.compiler.core.GraalCompiler.compile
+  [20] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [22] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [23] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [24] jdk.graal.compiler.core.CompilationWrapper.run
+  [25] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [26] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [27] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [28] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [29] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 27022474 ns (0.03%), 27 samples
+  [ 0] com.sun.jna.Library$Handler.invoke
+  [ 1] capstone.$Proxy15.cs_disasm
+  [ 2] capstone.Capstone.disasm
+  [ 3] capstone.Capstone.disasm
+  [ 4] jdk.graal.compiler.hotspot.meta.GT.GTCache.disassembleOPCode
+  [ 5] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 8] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [10] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [12] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [13] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [14] jdk.graal.compiler.core.GraalCompiler.compile
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [16] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [19] jdk.graal.compiler.core.CompilationWrapper.run
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [24] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+--- 27008224 ns (0.03%), 27 samples
+  [ 0] java.lang.StringLatin1.toUpperCase
+  [ 1] java.lang.String.toUpperCase
+  [ 2] java.lang.String.toUpperCase
+  [ 3] jdk.graal.compiler.hotspot.meta.GT.GTCache.containsOPCODE
+  [ 4] jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+  [ 5] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+  [ 6] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+  [ 7] jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitLIR
+  [ 8] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCodeHelper
+  [ 9] jdk.graal.compiler.hotspot.amd64.AMD64HotSpotBackend.emitCode
+  [10] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitCode
+  [11] jdk.graal.compiler.core.gen.LIRCompilerBackend.emitBackEnd
+  [12] jdk.graal.compiler.core.target.Backend.emitBackEnd
+  [13] jdk.graal.compiler.core.GraalCompiler.compile
+  [14] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileHelper
+  [15] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compile
+  [16] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [17] jdk.graal.compiler.hotspot.CompilationTask$HotSpotCompilationWrapper.performCompilation
+  [18] jdk.graal.compiler.core.CompilationWrapper.run
+  [19] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [20] jdk.graal.compiler.hotspot.CompilationTask.runCompilation
+  [21] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [22] jdk.graal.compiler.hotspot.HotSpotGraalCompiler.compileMethod
+  [23] jdk.vm.ci.hotspot.HotSpotJVMCIRuntime.compileMethod
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 18139185261   18.59%    18135  Bounce.benchmark
+  7808224147    8.00%     7807  Bounce$Ball.bounce
+  4045240083    4.15%     4044  Interpreter
+  2332342337    2.39%     2332  Bounce$Ball.<init>
+  1128614564    1.16%     1128  I2C/C2I adapters(0xb)
+   573421404    0.59%      573  com.sun.jna.Structure.deriveLayout
+   558148714    0.57%      558  I2C/C2I adapters(0xbb)
+   525106327    0.54%      525  java.lang.Object.<init>
+   509155485    0.52%      509  java.lang.Math.abs
+   473161393    0.48%      473  java.util.Arrays.setAll
+   395957100    0.41%      396  jdk.graal.compiler.phases.BasePhase.apply
+   363122385    0.37%      363  som.Random.next
+   306072580    0.31%      306  itable stub
+   292012305    0.30%      292  java.util.Formatter$FormatSpecifier.print
+   270044312    0.28%      270  jdk.graal.compiler.graph.NodeIdAccessor.getNodeId
+   248220930    0.25%      248  InstanceKlass::find_method_index
+   235021104    0.24%      235  jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitOp
+   229202528    0.23%      229  CodeHeap::find_blob
+   228132456    0.23%      228  InterpreterRuntime::ldc
+   222030485    0.23%      222  Bounce.lambda$benchmark$0
+   216029087    0.22%      216  java.util.Formatter$FormatSpecifier.<init>
+   212013254    0.22%      212  java.util.Formatter.parse
+   211985500    0.22%      212  jdk.graal.compiler.phases.common.CanonicalizerPhase.tryCanonicalize
+   206022181    0.21%      206  java.lang.Integer.parseInt
+   201086407    0.21%      201  vframeStream::vframeStream
+   198994431    0.20%      199  com.sun.jna.Structure.sortFields
+   194058679    0.20%      194  java.lang.AbstractStringBuilder.append
+   191086113    0.20%      191  ConstantPool::klass_at_impl
+   190001768    0.19%      190  java.lang.String.<init>
+   186968081    0.19%      187  jdk.graal.compiler.phases.common.CanonicalizerPhase.processNode
+   181993965    0.19%      182  java.util.ArrayList.add
+   181892142    0.19%      182  com.sun.jna.Function.invoke
+   180070994    0.18%      180  com.sun.jna.Structure.getFieldList
+   179068712    0.18%      179  _invokeBasic
+   177047594    0.18%      177  java.lang.Object.getClass
+   174613014    0.18%      174  G1ParScanThreadState::trim_queue_to_threshold
+   168022855    0.17%      168  I2C/C2I adapters(0xbbb)
+   167106461    0.17%      167  java.util.HashMap.putVal
+   165960036    0.17%      166  java.util.Formatter.format
+   165064933    0.17%      165  CodeCache::find_blob
+   163985580    0.17%      164  jdk.graal.compiler.phases.common.LoweringPhase.process
+   162024803    0.17%      162  I2C/C2I adapters(0xba)
+   156023578    0.16%      156  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.scheduleEarliestIterative
+   153090040    0.16%      153  java.lang.Class.isAssignableFrom
+   152028253    0.16%      152  java.util.concurrent.ConcurrentHashMap.computeIfAbsent
+   149061577    0.15%      149  java.util.ArrayList$Itr.next
+   147955444    0.15%      148  java.lang.String.charAt
+   144124386    0.15%      144  jdk.internal.reflect.Reflection.verifyMemberAccess
+   143057052    0.15%      143  Bounce$$Lambda.0x00007f1f642aefd8.apply
+   139017653    0.14%      139  java.lang.String.length
+   138207314    0.14%      138  java.lang.reflect.Field.<init>
+   137047660    0.14%      137  java.lang.Object.hashCode
+   136049425    0.14%      136  InstanceKlass::allocate_objArray
+   129051563    0.13%      129  java.lang.String.split
+   126121714    0.13%      126  java.lang.reflect.Field.copy
+   125018199    0.13%      125  jdk.graal.compiler.graph.Graph.findDuplicate
+   124979384    0.13%      125  com.sun.jna.Structure.readField
+   123786082    0.13%      124  CompilationPolicy::select_task
+   122116522    0.13%      122  com.sun.jna.Structure.getNativeAlignment
+   119998982    0.12%      120  java.lang.StringLatin1.charAt
+   119983340    0.12%      120  java.util.regex.Matcher.<init>
+   117060522    0.12%      117  jdk.graal.compiler.nodes.cfg.ReversePostOrder.compute
+   116020812    0.12%      116  com.sun.jna.Pointer.getValue
+   115770775    0.12%      116  [unknown]
+   115085224    0.12%      115  JavaThread::pd_last_frame
+   115003652    0.12%      115  java.lang.invoke.LambdaForm$MH.0x00007f1f64017000.invoke
+   114138765    0.12%      114  java.util.HashMap.hash
+   112036444    0.11%      112  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.rpoInnerLoopsFirst
+   111072488    0.11%      111  com.sun.jna.Native.getNativeSize
+   111013979    0.11%      111  jdk.graal.compiler.debug.DebugContext.log
+   111007484    0.11%      111  java.util.regex.Pattern$BmpCharPropertyGreedy.match
+   110043342    0.11%      110  InterpreterRuntime::frequency_counter_overflow_inner
+   110038166    0.11%      110  java.util.WeakHashMap.get
+   110006895    0.11%      110  com.sun.jna.Function.convertArgument
+   108082938    0.11%      108  java.lang.StringLatin1.indexOf
+   107039330    0.11%      107  java.util.Arrays.copyOf
+   106093185    0.11%      106  java.util.ArrayList.addAll
+   105048938    0.11%      105  com.sun.jna.Structure.read
+   105021787    0.11%      105  jdk.graal.compiler.lir.alloc.lsra.LinearScanLifetimeAnalysisPhase.buildIntervals
+   104072095    0.11%      104  java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial
+   103103355    0.11%      103  java.lang.reflect.AccessibleObject.slowVerifyAccess
+   103088145    0.11%      103  com.sun.jna.Structure.<init>
+   102072130    0.10%      102  jdk.graal.compiler.graph.Graph.register
+   101086301    0.10%      101  com.sun.jna.Structure.calculateSize
+   100920184    0.10%      101  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic
+   100226871    0.10%      100  java.util.HashMap$Node.<init>
+   100152129    0.10%      100  com.sun.jna.Structure.useMemory
+    98093595    0.10%       98  com.sun.jna.Structure.getFields
+    97096410    0.10%       97  java.lang.ref.Reference.<init>
+    97026397    0.10%       97  jdk.graal.compiler.lir.alloc.lsra.IntervalWalker.walkTo
+    96038060    0.10%       96  InstanceKlass::array_klass
+    95045189    0.10%       95  jdk.graal.compiler.debug.ScopeImpl.<init>
+    94991709    0.10%       95  java.lang.StringLatin1.toUpperCase
+    94046019    0.10%       94  java.lang.reflect.Field.checkAccess
+    94017565    0.10%       94  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processStack
+    93980249    0.10%       94  java.util.ArrayList.grow
+    93078580    0.10%       93  jdk.graal.compiler.core.common.type.AbstractObjectStamp.join0
+    91060735    0.09%       91  MemAllocator::allocate
+    90041947    0.09%       90  capstone.Capstone.disasm
+    90016460    0.09%       90  jdk.graal.compiler.nodes.loop.LoopFragment.computeNodes
+    89981041    0.09%       90  org.graalvm.collections.EconomicMapImpl.findHash
+    89973241    0.09%       90  java.util.Formatter$FormatSpecifier.appendJustified
+    89040692    0.09%       89  jdk.graal.compiler.asm.amd64.AMD64BaseAssembler.emitOperandHelper
+    89003840    0.09%       89  jdk.graal.compiler.core.common.util.CompilationAlarm.checkProgress
+    88057630    0.09%       88  jdk.graal.compiler.core.common.type.IntegerStamp.create
+    88035322    0.09%       88  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.processInputs
+    87983981    0.09%       88  org.graalvm.collections.EconomicMapImpl.getHashIndex
+    87019224    0.09%       87  jdk.graal.compiler.graph.iterators.PredicatedProxyNodeIterator.forward
+    86005259    0.09%       86  java.util.regex.Matcher.reset
+    85042607    0.09%       85  jdk.graal.compiler.graph.NodeClass.valueNumber
+    85012706    0.09%       85  ThreadInVMfromNative::ThreadInVMfromNative
+    84993727    0.09%       85  java.lang.String.equals
+    84979431    0.09%       85  jdk.graal.compiler.lir.LIRIntrospection.visitEach
+    84914592    0.09%       85  jdk.graal.compiler.hotspot.HotSpotCompiledCodeBuilder.getSortedSites
+    84139715    0.09%       84  java.util.HashMap$HashIterator.nextNode
+    84043447    0.09%       84  InterpreterRuntime::anewarray
+    84036970    0.09%       84  java.lang.Long.toUnsignedString0
+    83050504    0.09%       83  jdk.graal.compiler.nodes.cfg.HIRBlock.assignPredecessorsAndSuccessors
+    83005523    0.09%       83  java.util.ArrayList.set
+    82835014    0.08%       83  java.util.WeakHashMap.put
+    82020264    0.08%       82  jdk.graal.compiler.virtual.phases.ea.EffectsClosure.processBlock
+    81991887    0.08%       82  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.perBasicBlockFrequencyAction
+    81061771    0.08%       81  jdk.graal.compiler.graph.Node.updatePredecessor
+    81036855    0.08%       81  java.lang.reflect.AccessibleObject.verifyAccess
+    81006305    0.08%       81  jdk.graal.compiler.graph.TypedGraphNodeIterator.forward
+    80983926    0.08%       81  jdk.graal.compiler.debug.DebugContext.enterCompilerPhase
+    79998108    0.08%       80  java.util.Arrays.copyOfRangeByte
+    79996456    0.08%       80  jdk.graal.compiler.hotspot.meta.GT.GTCache.computeCycleCostForGivenString
+    79946021    0.08%       80  java.util.regex.Pattern$GroupHead.match
+    79013705    0.08%       79  java.lang.invoke.Invokers$Holder.linkToTargetMethod
+    78969517    0.08%       79  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlocks
+    78917862    0.08%       79  java.util.regex.Pattern$Branch.match
+    77009189    0.08%       77  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.sortNodesLatestWithinBlock
+    76075113    0.08%       76  java.util.HashMap.<init>
+    76013516    0.08%       76  AccessInternal::PostRuntimeDispatch<G1BarrierSet::AccessBarrier<548964ul, G1BarrierSet>, (AccessInternal::BarrierType)2, 548964ul>::oop_access_barrier
+    75972064    0.08%       76  jdk.graal.compiler.options.OptionValues.get
+    75971848    0.08%       76  jdk.graal.compiler.phases.schedule.SchedulePhase$Instance.calcLatestBlock
+    75037849    0.08%       75  org.graalvm.collections.EconomicMapImpl.put
+    75022109    0.08%       75  java.lang.System.arraycopy
+    75003696    0.08%       75  jni_IsInstanceOf
+    74024971    0.08%       74  jdk.graal.compiler.debug.DebugContext.logAndIndent
+    74023486    0.08%       74  java.util.regex.Pattern$Start.match
+    73069061    0.07%       73  __tls_get_addr
+    73027330    0.07%       73  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.forward
+    73017134    0.07%       73  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.visitDominatorTreeDefault
+    72001739    0.07%       72  java.lang.invoke.MethodHandle.invokeBasic
+    71046740    0.07%       71  jdk.graal.compiler.phases.common.util.EconomicSetNodeEventListener.changed
+    70054044    0.07%       70  com.sun.jna.Structure.toArray
+    69997586    0.07%       70  jdk.graal.compiler.graph.NodeClass$RawEdgesIterator.hasNext
+    69980488    0.07%       70  org.graalvm.collections.EconomicMapImpl.get
+    69942330    0.07%       70  jdk.internal.util.Preconditions.checkIndex
+    69075699    0.07%       69  java.lang.ThreadLocal.get
+    69011860    0.07%       69  java.util.Formatter$Flags.parse
+    68995733    0.07%       69  jdk.graal.compiler.core.gen.NodeLIRBuilder.doBlock
+    68061553    0.07%       68  com.sun.jna.Structure.initializeFields
+    68053621    0.07%       68  java.util.ArrayList$Itr.hasNext
+    68016346    0.07%       68  capstone.Capstone$_cs_insn.<init>
+    68008103    0.07%       68  jdk.graal.compiler.phases.common.ConditionalEliminationUtil.tryProveGuardCondition
+    67080081    0.07%       67  java.lang.reflect.Field.get
+    67037802    0.07%       67  java.util.RegularEnumSet.contains
+    67001439    0.07%       67  jdk.graal.compiler.options.OptionKey.getValue
+    66050869    0.07%       66  java.util.HashSet.<init>
+    66027276    0.07%       66  jdk.graal.compiler.lir.alloc.lsra.LinearScanAssignLocationsPhase.assignLocations
+    65151154    0.07%       65  java.util.regex.Matcher.start
+    65046134    0.07%       65  jdk.graal.compiler.lir.alloc.lsra.Range.intersectsAt
+    65034318    0.07%       65  jdk.graal.compiler.nodes.IfNode.simplify
+    65029820    0.07%       65  MethodData::bci_to_dp
+    65014346    0.07%       65  jdk.graal.compiler.lir.asm.CompilationResultBuilder.emitBlock
+    65001960    0.07%       65  jdk.graal.compiler.debug.ScopeImpl.updateFlags
+    64975211    0.07%       65  jdk.graal.compiler.phases.common.CanonicalizerPhase.processWorkSet
+    64965487    0.07%       65  java.util.regex.Pattern$GroupTail.match
+    64040389    0.07%       64  java.lang.Class.copyFields
+    64038266    0.07%       64  org.graalvm.collections.EconomicMapImpl.find
+    64037367    0.07%       64  jdk.graal.compiler.graph.Node.initialize
+    64003970    0.07%       64  jdk.graal.compiler.graph.NodeUsageIterator.advance
+    63019390    0.06%       63  TypeArrayKlass::allocate_common
+    63017987    0.06%       63  java.util.ArrayList.<init>
+    62992126    0.06%       63  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.identifyBlocks
+    62991556    0.06%       63  java.util.Formatter$FormatSpecifier.printInteger
+    62113518    0.06%       62  Dictionary::find_class
+    62056629    0.06%       62  java.util.AbstractCollection.addAll
+    62050166    0.06%       62  com.sun.jna.Library$Handler.invoke
+    62026538    0.06%       62  java.lang.Class.isArray
+    62021295    0.06%       62  jdk.graal.compiler.nodes.cfg.ControlFlowGraph.identifyBlock
+    61957092    0.06%       62  jdk.graal.compiler.core.phases.BaseTier.run
+    61028226    0.06%       61  com.sun.jna.Structure$LayoutInfo.<init>
+    61005482    0.06%       61  jdk.graal.compiler.debug.DebugContext.isCounterEnabledSlow
+    60050695    0.06%       60  jdk.graal.compiler.graph.NodeClass.dataEquals
+    60030544    0.06%       60  java.lang.ref.Reference.refersTo
+    59988607    0.06%       60  java.lang.String.substring
+    59021050    0.06%       59  java.util.regex.Matcher.checkMatch
+    58029187    0.06%       58  com.sun.jna.Structure.validateFields
+    58008957    0.06%       58  jdk.graal.compiler.graph.Node.replaceAtUsage
+    57990444    0.06%       58  jdk.graal.compiler.debug.DebugContext.isLogEnabled
+    57948063    0.06%       58  jni_GetObjectClass
+    57035625    0.06%       57  java.lang.String.lastIndexOf
+    56991163    0.06%       57  java.util.regex.Pattern$BmpCharProperty.match
+    56101117    0.06%       56  java.util.concurrent.ConcurrentHashMap.get
+    56024505    0.06%       56  jdk.graal.compiler.lir.dfa.LocationMarker.processInstructionBottomUp
+    56018425    0.06%       56  InterpreterRuntime::newarray

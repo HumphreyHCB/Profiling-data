@@ -1,0 +1,19 @@
+Handful of things
+I converted the Upos Table into json file i can use
+
+I tryed using its data isntead for full runs 
+no luck 
+
+I tryed to do Benchmark spersfic data collections
+focused on Queensfound if i made Lir Cost reall spserfif to method of benchmaks
+would that work
+NO!
+
+Wrote a new pointless that does nothign to do with stack pointer, seems to work bit does not help the wider issue
+
+IntelVtune dose for bencmaks like queens have diffrent resulsts from a non slowdown runs
+
+
+i wrote a Raw ASM inject slowdown, but using the oldCOst cause little to know slowdown, and using the new cost cause too mucha nd the awnsers are just wrong
+
+
