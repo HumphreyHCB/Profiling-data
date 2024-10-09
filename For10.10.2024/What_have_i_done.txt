@@ -1,19 +1,20 @@
 Handful of things
-I converted the Upos Table into json file i can use
 
-I tryed using its data isntead for full runs 
-no luck 
+Tried to make a pointlessNode change to a complex structure using pre-existing and VirtualStackSlot.
+But instead Wrote a new"pointless node that has nothing to do with the stack pointer. It seems to work, but it doesn't help the wider issue.
 
-I tryed to do Benchmark spersfic data collections
-focused on Queensfound if i made Lir Cost reall spserfif to method of benchmaks
-would that work
-NO!
-
-Wrote a new pointless that does nothign to do with stack pointer, seems to work bit does not help the wider issue
-
-IntelVtune dose for bencmaks like queens have diffrent resulsts from a non slowdown runs
+I converted the Upos Table into a JSON file I can use.
+I tried using its data instead for full runs—no luck.
 
 
-i wrote a Raw ASM inject slowdown, but using the oldCOst cause little to know slowdown, and using the new cost cause too mucha nd the awnsers are just wrong
+Wrote it so it can take cost files dynamically.
+I attempted to do benchmark-specific data collections, focusing on Queens. I found that if I made LIR costs really specific to the method of benchmarks,but still nothing major working
+
+Intel VTune, for benchmarks like Queens, shows different results compared to non-slowdown runs. when compared to async
+
+
+I wrote a raw ASM inject slowdown,
+ but using the old costs caused little to no slowdown, 
+and using the new costs caused too much slowdown, and making the async resulsts be just wrong.
 
 
